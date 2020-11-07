@@ -9,12 +9,12 @@
 ==================
 
 
-**
+
 
 Table of content:
 -----------------
 
-**
+
 
  - Description
  - UX
@@ -196,7 +196,8 @@ Imagery:
    a white on top and will be repeated on each page. The image will be
    simple as to avoid any distraction from the main message on the page
 
-TECHNOLGIES USED
+Technologies
+----------------
 
  - HTML5 – I used HTML to create the websites main structures
  - CSS3. – I will use CSS to style the components created with HTML and

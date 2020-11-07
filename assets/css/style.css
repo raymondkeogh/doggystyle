@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+/*--------------------------------Header/Navigation */
+
+#logo img {
+    width: 250px;
+    border: none;
+
+}
+.navbar-toggler{
+    margin:10px;
+    font-size: .8rem;
+}
+
+.navbar{
+    min-height: 100px;
+}
+
+.nav-link{
+    font-size:18px;
+    font-family: "Holtwood One SC", sans-serif;
+    margin-top:20px;
+    color:rgb(104,110,115);
+    text-align: center;
+    margin-left: 15px;
+    
+
+}
+.nav-item i{
+    display: block;
+    display: none;
+}
+
+
+.nav-item:hover i{
+    display:block;    
+}
+
+/*
+I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
+https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html
+*/
+.current a i, .current span{
+    display:block;
+    color:rgb(47, 49, 51)
+}
+
