@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
-/*--------------------------------Header/Navigation */
+/*--------------------------------Header/Navigation--------------------------- */
 
 #logo img {
     width: 250px;
     border: none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:10px
 
 }
 .navbar-toggler{
@@ -23,14 +27,11 @@
     color:rgb(104,110,115);
     text-align: center;
     margin-left: 15px;
-    
-
 }
 .nav-item i{
     display: block;
     display: none;
 }
-
 
 .nav-item:hover i{
     display:block;    
@@ -45,3 +46,108 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     color:rgb(47, 49, 51)
 }
 
+/*--------------------------------------Footer---------------------------- */
+
+#footer-row {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(104, 110, 115);
+    width: 100%;
+    min-height: 10vh;
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+
+#contact-details {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+    position: relative;
+
+}
+
+#social-icons {
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: right;
+    color: white;
+    position: relative;
+
+}
+
+#social-icons i {
+    margin-right: 10px;
+}
+/* I initially went with a bootstrap button as I wanted to style t
+he button with a responsive shadow/no shadow effect to
+mimic the button being depressed. Below is the bootstrap CSS for their button
+with my alterations to achieve the desired effect */
+
+
+.call-button{
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    text-align: center;
+    border:none;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    min-width:180px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, .5);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .95rem;
+}
+
+.call-button:active{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+}
+
+button:focus {
+    outline:0;
+}
+
+#sales-pitch .call-button{
+    top:100%;
+}
+
+@media only screen and (max-width: 992px){
+    
+    #logo img {
+        width:180px;
+    }
+    .navbar{
+        min-height: 80px;
+}
+
+@media only screen and (max-width: 580px){
+
+    #contact-details {
+       display:none;
+    }
+
+    #social-icons {
+        text-align: center;
+    }
+
+    .call-button{
+        text-align: center;
+        margin-top: 10px;
+    }
+}

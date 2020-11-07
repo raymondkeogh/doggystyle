@@ -12,6 +12,8 @@
 </head>
 <body>
     <header>
+
+    <!--------------------------------- Navbar - Bootstrap ------------------->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand ml-auto" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,6 +26,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <!-- I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
+                https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html  -->
                 <li class="nav-item current">  
                     <a class="nav-link " href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
                 </li>
@@ -41,6 +45,27 @@
             </div>
         </nav>
     </header>
+
+    <!-- ----------------------------Footer -------------------------------->
+
+    <footer>
+        <div class="container-fluid" id="footer-row">
+            <div class="row">
+                <div class="col-sm footer-element" id="contact-details">
+                    Phone: 0875553555 <br> Email: info@doggystyle.ie
+                </div>
+                <div class="col-sm" id="call-button-container">
+                    <button type="button" class="call-button footer-element">Contact DoggyStyle</button>
+                </div>
+                <div class="col-sm footer-element" id="social-icons">
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
