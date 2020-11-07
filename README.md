@@ -225,6 +225,15 @@ Testing
 -------
 
 
+Bugs
+-------
+Site logo shift from left to right hand side of screen when width of screen drops below 992px.
+-Changed position to absolute and positioned left and top to 0.
+
+contact button in footer covers the Phone number and email section when screen goes below 578px.
+-set contact details to display:none as the footer was too cluttered. 
+
+
 
 
 Deployment
@@ -239,11 +248,10 @@ Credits
 
 https://getbootstrap.com/docs/4.0/components/navbar/ for my navbar
 
-https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html  code to help me show which page is active
+ I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
+https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html 
 
 **Content**
-•	The text for section Y was copied from the Wikipedia article Z
-Media
 Image used for site icon https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/
 
 The background image for the website - https://all-free-download.com/free-vector/download/spring-background_310720.html
