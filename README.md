@@ -1,45 +1,255 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+**
 
-Welcome USER_NAME,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+![Image](assets/images/dslogo.png)
 
-## Gitpod Reminders
+**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**DoggyStyle website**
+==================
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+**
 
-Another blue button should appear to click: *Open Browser*.
+Table of content:
+-----------------
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**
 
-A blue button should appear to click: *Make Public*,
+ - Description
+ - UX
+	 - User Stories 
+	 - Strategy
+	 - Scope
+	 - Structure
+	 - Skeleton
+	 - Surface
+ - Technologies
+ - Testing
+ - Deployment
+ - Credits
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+Description
+-----------
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+DoggyStyle is a website for a dog grooming company. This site showcases the clients work and offers a platform for clients to view prices and book appointments. The live site can be viewed here.
+This site was designed as a project to be submitted for grading in the first milestone project in Full Stack Software Development with the Code Institute. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+UX - User Experience
+--------------------
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+----------
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**USER STORIES**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+----------
+
+
+External User Goal:  (In order of priority):
+
+ 1. As an external user, I want to find contact details for a dog
+    groomer.
+ 2. As an external user, I want to make a booking for my dog to be
+    groomed.
+ 3. As an external user, I want to see examples of work done by the dog
+    groomer.
+ 4. As an external user, I want to check the prices for the grooming
+    services.
+ 5. As an external user, I want to see what services are offered.
+ 6. As an external user, I want to see where the dog groomers is
+    located.
+ 7. As an external user, I want to be able to view the site on my mobile
+    phone or tablet.
+
+Site Owner Goal:
+
+ 1. As the site owner, I would like to offer a portal for clients to
+    book appointments.
+ 2. As the site owner, I would like to advertise my contact details and
+    location.
+ 3. As the site owner, I want to increase the profile of my business and
+    have a website I can direct potential customers.
+ 4. As the site owner, I would like to display my prices and services.
+ 5. As the site owner, I want to showcase the work that I do.
+
+
+The mockup for this site was done on Adobe Xd. 
+[https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+
+
+----------
+
+
+**STRATEGY**
 
 --------
 
-Happy coding!
+ - Focus: The main focus of this project is to provide a portal for the
+   client to increase their bookings and make it easier for their
+   customers to get in touch.
+ - Definition: We’ll be creating a website that has a very simple layout
+   and, with as little effort as possible allows the users navigate and
+   make contact with the business. As this may be the users first
+   interaction with the business we want to present a clean, fresh and
+   seamless experience. It is important to make a good first impression
+   assuring the user that they are in the hands of a caring,
+   professional business that will be looking after their dog.
+ - Value: Creating an clean and simple portal with multiple avenues to
+   initiate contact with the business should make it easier to increase
+   interactions with new customers whilst increasing the profile of the
+   business. This site will also offer the business a legitimate online
+   location where they can direct potential clients to view their work,
+   services and prices.
+
+
+----------
+
+
+**SCOPE**
+
+
+----------
+
+
+Features: 
+
+ - Navigation menu – a simple navigation menu offering the user the
+   ability to access the areas mentioned in the users, namely, Prices,
+   Gallery and Contact.
+
+ - Footer - There will be a footer containing contact detail, social links and another call to action. 
+All the of the pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
+ - Home pages - Sales message containing text with a button below to initiate contact. 
+ - Contact pages – a contact form requesting name, address, phone number and a comment section. 
+ - Gallery - A gallery containing a selection photographs
+ - Prices page - A text window on the prices pages containing the text of the business prices. 
+
+Constraints:
+Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic. We will not be able to add a google maps window to the contact pages as this requires the use of technologies (Javascript) outside the scope of this project. 
+
+
+----------
+
+
+**STRUCTURE**
+
+
+----------
+
+
+The site must be structured in a way in order to effectively achieve the main goals of the client. Working off the list of priorities as well as user stories it was decided that the main focuses of the site will be,
+
+ 1. Call to action – sales message with booking button.
+ 2. Prices and services available.
+ 3. Evidence of work – gallery of past work.
+
+With this in mind we will focus on drawing the eye of the user to the main sales message on the home page, creating an effortless flow towards the initiation of contact. Contact details will also be available on the lower left corner and a contact button in the centre of the footer of every page. 
+The prices sections will be clearly labelled on the main page in the navigation menu and once click will open a clear list of services and associated prices.
+The gallery will be equally as visible on the main navigation menu opening up a selection of photographs for the user to scroll through. 
+Here is a link to a mockup of the website created with Adobe Xd – DoggyStyle Mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+
+
+----------
+
+
+**SURFACE**
+
+
+----------
+
+
+Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
+Colours: 
+
+ - To achieve a fresh clean image we will be using a palette of greens
+   blues, white and grey.
+
+Typography: 
+
+ - Holtwood One SC font is used on the main logo and will be repeated in
+   the menu items in the navigation bar and Sans Serif as the backup
+   font.
+ - Roboto will be used for content in the main body of the page with
+   Sans Serif as the backup. I chose Roboto for its clean line and as it
+   pairs nicely with Holtwood One SC.
+
+Effects:
+
+ - To offer feedback on the buttons I will be incorporating a shadow
+   effect which disappears when clicked to give the impression of a 3
+   dimensional button.
+ - I will also have a hover effect over the menu items in the navigation
+   bar using Font Awesome icons offering the use more feedback on what
+   they are about to click.
+ - The active page will also display the Font Awesome icon to indicate
+   to the user which part of the site they are currently on.
+
+Imagery: 
+
+ - We will use an image of a field, the sky, clouds and some flowers as
+   the background. This will be framed by a soft grey on the bottom and
+   a white on top and will be repeated on each page. The image will be
+   simple as to avoid any distraction from the main message on the page
+
+TECHNOLGIES USED
+
+ - HTML5 – I used HTML to create the websites main structures
+ - CSS3. – I will use CSS to style the components created with HTML and
+   create the desired effects described in the ‘Surface’ section.
+ - Bootstrap – I decided to use Bootstrap in order to create structures
+   on the site and ensure responsiveness.
+ - FontAwesome  - The icons from this library are used for the
+   navigation icons
+ - Google Fonts – Roboto and Holtwood One SC are imported from here.
+ - GitPod – IDE used for working on my code
+ - GitHub – Used for hosting the files used for the website.
+ - Git – Version control used to track changes, commit and push code to
+   Github.
+ - Gitpod extensions:
+	 - Auto Close Tag
+	 - Bracket Pair Colorizer
+	 - Code Spellchecker
+	 - Prettier - Code Formatter
+	 - Indent-Rainbow
+
+
+
+
+Testing
+-------
+
+
+
+
+Deployment
+----------
+
+
+
+Credits
+-------
+
+**Code used**
+
+https://getbootstrap.com/docs/4.0/components/navbar/ for my navbar
+
+https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html  code to help me show which page is active
+
+**Content**
+•	The text for section Y was copied from the Wikipedia article Z
+Media
+Image used for site icon https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/
+
+The background image for the website - https://all-free-download.com/free-vector/download/spring-background_310720.html
+
+Images for gallery were taken from  https://unsplash.com/
+
+
+
+**Acknowledgements**
+
