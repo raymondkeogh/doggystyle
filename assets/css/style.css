@@ -14,6 +14,7 @@
 .navbar-toggler{
     margin:10px;
     font-size: .8rem;
+    text-align: right;
 }
 
 .navbar{
@@ -44,6 +45,44 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 .current a i, .current span{
     display:block;
     color:rgb(47, 49, 51)
+}
+
+/*----------------------------------Home Page -----------------------------*/
+
+body{
+    background-image: url(../../assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    height: 90vh
+}
+
+#sales-pitch{
+    width: 350px;
+    min-height: 350px;
+    position:absolute;
+    top:75px;
+    left:75px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
+    min-width: 300px;
+}
+
+#main{
+    position: relative;
+}
+#sales-pitch h1{
+    font-size: 1.8rem;
+}
+
+#sales-pitch button {
+    position:absolute;
 }
 
 /*--------------------------------------Footer---------------------------- */
@@ -90,10 +129,10 @@ with my alterations to achieve the desired effect */
     display: block;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
-    text-align: center;
+    color:#212529;
+    background-color:#f8f9fa;
+    border-color:#f8f9fa;
+    text-align:center;
     border:none;
     text-decoration: none;
     vertical-align: middle;
@@ -105,7 +144,7 @@ with my alterations to achieve the desired effect */
     min-width:180px;
     margin: 0;
     position: relative;
-    top: 50%;
+    top: 60%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -127,27 +166,43 @@ button:focus {
     top:100%;
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991px){
     
     #logo img {
         width:180px;
     }
     .navbar{
-        min-height: 80px;
+        min-height:80px;
+    }
+    .nav-link{
+        text-align:right;
+    }
+    
 }
 
 @media only screen and (max-width: 580px){
 
-    #contact-details {
-       display:none;
+    #footer-row button{
+        display:none;
+    }
+    #contact-details{
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 5px;
     }
 
     #social-icons {
         text-align: center;
+        margin-top: 5px;
     }
 
     .call-button{
         text-align: center;
         margin-top: 10px;
     }
+    #sales-pitch{
+        font-size: 21px;
+        left:25px;
+    }
+   
 }
