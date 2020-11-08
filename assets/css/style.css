@@ -96,14 +96,12 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 /*--------------------------------------Prices page---------------------------- */
 
 #prices-banner{
-    min-width: 80px;
-    min-height: 350px;
     padding: 20px;
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
     text-align: left;
-    left:1%;
     margin-bottom:150px;
-    margin-right:3%;
+    margin-right:20%;
+    justify-content: space-around;
 }
 
 #prices-banner h1{
@@ -111,11 +109,9 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 }
 
 #prices-banner .price{
-    max-width:80px;
-    border-right:1px solid white;
-}
-#prices-banner .breed{
-    max-width: 280px;
+  
+    text-align: center;
+
 }
 #prices-banner hr{
    border: 2px solid white;
