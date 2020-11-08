@@ -85,6 +85,10 @@ body{
     position:absolute;
 }
 
+#main i{
+    margin:5px;
+}
+
 /*--------------------------------------Footer---------------------------- */
 
 #footer-row {
@@ -166,6 +170,10 @@ button:focus {
     top:100%;
 }
 
+/*----------------------Responsive Screen sizes ---------------------------*/
+
+
+/*-----------------------Small Desktop--------------------------*/
 @media only screen and (max-width: 991px){
     
     #logo img {
@@ -179,7 +187,7 @@ button:focus {
     }
     
 }
-
+/*-----------------------Tablet size screen--------------------------*/
 @media only screen and (max-width: 580px){
 
     #footer-row button{
@@ -201,6 +209,7 @@ button:focus {
         margin-top: 10px;
     }
     #sales-pitch{
+        top:25px;
         font-size: 21px;
         left:25px;
     }
