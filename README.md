@@ -233,6 +233,8 @@ Site logo shift from left to right hand side of screen when width of screen drop
 contact button in footer covers the Phone number and email section when screen goes below 578px.
 -set contact details to display:none as the footer was too cluttered. 
 
+Contact button is sitting a few pixels off center to the right.
+-
 
 
 
