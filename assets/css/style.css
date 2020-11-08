@@ -49,19 +49,26 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 
 /*----------------------------------Home Page -----------------------------*/
 
-body{
+.parallax{
+
     background-image: url(../../assets/images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0;
-    height: 90vh
+    min-height:900px;
 }
 
-#sales-pitch{
+.parallax{
+  /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+}
+
+.text-field{
     width: 350px;
     min-height: 350px;
-    position:absolute;
+    position:relative;
     top:75px;
     left:75px;
     color: white;
@@ -74,25 +81,50 @@ body{
     min-width: 300px;
 }
 
-#main{
-    position: relative;
-}
-#sales-pitch h1{
+
+.text-field h1{
     font-size: 1.8rem;
 }
 
-#sales-pitch button {
+.text-field button {
     position:absolute;
 }
 
 #main i{
     margin:5px;
 }
+/*--------------------------------------Prices page---------------------------- */
+
+#prices-banner{
+    min-width: 80px;
+    min-height: 350px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
+    text-align: left;
+    left:1%;
+    margin-bottom:150px;
+    margin-right:3%;
+}
+
+#prices-banner h1{
+    text-align: center;
+}
+
+#prices-banner .price{
+    max-width:80px;
+    border-right:1px solid white;
+}
+#prices-banner .breed{
+    max-width: 280px;
+}
+#prices-banner hr{
+   border: 2px solid white;
+}
 
 /*--------------------------------------Footer---------------------------- */
 
 #footer-row {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: rgb(104, 110, 115);
     width: 100%;
@@ -130,7 +162,7 @@ with my alterations to achieve the desired effect */
 
 
 .call-button{
-    display: block;
+    display: inline-block;
     font-weight: 400;
     line-height: 1.5;
     color:#212529;
@@ -166,7 +198,7 @@ button:focus {
     outline:0;
 }
 
-#sales-pitch .call-button{
+.text-field .call-button{
     top:100%;
 }
 
@@ -208,8 +240,8 @@ button:focus {
         text-align: center;
         margin-top: 10px;
     }
-    #sales-pitch{
-        top:25px;
+    .text-field{
+        top:25px; 
         font-size: 21px;
         left:25px;
     }
