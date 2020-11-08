@@ -81,8 +81,12 @@ Site Owner Goal:
 The mockup for this site was done on Adobe Xd. 
 [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
+![Image](assets/images/mockups/home.png)
 
+![Image](assets/images/mockups/ipad-home.png)
+![Image](assets/images/mockups/mobile-home.png)
 ----------
+
 
 
 **STRATEGY**
