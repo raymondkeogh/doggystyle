@@ -257,6 +257,8 @@ https://getbootstrap.com/docs/4.0/components/navbar/ for my navbar
  I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
 https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html 
 
+I used this code to help create the scrolling effect on the website.
+https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm
 **Content**
 Image used for site icon https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/
 
