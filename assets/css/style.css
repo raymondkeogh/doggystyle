@@ -76,17 +76,19 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     font-size: 25px;
     width:400px;
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
-    margin-left:10px 10px;
+    margin:10px 10px;
 }
 
 #main .row{
     margin-top:8%;
 }
 #dogwash img{
-    height:300px;
-    margin-left:5px;
     margin:60px;
     display:inline-block;
+    position:relative;
+    padding: 20px;
+    width:400px;
+    margin:10px 10px;
 }
 
 
@@ -105,11 +107,21 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 
 #prices-banner{
     padding: 20px;
+    column-count: 3;
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
     text-align: left;
     margin-bottom:150px;
     margin-right:2%;
+    margin-left:2%;
     justify-content: space-around;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+    padding: 20px;
+    font-size: 25px;
+}
+#prices-banner ol{
+    list-style-type:none;
 }
 
 #prices-banner h1{
@@ -209,6 +221,7 @@ button:focus {
 
 /*----------------------Responsive Screen sizes ---------------------------*/
 
+        /*********************************************************/
 
 /*-----------------------Small Desktop--------------------------*/
 @media only screen and (max-width: 991px){
@@ -237,10 +250,38 @@ button:focus {
         margin:30px 0;
         
     }
-
+    #prices-banner{
+        column-count: 2;
+    }
     
 }
+
 /*-----------------------Tablet size screen--------------------------*/
+@media only screen and (max-width: 768px){
+
+    .text-field{
+        position: relative;
+        margin-left:10px 10px;
+    }
+
+    #main .row{
+        margin-top:8%;
+    }
+   #dogwash{
+        align-content: center;
+        width:80%;
+    }  
+    #dogwash img{
+        margin: 40px 20px 50px 20px;
+    }
+     #prices-banner{
+        column-count: 1;
+        font-size: 20px;
+    }
+    
+}
+
+/*-----------------------Mobile size screen--------------------------*/
 @media only screen and (max-width: 580px){
 
     #footer-row button{
@@ -262,26 +303,19 @@ button:focus {
         margin-top: 10px;
     }
     .text-field{
-        top:25px; 
-        font-size: 21px;
-        left:25px;
+        width:90%;
+        font-size: 16px;
+        
     }
+
     #dogwash{
-        margin-bottom:20px;
-    }
-}
-@media only screen and (max-width: 768px){
-
-    .text-field{
-        position: relative;
-        margin-left:10px 10px;
-    }
-
-    #main .row{
-        margin-top:8%;
-    }
+        width:100%;
+    } 
     #dogwash img{
-        height:300px;
-    }
-
+        margin:40px 5px 80px 5px;
+        padding: 20px 5px 50px 5px;
+        width:95%;
+        }  
+     
 }
+
