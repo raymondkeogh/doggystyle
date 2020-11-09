@@ -19,6 +19,7 @@
 
 .navbar{
     min-height: 100px;
+    z-index: 991;
 }
 
 .nav-link{
@@ -75,7 +76,6 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     text-align: center;
     font-size: 25px;
     width:400px;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
     margin:10px 10px;
 }
 
@@ -108,7 +108,6 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 #prices-banner{
     padding: 20px;
     column-count: 3;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .5);
     text-align: left;
     margin-bottom:150px;
     margin-right:2%;
@@ -125,7 +124,7 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 #prices-banner ol{
     list-style-type:none;
 }
-
+/*Dog bone with "Prices" text */
 #main img{
     position:absolute;;
     width:16em;
@@ -280,6 +279,9 @@ button:focus {
         margin-left: auto;
         margin-right: auto;
     }
+    #main img{
+        width:10em;
+    } 
     
 }
 
@@ -318,11 +320,6 @@ button:focus {
         padding: 20px 5px 50px 5px;
         width:95%;
         } 
-        
-    #main img{
-        width:10em;
-
-} 
     
 }
 
