@@ -85,6 +85,8 @@ The mockup for this site was done on Adobe Xd.
 
 ![Image](assets/images/mockups/ipad-home.png)
 ![Image](assets/images/mockups/mobile-home.png)
+
+[assets/images/mockups/mockup.pdf](assets/images/mockups/mockup.pdf)
 ----------
 
 
