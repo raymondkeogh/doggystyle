@@ -79,7 +79,7 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     margin:10px 10px;
 }
 
-#main .row{
+#main-home .row{
     margin-top:8%;
 }
 #dogwash img{
@@ -87,7 +87,7 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     display:inline-block;
     position:relative;
     padding: 20px;
-    width:400px;
+    width:500px;
     margin:10px 10px;
 }
 
@@ -100,24 +100,22 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     position:absolute;
 }
 
-#main i{
+#main-home i{
     margin:5px;
 }
 /*--------------------------------------Prices page---------------------------- */
 
 #prices-banner{
-    padding: 20px;
     column-count: 3;
     text-align: left;
     margin-bottom:150px;
-    margin-right:2%;
-    margin-left:2%;
+    margin-left: auto;
+    margin-right: auto; 
     margin-top:50px;
-    justify-content: space-around;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 60px;
-    padding: 20px;
+    padding: 30px;
     font-size: 25px;
    
 }
@@ -125,7 +123,7 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     list-style-type:none;
 }
 /*Dog bone with "Prices" text */
-#main img{
+#main-prices img{
     position:absolute;;
     width:16em;
     z-index: 900;
@@ -133,8 +131,10 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     right:0;
     margin-left: auto;
     margin-right:auto;
-    top:120px;
-
+    top:160px;
+}
+#main-prices .row{
+    margin-top:8%;
 }
 /*--------------------------------------Footer---------------------------- */
 
@@ -236,10 +236,6 @@ button:focus {
     .text-field{
         margin:0 auto;
     }
-
-    #main .row{
-        margin-top:8%;
-    }
     #dogwash{
         height:300px;
         margin:0 auto;
@@ -247,10 +243,22 @@ button:focus {
     #dogwash img {
         margin:30px 0;
         
+        
     }
     #prices-banner{
         column-count: 2;
+        margin-left: auto;
+        margin-right: auto;
     }
+    #main-prices .row{
+        margin-top:8%;
+    }
+    #main-prices img{
+        width:14em;
+        top:130px;
+    }
+
+    
     
 }
 
@@ -262,7 +270,7 @@ button:focus {
         margin-left:10px 10px;
     }
 
-    #main .row{
+    #main-prices .row{
         margin-top:8%;
     }
    #dogwash{
@@ -270,7 +278,9 @@ button:focus {
         width:80%;
     }  
     #dogwash img{
-        margin: 40px 20px 50px 20px;
+        margin:40px 5px 80px 5px;
+        padding: 20px 5px 50px 5px;
+        width:95%;
     }
      #prices-banner{
         column-count: 1;
@@ -279,9 +289,12 @@ button:focus {
         margin-left: auto;
         margin-right: auto;
     }
-    #main img{
-        width:10em;
-    } 
+   #main-prices img {
+    width: 15em;
+    top: 100px;
+} 
+      /*Issue with imgage on home page dropping below footer and wont scroll up fully, 
+      also there's a white bar at the bottom of the page under the image*/
     
 }
 
@@ -320,6 +333,140 @@ button:focus {
         padding: 20px 5px 50px 5px;
         width:95%;
         } 
+   #main-prices img{
+        width:12em;
+    } 
     
 }
 
+
+/*----------------------- Gallery -------------------------*/
+
+
+/*I got the code for this gallery from the following website and adjusted it
+for my own gallery. I used the masonry effect listed on the page. 
+ https://wpdatatables.com/css-image-gallery/.*/
+
+
+
+
+.byebye {
+  opacity: 0;
+}
+.byebye:hover {
+  transform: scale(0.2) !important;
+}
+.gallery {
+  display: grid;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 8px;
+}
+.gallery img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 16px #333;
+  transition: all 1.5s ease;
+}
+.gallery img:hover {
+  box-shadow: 0 0 32px #333;
+}
+.gallery .content {
+  padding: 4px;
+}
+.gallery .gallery-item {
+  transition: grid-row-start 300ms linear;
+  transition: transform 300ms ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.gallery .gallery-item:hover {
+  transform: scale(1.025);
+}
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
+}
+@-moz-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
