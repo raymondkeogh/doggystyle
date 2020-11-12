@@ -488,7 +488,6 @@ input[type=submit]:focus {
 
 
 
-
 /*----------------------Responsive Screen sizes ---------------------------*/
 
         /*********************************************************/
@@ -513,9 +512,7 @@ input[type=submit]:focus {
         margin:0 auto;
     }
     #dogwash img {
-        margin:30px 0;
-        
-        
+        margin:30px 0;    
     }
     #prices-banner{
         column-count: 2;
@@ -523,15 +520,13 @@ input[type=submit]:focus {
         margin-right: auto;
     }
     #main-prices .row{
-        margin-top:8%;
+        margin-top: 0;
     }
-    #main-prices img{
-        width:14em;
-        top:130px;
+    
+    #main-prices .list-unstyled{
+        margin-top: 10px;
+        margin-bottom:30px;
     }
-
-    
-    
 }
 
 /*-----------------------Tablet size screen--------------------------*/
@@ -561,14 +556,19 @@ input[type=submit]:focus {
         margin-left: auto;
         margin-right: auto;
     }
-   #main-prices img {
-    width: 15em;
-    top: 100px;
+    #main-prices .row{
+        margin-top: 0;
+    }
+    
+    #main-prices .list-unstyled{
+        margin-top: 10px;
+        margin-bottom:30px;
+    }
 } 
       /*Issue with imgage on home page dropping below footer and wont scroll up fully, 
       also there's a white bar at the bottom of the page under the image*/
     
-}
+
 
 /*-----------------------Mobile size screen--------------------------*/
 @media only screen and (max-width: 580px){
@@ -593,10 +593,8 @@ input[type=submit]:focus {
     }
     .text-field{
         width:90%;
-        font-size: 16px;
-        
+        font-size: 16px;   
     }
-
     #dogwash{
         width:100%;
     } 
@@ -604,9 +602,17 @@ input[type=submit]:focus {
         margin:40px 5px 80px 5px;
         padding: 20px 5px 50px 5px;
         width:95%;
-        } 
-   #main-prices img{
-        width:12em;
+    } 
+    #main-prices ol{
+        padding-inline-start:1px;
+    }
+    #main-prices .row{
+        margin-top: 0;
+    }
+    
+    #main-prices .list-unstyled{
+        margin-top: 10px;
+        margin-bottom:98px;
     }
     .form-container {
         padding: 20px;
@@ -615,4 +621,4 @@ input[type=submit]:focus {
 
 
     
-}
+} 
