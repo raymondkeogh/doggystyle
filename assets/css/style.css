@@ -48,94 +48,6 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     color:rgb(47, 49, 51)
 }
 
-/*----------------------------------Home Page -----------------------------*/
-
-.parallax{
-
-    background-image: url(../../assets/images/background.jpg);
-    min-height:100vh;
-}
-
-.parallax{
-  /* Create the parallax scrolling effect */
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display:block;
-}
-
-.text-field{
-    position: relative;
-    display:inline-block;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 60px;
-    padding: 20px;
-    text-align: center;
-    font-size: 25px;
-    width:400px;
-    margin:10px 10px;
-}
-
-#main-home .row{
-    margin-top:8%;
-}
-#dogwash img{
-    margin:60px;
-    display:inline-block;
-    position:relative;
-    padding: 20px;
-    width:500px;
-    margin:10px 10px;
-}
-
-
-.text-field h1{
-    font-size: 1.8rem;
-}
-
-.text-field button {
-    position:absolute;
-}
-
-#main-home i{
-    margin:5px;
-}
-/*--------------------------------------Prices page---------------------------- */
-
-#prices-banner{
-    column-count: 3;
-    text-align: left;
-    margin-bottom:150px;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top:50px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 60px;
-    padding: 30px;
-    font-size: 25px;
-   
-}
-#prices-banner ol{
-    list-style-type:none;
-}
-/*Dog bone with "Prices" text */
-#main-prices img{
-    position:absolute;;
-    width:16em;
-    z-index: 900;
-    left:0;
-    right:0;
-    margin-left: auto;
-    margin-right:auto;
-    top:160px;
-}
-#main-prices .row{
-    margin-top:8%;
-}
 /*--------------------------------------Footer---------------------------- */
 
 #footer-row {
@@ -217,6 +129,125 @@ button:focus {
     top:100%;
 }
 
+
+
+/*----------------------------------Home Page -----------------------------*/
+
+.parallax{
+
+    background-image: url(../../assets/images/background.jpg);
+    min-height:100vh;
+}
+
+.parallax{
+  /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+}
+
+.text-field{
+    position: relative;
+    display:inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    width:400px;
+    margin:10px 10px;
+}
+
+#main-home .row{
+    margin-top:8%;
+}
+#dogwash img{
+    margin:60px;
+    display:inline-block;
+    position:relative;
+    padding: 20px;
+    width:500px;
+    margin:10px 10px;
+}
+
+
+.text-field h1{
+    font-size: 1.8rem;
+}
+
+.text-field button {
+    position:absolute;
+}
+
+#main-home i{
+    margin:5px;
+}
+/*--------------------------------------Prices page---------------------------- */
+#prices-banner{
+    column-count: 3;
+    text-align: left;
+    margin-bottom:150px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 60px;
+    padding: 30px;
+   
+}
+
+#prices-banner li{
+    list-style-type:none;
+    font-size:20px;
+
+}
+#prices-banner .list-item{
+    display:flex;
+    justify-content: space-between;
+}
+/*Dog bone with "Prices" text */
+
+
+.image-container{
+    position: relative;
+    align-items: center;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:30px;
+    width:250px;
+    text-align: center;
+    
+    
+}
+.image-container img{
+    width:100%
+
+
+}
+.image-container p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size:35px;
+    font-family: "Holtwood One SC", sans-serif;
+    color:dimgrey;
+}
+
+#prices-banner span:nth-child(2){
+    color:pink;
+}
+#prices-banner i{
+    color:darkgray;
+}
 
 
 /*----------------------- Gallery -------------------------*/
