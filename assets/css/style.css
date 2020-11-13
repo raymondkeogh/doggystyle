@@ -21,20 +21,29 @@
     min-height: 100px;
     z-index: 991;
 }
-
 .nav-link{
-    font-size:18px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
     font-family: "Holtwood One SC", sans-serif;
-    margin-top:20px;
-    color:rgb(104,110,115);
+    margin-top: 20px;
+    color: rgb(104,110,115);
     text-align: center;
     margin-left: 15px;
+    padding-bottom:0
+    
 }
+/*Changed location of icon over menu items to remove the effect of dropping a few 
+pix when hoverered over. Menu items and icons are now in a fixed position*/
 .nav-item i{
-    display: block;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:40px;
+    line-height: 0;
     display: none;
 }
-
 .nav-item:hover i{
     display:block;    
 }
@@ -136,42 +145,43 @@ button:focus {
 .parallax{
 
     background-image: url(../../assets/images/background.jpg);
-    min-height:100vh;
-}
-
-.parallax{
-  /* Create the parallax scrolling effect */
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
+    
 }
 
-.text-field{
-    position: relative;
-    display:inline-block;
+#main-banner{
     color: white;
+    position:relative;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 60px;
-    padding: 20px;
     text-align: center;
     font-size: 25px;
-    width:400px;
-    margin:10px 10px;
+    padding:2rem;
+    width:400px; 
+    margin-left:6rem;
+    margin-top:1rem;  
 }
 
-#main-home .row{
-    margin-top:8%;
+#main-home img{
+    margin-top:30px;
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 19px;
+    padding-left: 40px;
 }
-#dogwash img{
-    margin:60px;
-    display:inline-block;
-    position:relative;
-    padding: 20px;
-    width:500px;
-    margin:10px 10px;
+
+#main-home{
+    display:flex;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+    height:100vh;
 }
 
 
@@ -179,13 +189,21 @@ button:focus {
     font-size: 1.8rem;
 }
 
-.text-field button {
+#main-banner button {
     position:absolute;
+    top:20px;
+    height:2.3em;
+   
 }
 
 #main-home i{
     margin:5px;
 }
+
+
+
+
+
 /*--------------------------------------Prices page---------------------------- */
 #prices-banner{
     column-count: 3;
@@ -210,9 +228,8 @@ button:focus {
     display:flex;
     justify-content: space-between;
 }
+
 /*Dog bone with "Prices" text */
-
-
 .image-container{
     position: relative;
     align-items: center;
@@ -223,13 +240,9 @@ button:focus {
     margin-top:30px;
     width:250px;
     text-align: center;
-    
-    
 }
 .image-container img{
     width:100%
-
-
 }
 .image-container p{
     position:absolute;
@@ -406,8 +419,6 @@ body {
     transform: rotate(0deg);
   }
 }
-
-
 /*----------------------- Contact page -------------------------*/
 
 
@@ -573,6 +584,7 @@ input[type=submit]:focus {
 /*-----------------------Mobile size screen--------------------------*/
 @media only screen and (max-width: 580px){
 
+/*I hid the footer row button on smaller screens as it gets a little too cramped*/
     #footer-row button{
         display:none;
     }
