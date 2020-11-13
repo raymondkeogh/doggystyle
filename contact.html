@@ -1,100 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="description" content="Dog Grooming services"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>DoggyStyle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dog Grooming services" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>DoggyStyle</title>
 </head>
+
 <body>
-<div class="parallax">
-    <header>
+    <div class="parallax">
+        <header>
 
-    <!--------------------------------- Navbar - Bootstrap ------------------->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand ml-auto" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="logo">
-                <a href="index.html">
-                    <img src="assets/images/dslogo.png">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <!-- I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
+            <!--------------------------------- Navbar - Bootstrap ------------------->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand ml-auto" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/dslogo.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <!-- I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
                 https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html  -->
-                <li class="nav-item">  
-                    <a class="nav-link " href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="prices.html"><i class="fas fa-paw"></i><span>Prices</span></a>
-                </li>
-                <li class="nav-item">
-                    
-                    <a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i><span>Gallery</span></a>
-                </li>
-                <li class="nav-item current">
-                    <a class="nav-link" href="contact.html"><i class="fas fa-phone"></i><span>Contact</span></a>
-                </li>
-            </ul>
-            </div>
-        </nav>
-    </header>
-<!-- -----------------------------Contact page -------------------------------->
-  <div class="form-container">
-  <form action="doggystyle.ie">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prices.html"><i class="fas fa-paw"></i><span>Prices</span></a>
+                        </li>
+                        <li class="nav-item">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
-    <label for="phone">Phone number</label>
-    <input type="tel" id="phone" name="phone" required>
-
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="comment">Comment</label>
-    <textarea id="comment" name="comment" placeholder="Tell us something about your fur baby..." style="height:200px"></textarea>
-
-    <input type="submit" value="Send">
-
-  </form>
-</div>
-
-    <!-- ----------------------------Footer -------------------------------->
-    <footer>
-        <div class="container-fluid" id="footer-row">
-            <div class="row">
-                <div class="col-sm footer-element" id="contact-details">
-                    Phone: 0875553555 <br> Email: info@doggystyle.ie
+                            <a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i><span>Gallery</span></a>
+                        </li>
+                        <li class="nav-item current">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-phone"></i><span>Contact</span></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm" id="call-button-container">
-                    <button type="button" class="call-button footer-element">Contact DoggyStyle</button>
-                </div>
-                <div class="col-sm footer-element" id="social-icons">
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram-square"></i>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-youtube"></i>
-                </div>
-            </div>
+            </nav>
+        </header>
+        <!-- -----------------------------Contact page -------------------------------->
+        <div class="form-container">
+            <form action="doggystyle.ie">
+
+                <label for="fname">First Name *</label>
+                <input class="input-box" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                <label for="lname">Last Name *</label>
+                <input class="input-box" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                
+                <label for="lname">Dogs Name</label>
+                <input class="input-box" type="text" id="lname" name="lastname" placeholder="Fur babies name here.....">
+
+                <label for="phone">Phone number *</label>
+                <input class="input-box" type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email *</label>
+                <input class="input-box" type="email" id="email" name="email" required>
+
+                <label for="comment">Comment</label>
+                <textarea class="input-box" id="comment" name="comment" placeholder="Tell us something about your floof ball..." style="height:200px"></textarea>
+
+                <input class="submit-button" type="submit" value="Send">
+
+            </form>
         </div>
-    </footer>
+        <!-- I put this 'empty space div below the contact form as I was having a problem with scrolling
+            as the bottom of the contact form was dragging up white space instead of showing the background ---->
+        <div class="empty-space"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</div>
-</body>
-</html>
+        <!-- ----------------------------Footer -------------------------------->
+        <footer>
+            <div class="container-fluid" id="footer-row">
+                <div class="row">
+                    <div class="col-sm footer-element" id="contact-details">
+                        Phone: 0875553555 <br> Email: info@doggystyle.ie
+                    </div>
+                    <div class="col-sm" id="call-button-container">
+                        <button type="button" class="call-button footer-element">Contact DoggyStyle</button>
+                    </div>
+                    <div class="col-sm footer-element" id="social-icons">
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+</body></html>
 
 

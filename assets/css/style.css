@@ -1,63 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
-/*--------------------------------Header/Navigation--------------------------- */
+/*----------------------------------------Header/Navigation-------------------------------------- */
 
 #logo img {
     width: 250px;
     border: none;
-    position:absolute;
-    left:0;
-    top:0;
-    margin:10px
-
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px
 }
-.navbar-toggler{
-    margin:10px;
+
+.navbar-toggler {
+    margin: 10px;
     font-size: .8rem;
     text-align: right;
 }
 
-.navbar{
+.navbar {
     min-height: 100px;
     z-index: 991;
 }
-.nav-link{
-    position:relative;
-    display:flex;
+
+.nav-link {
+    position: relative;
+    display: flex;
     flex-direction: column;
     font-size: 18px;
     font-family: "Holtwood One SC", sans-serif;
     margin-top: 20px;
-    color: rgb(104,110,115);
+    color: rgb(104, 110, 115);
     text-align: center;
     margin-left: 15px;
-    padding-bottom:0
-    
+    padding-bottom: 0
 }
+
 /*Changed location of icon over menu items to remove the effect of dropping a few 
 pix when hoverered over. Menu items and icons are now in a fixed position*/
-.nav-item i{
-    position:absolute;
-    left:0;
-    right:0;
-    bottom:40px;
+.nav-item i {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
     line-height: 0;
     display: none;
 }
-.nav-item:hover i{
-    display:block;    
+
+.nav-item:hover i {
+    display: block;
 }
 
 /*
 I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
 https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html
 */
-.current a i, .current span{
-    display:block;
-    color:rgb(47, 49, 51)
+.current a i,
+.current span {
+    display: block;
+    color: rgb(47, 49, 51)
 }
 
-/*--------------------------------------Footer---------------------------- */
+/*------------------------------------------------Footer----------------------------------------------- */
 
 #footer-row {
     position: fixed;
@@ -91,21 +94,26 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
 #social-icons i {
     margin-right: 10px;
 }
+
+#social-icons i:hover{
+    color: #f5c2d4;
+}
+
 /* I initially went with a bootstrap button as I wanted to style t
 he button with a responsive shadow/no shadow effect to
 mimic the button being depressed. Below is the bootstrap CSS for their button
 with my alterations to achieve the desired effect */
 
 
-.call-button{
+.call-button {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color:#212529;
-    background-color:#f8f9fa;
-    border-color:#f8f9fa;
-    text-align:center;
-    border:none;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    text-align: center;
+    border: none;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
@@ -113,7 +121,7 @@ with my alterations to achieve the desired effect */
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    min-width:180px;
+    min-width: 180px;
     margin: 0;
     position: relative;
     top: 60%;
@@ -126,333 +134,391 @@ with my alterations to achieve the desired effect */
     border-radius: .95rem;
 }
 
-.call-button:active{
+.call-button:active {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
 }
 
 button:focus {
-    outline:0;
+    outline: 0;
 }
 
-.text-field .call-button{
-    top:100%;
+button:hover{
+    background-color: #f5c2d4;
+}
+
+.text-field .call-button {
+    top: 100%;
 }
 
 
 
-/*----------------------------------Home Page -----------------------------*/
+/*----------------------------------------------Home Page --------------------------------------------*/
 
-.parallax{
+.parallax {
     background-image: url(../../assets/images/background.jpg);
-    min-height:100vh;
+    min-height: 100vh;
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display:block;
-    
+    display: block;
+
 }
 
-.home-container{
+.home-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width:100%;
-    height:75vh;
+    width: 100%;
+    height: 75vh;
 }
 
-.main-message{
+.main-message {
     color: white;
-    position:relative;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 60px;
     text-align: center;
     font-size: 25px;
-    padding:2rem;
-    width:400px; 
-    height:350px;
+    padding: 2rem;
+    width: 400px;
+    height: 350px;
 }
 
-.home-container img{ 
-    padding:2px;
+.home-container img {
+    padding: 2px;
     width: 500px;
 }
 
-.text-field h1{
+.text-field h1 {
     font-size: 1.8rem;
 }
 
-.main-message span{
-    position:absolute;
-    height:38px;
-    left:50%;
-    right:50%;
-    bottom:0;
+.main-message span {
+    position: absolute;
+    height: 38px;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
 }
 
-.home-container i{
-    margin:6px;
-    
+.home-container i {
+    margin: 6px;
+
 }
 
-/*--------------------------------------Prices page---------------------------- */
-#prices-banner{
+
+/*--------------------------------------------------Prices page----------------------------------------- */
+#prices-banner {
     column-count: 3;
     text-align: left;
-    margin-bottom:150px;
+    margin-bottom: 150px;
     margin-left: auto;
-    margin-right: auto; 
-    margin-top:50px;
+    margin-right: auto;
+    margin-top: 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 60px;
-    padding: 30px; 
+    padding: 30px;
 }
 
-#prices-banner li{
-    list-style-type:none;
-    font-size:20px;
+#prices-banner li {
+    list-style-type: none;
+    font-size: 20px;
 }
-#prices-banner .list-item{
-    display:flex;
+
+#prices-banner .list-item {
+    display: flex;
     justify-content: space-between;
 }
 
 /*Dog bone with "Prices" text */
-.image-container{
+.image-container {
     position: relative;
     align-items: center;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     margin-left: auto;
-    margin-right:auto;
-    margin-top:30px;
-    width:250px;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 250px;
     text-align: center;
 }
-.image-container img{
-    width:100%
+
+.image-container img {
+    width: 100%
 }
-.image-container p{
-    position:absolute;
+
+.image-container p {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:black;
-    font-size:35px;
+    color: black;
+    font-size: 35px;
     font-family: "Holtwood One SC", sans-serif;
-    color:dimgrey;
+    color: dimgrey;
 }
 
-#prices-banner span:nth-child(2){
-    color:pink;
+#prices-banner span:nth-child(2) {
+    color: pink;
 }
-#prices-banner i{
-    color:darkgray;
+
+#prices-banner i {
+    color: darkgray;
 }
 
 
-/*----------------------- Gallery -------------------------*/
+/*--------------------------------------------------- Gallery ---------------------------------------------*/
 
 
 /*I got the code for this gallery from the following website and adjusted it
 for my own gallery. I used the masonry effect listed on the page. 
- https://wpdatatables.com/css-image-gallery/.*/
+ https://wpdatatables.com/css-image-gallery
+
+*/
 
 
 body {
-  background-color: #eee;
+    background-color: #eee;
 }
+
 .hello {
-  opacity: 1 !important;
+    opacity: 1 !important;
 }
+
 .full {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
+
 .full .content {
-  background-color: rgba(0,0,0,0.75) !important;
-  height: 100%;
-  width: 100%;
-  display: grid;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
+
 .full .content img {
-  left: 50%;
-  transform: translate3d(0, 0, 0);
-  animation: zoomin 1s ease;
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
+    left: 50%;
+    transform: translate3d(0, 0, 0);
+    animation: zoomin 1s ease;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
 }
+
 .byebye {
-  opacity: 0;
+    opacity: 0;
 }
+
 .byebye:hover {
-  transform: scale(0.2) !important;
+    transform: scale(0.2) !important;
 }
+
 .gallery {
-  display: grid;
-  grid-column-gap: 8px;
-  grid-row-gap: 8px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 8px;
+    display: grid;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 8px;
 }
+
 .gallery img {
-  max-width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 0 16px #333;
-  transition: all 1.5s ease;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #333;
+    transition: all 1.5s ease;
 }
+
 .gallery img:hover {
-  box-shadow: 0 0 32px #333;
+    box-shadow: 0 0 32px #333;
 }
+
 .gallery .content {
-  padding: 10px;
+    padding: 10px;
 }
+
 .gallery .gallery-item {
-  transition: grid-row-start 300ms linear;
-  transition: transform 300ms ease;
-  transition: all 0.5s ease;
-  cursor: pointer;
+    transition: grid-row-start 300ms linear;
+    transition: transform 300ms ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
+
 .gallery .gallery-item:hover {
-  transform: scale(1.025);
+    transform: scale(1.025);
 }
+
 @media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-  }
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    }
 }
+
 @media (max-width: 400px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-  }
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
 }
+
 @-moz-keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-  }
+    0% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+
+    70% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        max-width: 100%;
+        max-height: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 @-webkit-keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-  }
+    0% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+
+    30% {
+        filter: blur(4px);
+        max-height: 100%;
+        transform: rotate(-80deg);
+    }
+
+    70% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        max-width: 100%;
+        max-height: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 @-o-keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-  }
+    0% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+
+    70% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        max-width: 100%;
+        max-height: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 @keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-  }
+    0% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+
+    70% {
+        max-width: 50%;
+        max-height: 100%;
+        transform: rotate(45deg);
+    }
+
+    100% {
+        max-width: 100%;
+        
+        transform: rotate(0deg);
+    }
 }
-/*----------------------- Contact page -------------------------*/
+
+/*----------------------------------------------- Contact page ---------------------------------------------*/
 
 
 /*I used w3schools 'how to' section to help make the form. https://www.w3schools.com/howto/howto_css_contact_form.asp. */
 .form-container {
-  border-radius: 60px;
-  background-color: white;
-  opacity: 0.9;
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  padding: 20px;
-  width:60%;
-  margin-top:40px;
-  margin-bottom:250px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 5px -4px 3px rgba(50, 50, 50, 0.75);
+    border-radius: 60px;
+    background-color: white;
+    opacity: 0.9;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    width: 60%;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px -4px 3px rgba(50, 50, 50, 0.75);
 }
 
 .form-container label{
-
     margin-left: 10px;
 }
 
-input[type=text], input[type=tel], input[type=email], textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  box-sizing: border-box;
-  margin-top: 1px;
-  margin-bottom: 16px;
-  resize: vertical;
+input:focus{
+    outline:none;
 }
 
-input[type=submit] {
+.input-box{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.submit-button {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color:#212529;
-    background-color:#f8f9fa;
-    border-color:#f8f9fa;
-    text-align:center;
-    border:none;
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    text-align: center;
+    border: none;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
@@ -460,8 +526,8 @@ input[type=submit] {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    min-width:180px;
-    margin:20px 0;
+    min-width: 180px;
+    margin: 20px 0;
     position: relative;
     top: 60%;
     left: 50%;
@@ -473,112 +539,170 @@ input[type=submit] {
     border-radius: .95rem;
 }
 
-input[type=submit]:hover {
-  background-color:grey;
-  color:white;
+.submit-button:hover {
+    background-color: #f5c2d4;
+    color: white;
 }
-input[type=submit]:active{
+
+.submit-button:active{
     box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
 }
 
-input[type=submit]:focus {
-    outline:0;
+.submit-button:focus{
+    outline: 0;
+}
+
+.empty-space{
+    height:1px;
 }
 
 
+/*---------------------------------------------Responsive Screen sizes -----------------------------------------*/
 
+/*********************************************************/
 
+/*-------------------------------------------Small Desktop---------------------------------------*/
+@media only screen and (max-width: 991px) {
 
-/*----------------------Responsive Screen sizes ---------------------------*/
-
-        /*********************************************************/
-
-/*-----------------------Small Desktop--------------------------*/
-@media only screen and (max-width: 991px){
-    
+    /*-----------------------Navbar Media queries--------------------------*/
     #logo img {
-        width:180px;
+        width: 180px;
     }
-    .navbar{
-        min-height:80px;
+
+    .navbar {
+        min-height: 80px;
     }
-    .nav-link{
-        text-align:right;
+
+    .nav-link {
+        text-align: right;
     }
-    .text-field{
-        margin:0 auto;
+    
+    .nav-item{
+        
     }
-    #dogwash{
-        height:300px;
-        margin:0 auto;
+    .nav-item i{
+       display:none;
     }
-    #dogwash img {
-        margin:30px 0;    
+
+    .current a i{
+        display: none;
     }
-    #prices-banner{
+    .text-field {
+        margin: 0 auto;
+    }
+
+    /*-----------------------Home page Media queries--------------------------*/
+    .home-container img {
+        width: 400px
+    }
+
+    .home-container .main-message {
+        font-size: 22px;
+        padding: 20px;
+        height: 300px;
+    }
+
+    .home-container .main-message h1 {
+        font-size: 30px;
+
+    }
+
+    /*-----------------------Prices page Media queries--------------------------*/
+    #prices-banner {
         column-count: 2;
         margin-left: auto;
         margin-right: auto;
     }
-    #main-prices .row{
+
+    #main-prices .row {
         margin-top: 0;
     }
-    
-    #main-prices .list-unstyled{
+
+    #main-prices .list-unstyled {
         margin-top: 10px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
 }
 
-/*-----------------------Tablet size screen--------------------------*/
-@media only screen and (max-width: 768px){
+/*---------------------------------------------Tablet size screen--------------------------------------------*/
+@media only screen and (max-width: 768px) {
 
-    .text-field{
+
+    /*-----------------------Footer Media queries--------------------------*/
+    #footer-row button {
+        display: none;
+    }
+
+    .text-field {
         position: relative;
-        margin-left:10px 10px;
+        margin-left: 10px 10px;
     }
 
-    #main-prices .row{
-        margin-top:8%;
+    /*-----------------------Home pages Media queries--------------------------*/
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
-   #dogwash{
-        align-content: center;
-        width:80%;
-    }  
-    #dogwash img{
-        margin:40px 5px 80px 5px;
-        padding: 20px 5px 50px 5px;
-        width:95%;
+
+    .home-container img {
+        width: 500px;
+        margin-top: 200px;
+        margin-bottom: 30px
     }
-     #prices-banner{
+
+    .home-container .main-message {
+        width: 500px;
+        margin-bottom: 150px;
+
+    }
+
+    .home-container .main-message h1 {
+        font-size: 30px;
+    }
+
+    /*-----------------------Prices page Media queries--------------------------*/
+    #main-prices .row {
+        margin-top: 8%;
+    }
+
+    #prices-banner {
         column-count: 1;
         font-size: 20px;
-        margin-top:50px;
+        margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
     }
-    #main-prices .row{
+
+    #main-prices .row {
         margin-top: 0;
     }
-    
-    #main-prices .list-unstyled{
+
+    #main-prices .list-unstyled {
         margin-top: 10px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
-} 
-      /*Issue with imgage on home page dropping below footer and wont scroll up fully, 
+
+}
+
+/*Issue with imgage on home page dropping below footer and wont scroll up fully, 
       also there's a white bar at the bottom of the page under the image*/
-    
 
 
-/*-----------------------Mobile size screen--------------------------*/
-@media only screen and (max-width: 580px){
 
-/*I hid the footer row button on smaller screens as it gets a little too cramped*/
-    #footer-row button{
-        display:none;
+/*-------------------------------------------------Mobile size screen---------------------------------------*/
+@media only screen and (max-width: 580px) {
+
+    /*-----------------------Footer Media queries--------------------------*/
+    /*I hid the footer row button on smaller screens as it gets a little too cramped*/
+    #footer-row button {
+        display: none;
     }
-    #contact-details{
+
+    #contact-details {
         text-align: center;
         margin-top: 5px;
         margin-left: 5px;
@@ -589,38 +713,52 @@ input[type=submit]:focus {
         margin-top: 5px;
     }
 
-    .call-button{
+    .call-button {
         text-align: center;
         margin-top: 10px;
     }
-    .text-field{
-        width:90%;
-        font-size: 16px;   
+
+    .text-field {
+        width: 90%;
+        font-size: 16px;
     }
-    #dogwash{
-        width:100%;
-    } 
-    #dogwash img{
-        margin:40px 5px 80px 5px;
-        padding: 20px 5px 50px 5px;
-        width:95%;
-    } 
-    #main-prices ol{
-        padding-inline-start:1px;
+
+    /*-----------------------Home page Media queries--------------------------*/
+
+    .home-container img {
+        width: 90vw;
+        margin-top: 150px;
+        margin-bottom: 20px
     }
-    #main-prices .row{
+
+    .home-container .main-message {
+        width: 90vw;
+    }
+
+    /*-----------------------Prices page Media queries--------------------------*/
+    #main-prices .row {
+        margin-top: 8%;
+    }
+
+    #main-prices ol {
+        padding-inline-start: 1px;
+    }
+
+    #main-prices .row {
         margin-top: 0;
     }
-    
-    #main-prices .list-unstyled{
+
+    #main-prices .list-unstyled {
         margin-top: 10px;
-        margin-bottom:98px;
+        margin-bottom: 98px;
     }
+
+    /*-----------------------Contact page Media queries--------------------------*/
     .form-container {
         padding: 20px;
-        width:90%;
+        width: 90%;
     }
 
 
-    
-} 
+
+}
