@@ -209,7 +209,6 @@ button:hover{
 
 .home-container i {
     margin: 6px;
-
 }
 
 
@@ -217,7 +216,7 @@ button:hover{
 #prices-banner {
     column-count: 3;
     text-align: left;
-    margin-bottom: 150px;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -489,7 +488,7 @@ body {
     padding: 20px;
     width: 60%;
     margin-top: 60px;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px -4px 3px rgba(50, 50, 50, 0.75);
@@ -557,7 +556,7 @@ input:focus{
 }
 
 .empty-space{
-    height:1px;
+    height:70px;
 }
 
 
@@ -585,7 +584,7 @@ input:focus{
         
     }
     .nav-item i{
-       display:none;
+        display:none;
     }
 
     .current a i{
@@ -614,8 +613,6 @@ input:focus{
     /*-----------------------Prices page Media queries--------------------------*/
     #prices-banner {
         column-count: 2;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     #main-prices .row {
