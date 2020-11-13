@@ -60,6 +60,10 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     color: rgb(47, 49, 51)
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 /*------------------------------------------------Footer----------------------------------------------- */
 
 #footer-row {
