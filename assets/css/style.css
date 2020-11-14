@@ -186,12 +186,26 @@ button:hover{
     font-size: 25px;
     padding: 2rem;
     width: 400px;
-    height: 350px;
+    height: 450px;
 }
 
+.main-message h1{
+    color: #eeb251;
+
+}
+
+.main-message hr{
+    border: 1px solid #eeb251;
+    width: 40px;
+    
+}
+
+.main-message i{
+    color:#eeb251;
+}
 .home-container .spash-image {
     padding: 2px;
-    width: 500px;
+    width: 600px;
 }
 
 .text-field h1 {
@@ -274,7 +288,9 @@ button:hover{
 
 
 /*--------------------------------------------------- Gallery ---------------------------------------------*/
-
+.gallery{
+    padding:40px;
+}
 
 .gallery img {
     width:100%;
@@ -284,6 +300,7 @@ button:hover{
     border-radius: 30px;
     box-shadow: 0 0 16px #333;
     z-index: 999;
+    border:2px solid transparent;
 }
 
 .responsive {
