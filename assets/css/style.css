@@ -169,7 +169,7 @@ button:hover{
 
 }
 
-.home-container .splash-image{
+.home-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -189,7 +189,7 @@ button:hover{
     height: 350px;
 }
 
-.home-container img {
+.home-container .spash-image {
     padding: 2px;
     width: 500px;
 }
@@ -418,7 +418,7 @@ input:focus{
     }
 
     /*-----------------------Home page Media queries--------------------------*/
-    .home-container img {
+    .home-container .spash-image {
         width: 400px
     }
 
@@ -448,6 +448,13 @@ input:focus{
         margin-top: 10px;
         margin-bottom: 30px;
     }
+    /*-----------------------Gallery page Media queries--------------------------*/
+    
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
 }
 
 /*---------------------------------------------Tablet size screen--------------------------------------------*/
@@ -474,7 +481,7 @@ input:focus{
         height: 100vh;
     }
 
-    .home-container img {
+    .home-container .spash-image{
         width: 500px;
         margin-top: 200px;
         margin-bottom: 30px
@@ -512,7 +519,11 @@ input:focus{
         margin-bottom: 30px;
     }
     
-    
+ /*-----------------------Gallery page Media queries--------------------------*/
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
 
 
@@ -549,7 +560,7 @@ input:focus{
 
     /*-----------------------Home page Media queries--------------------------*/
 
-    .home-container img {
+    .home-container .spash-image {
         width: 90vw;
         margin-top: 150px;
         margin-bottom: 20px
@@ -577,9 +588,19 @@ input:focus{
         margin-bottom: 98px;
     }
     
+    /*-----------------------Gallery page Media queries--------------------------*/
+    
+    .responsive {
+        width: 100%;
+    }
+
+
     /*-----------------------Contact page Media queries--------------------------*/
     .form-container {
         padding: 20px;
         width: 90%;
     }
+
+
+
 }
