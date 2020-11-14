@@ -20,6 +20,7 @@
 .navbar {
     min-height: 100px;
     z-index: 991;
+    box-sizing: border-box;
 }
 
 .nav-link {
@@ -60,18 +61,17 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     color: rgb(47, 49, 51)
 }
 
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 /*------------------------------------------------Footer----------------------------------------------- */
 
 #footer-row {
-    position: fixed;
-    bottom: 0;
+    position: sticky;
     background-color: rgb(104, 110, 115);
     width: 100%;
-    min-height: 10vh;
+    min-height: 70px;
     box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
 }
 
@@ -160,7 +160,6 @@ button:hover{
 
 .parallax {
     background-image: url(../../assets/images/background.jpg);
-    min-height: 100vh;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -170,12 +169,12 @@ button:hover{
 
 }
 
-.home-container {
+.home-container .splash-image{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 75vh;
+    min-height: calc(100vh - 160px);
 }
 
 .main-message {
@@ -209,6 +208,7 @@ button:hover{
 
 .home-container i {
     margin: 6px;
+
 }
 
 
@@ -216,7 +216,7 @@ button:hover{
 #prices-banner {
     column-count: 3;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -276,203 +276,26 @@ button:hover{
 /*--------------------------------------------------- Gallery ---------------------------------------------*/
 
 
-/*I got the code for this gallery from the following website and adjusted it
-for my own gallery. I used the masonry effect listed on the page. 
- https://wpdatatables.com/css-image-gallery
-
-*/
-
-
-body {
-    background-color: #eee;
-}
-
-.hello {
-    opacity: 1 !important;
-}
-
-.full {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.full .content {
-    background-color: rgba(0, 0, 0, 0.75) !important;
-    height: 100%;
-    width: 100%;
-    display: grid;
-}
-
-.full .content img {
-    left: 50%;
-    transform: translate3d(0, 0, 0);
-    animation: zoomin 1s ease;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-}
-
-.byebye {
-    opacity: 0;
-}
-
-.byebye:hover {
-    transform: scale(0.2) !important;
-}
-
-.gallery {
-    display: grid;
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: 8px;
-}
-
 .gallery img {
-    max-width: 100%;
-    border-radius: 8px;
+    width:100%;
+    height:300px;
+    margin: 10px 10px;
+    object-fit: cover;
+    border-radius: 30px;
     box-shadow: 0 0 16px #333;
-    transition: all 1.5s ease;
+    z-index: 999;
 }
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
 
 .gallery img:hover {
     box-shadow: 0 0 32px #333;
-}
-
-.gallery .content {
-    padding: 10px;
-}
-
-.gallery .gallery-item {
-    transition: grid-row-start 300ms linear;
-    transition: transform 300ms ease;
-    transition: all 0.5s ease;
-    cursor: pointer;
-}
-
-.gallery .gallery-item:hover {
-    transform: scale(1.025);
-}
-
-@media (max-width: 600px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-    }
-}
-
-@media (max-width: 400px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-    }
-}
-
-@-moz-keyframes zoomin {
-    0% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(-30deg);
-        filter: blur(4px);
-    }
-
-    30% {
-        filter: blur(4px);
-        transform: rotate(-80deg);
-    }
-
-    70% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(45deg);
-    }
-
-    100% {
-        max-width: 100%;
-        max-height: 100%;
-        transform: rotate(0deg);
-    }
-}
-
-@-webkit-keyframes zoomin {
-    0% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(-30deg);
-        filter: blur(4px);
-    }
-
-    30% {
-        filter: blur(4px);
-        max-height: 100%;
-        transform: rotate(-80deg);
-    }
-
-    70% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(45deg);
-    }
-
-    100% {
-        max-width: 100%;
-        max-height: 100%;
-        transform: rotate(0deg);
-    }
-}
-
-@-o-keyframes zoomin {
-    0% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(-30deg);
-        filter: blur(4px);
-    }
-
-    30% {
-        filter: blur(4px);
-        transform: rotate(-80deg);
-    }
-
-    70% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(45deg);
-    }
-
-    100% {
-        max-width: 100%;
-        max-height: 100%;
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes zoomin {
-    0% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(-30deg);
-        filter: blur(4px);
-    }
-
-    30% {
-        filter: blur(4px);
-        transform: rotate(-80deg);
-    }
-
-    70% {
-        max-width: 50%;
-        max-height: 100%;
-        transform: rotate(45deg);
-    }
-
-    100% {
-        max-width: 100%;
-        
-        transform: rotate(0deg);
-    }
+    transform: scale(1.2);
 }
 
 /*----------------------------------------------- Contact page ---------------------------------------------*/
@@ -488,7 +311,7 @@ body {
     padding: 20px;
     width: 60%;
     margin-top: 60px;
-    margin-bottom: 110px;
+    margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px -4px 3px rgba(50, 50, 50, 0.75);
@@ -556,7 +379,7 @@ input:focus{
 }
 
 .empty-space{
-    height:70px;
+    height:1px;
 }
 
 
@@ -613,6 +436,8 @@ input:focus{
     /*-----------------------Prices page Media queries--------------------------*/
     #prices-banner {
         column-count: 2;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #main-prices .row {
@@ -686,11 +511,9 @@ input:focus{
         margin-top: 10px;
         margin-bottom: 30px;
     }
-
+    
+    
 }
-
-/*Issue with imgage on home page dropping below footer and wont scroll up fully, 
-      also there's a white bar at the bottom of the page under the image*/
 
 
 
@@ -753,13 +576,10 @@ input:focus{
         margin-top: 10px;
         margin-bottom: 98px;
     }
-
+    
     /*-----------------------Contact page Media queries--------------------------*/
     .form-container {
         padding: 20px;
         width: 90%;
     }
-
-
-
 }
