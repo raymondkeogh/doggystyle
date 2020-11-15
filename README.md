@@ -234,13 +234,27 @@ Testing
 Bugs
 -------
 Site logo shift from left to right hand side of screen when width of screen drops below 992px.
--Changed position to absolute and positioned left and top to 0.
+Fix: Changed position to absolute and positioned left and top to 0.
 
 contact button in footer covers the Phone number and email section when screen goes below 578px.
--set contact details to display:none as the footer was too cluttered. 
+Fix: set contact details to display:none as the footer was too cluttered. 
 
-Contact button is sitting a few pixels off center to the right.
--
+Initially I used bootsraps buttons but had issues with specificity and applying styles
+to the class I created for button. 
+Fix: I did consider giving the body an id tag but then ended up
+copying the bootstrap button parameters and styling my own button and added my own 3d click 
+effect using box-shadow and display properties.
+
+on creating a parallax effect for the background when scrolling rather than keeping the background
+fixed there is a white band being pulled up when scrolling to bottom 
+Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
+
+The phone number input is allowing characters even though ‘tel’ validation is set in the input.
+Fix: None as of yet.
+
+The header and footer have a gap on the right hand side and the footer is jumping up when reducing
+the screen size. 
+Fix: ß
 
 
 
@@ -270,5 +284,10 @@ Images for gallery were taken from  https://unsplash.com/
 
 
 
+
+
+
 **Acknowledgements**
+
+
 

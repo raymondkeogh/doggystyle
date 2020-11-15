@@ -67,7 +67,7 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
  }
 /*------------------------------------------------Footer----------------------------------------------- */
 
-#footer-row {
+.footer-row {
     position: sticky;
     background-color: rgb(104, 110, 115);
     width: 100%;
@@ -478,7 +478,7 @@ input:focus{
 
 
     /*-----------------------Footer Media queries--------------------------*/
-    #footer-row button {
+    .footer-row button {
         display: none;
     }
 
@@ -549,7 +549,7 @@ input:focus{
 
     /*-----------------------Footer Media queries--------------------------*/
     /*I hid the footer row button on smaller screens as it gets a little too cramped*/
-    #footer-row button {
+    .footer-row button {
         display: none;
     }
 
