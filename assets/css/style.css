@@ -478,6 +478,8 @@ input:focus{
 
 
     /*-----------------------Footer Media queries--------------------------*/
+    
+    
     .footer-row button {
         display: none;
     }
@@ -488,14 +490,6 @@ input:focus{
     }
 
     /*-----------------------Home pages Media queries--------------------------*/
-    .home-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
 
     .home-container .spash-image{
         width: 500px;
