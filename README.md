@@ -252,10 +252,11 @@ Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to �
 The phone number input is allowing characters even though ‘tel’ validation is set in the input.
 Fix: None as of yet.
 
-The header and footer have a gap on the right hand side and the footer is jumping up when reducing
-the screen size. 
-Fix: ß
+The header and footer have a gap on the right hand side. 
+Fix: Moved the footer into a div and gave the div class ".container-fluid"
 
+The footer is jumping up when reducing the screen size. 
+Fix: I had erroneosly put a media query in 'table screen size' section. Footer fine once code removed.
 
 
 Deployment
