@@ -203,9 +203,13 @@ button:hover{
 .main-message i{
     color:#eeb251;
 }
-.home-container .spash-image {
+.home-container .splash-image {
     padding: 2px;
     width: 550px;
+}
+
+.splash-image img{
+    width:100%;
 }
 
 .text-field h1 {
@@ -443,12 +447,12 @@ input:focus{
     }
 
     /*-----------------------Home page Media queries--------------------------*/
-    .home-container .spash-image {
-        width: 400px
+    .home-container .splash-image {
+        width: 500px
     }
 
     .home-container .main-message {
-        font-size: 22px;
+        font-size: 20px;
         padding: 20px;
     }
 
@@ -498,15 +502,18 @@ input:focus{
 
     /*-----------------------Home pages Media queries--------------------------*/
 
-    .home-container .spash-image{
-        width: 500px;
-        margin-top: 200px;
-        margin-bottom: 30px
+    .home-container{
+        flex-direction: column;
+    }
+    .home-container .splash-image{
+        margin-top: 20px;
+        margin-bottom: 20px
     }
 
     .home-container .main-message {
         width: 500px;
-        margin-bottom: 150px;
+        margin-bottom: 50px;
+        margin-top: 12px;
 
     }
 
@@ -577,10 +584,10 @@ input:focus{
 
     /*-----------------------Home page Media queries--------------------------*/
 
-    .home-container .spash-image {
-        width: 90vw;
-        margin-top: 150px;
-        margin-bottom: 20px
+    .home-container .splash-image {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90vw; 
     }
 
     .home-container .main-message {
@@ -603,6 +610,13 @@ input:focus{
     #main-prices .list-unstyled {
         margin-top: 10px;
         margin-bottom: 98px;
+    }
+
+    .image-container {
+        width: 180px;
+    }
+    .image-container p{
+        font-size: 20px;
     }
     
     /*-----------------------Gallery page Media queries--------------------------*/
