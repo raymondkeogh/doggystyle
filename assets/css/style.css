@@ -185,8 +185,9 @@ button:hover{
     text-align: center;
     font-size: 25px;
     padding: 2rem;
-    width: 400px;
-    height: 450px;
+    width: 40%;
+    margin:40px;
+    box-sizing: border-box;
 }
 
 .main-message h1{
@@ -197,7 +198,6 @@ button:hover{
 .main-message hr{
     border: 1px solid #eeb251;
     width: 40px;
-    
 }
 
 .main-message i{
@@ -205,7 +205,7 @@ button:hover{
 }
 .home-container .spash-image {
     padding: 2px;
-    width: 600px;
+    width: 550px;
 }
 
 .text-field h1 {
@@ -222,9 +222,7 @@ button:hover{
 
 .home-container i {
     margin: 6px;
-
 }
-
 
 /*--------------------------------------------------Prices page----------------------------------------- */
 #prices-banner {
@@ -289,6 +287,7 @@ button:hover{
 
 /*--------------------------------------------------- Gallery ---------------------------------------------*/
 .gallery{
+    position: relative;
     padding:40px;
 }
 
@@ -331,7 +330,7 @@ button:hover{
     margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 5px -2px 10px rgba(50, 50, 50, 0.75);
 }
 
 .form-container label{
@@ -351,6 +350,7 @@ input:focus{
     margin-top: 1px;
     margin-bottom: 16px;
     resize: vertical;
+    outline:none;
 }
 
 .submit-button {
@@ -442,7 +442,6 @@ input:focus{
     .home-container .main-message {
         font-size: 22px;
         padding: 20px;
-        height: 300px;
     }
 
     .home-container .main-message h1 {
