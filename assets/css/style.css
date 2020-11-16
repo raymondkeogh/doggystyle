@@ -174,7 +174,7 @@ button:hover{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    min-height: calc(100vh - 160px);
+    min-height: calc(100vh - 165px);
 }
 
 .main-message {
@@ -192,7 +192,6 @@ button:hover{
 
 .main-message h1{
     color: #eeb251;
-
 }
 
 .main-message hr{
@@ -232,7 +231,7 @@ button:hover{
 #prices-banner {
     column-count: 3;
     text-align: left;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -300,13 +299,10 @@ button:hover{
     padding:40px;
 }
 
-.gallery-title{
-    
-}
 .gallery img {
     width:100%;
     height:300px;
-    margin: 10px 10px;
+    margin-top: 10px;
     object-fit: cover;
     border-radius: 30px;
     box-shadow: 0 0 16px #333;
@@ -339,7 +335,7 @@ button:hover{
     padding: 20px;
     width: 60%;
     margin-top: 60px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 5px -2px 10px rgba(50, 50, 50, 0.75);
@@ -411,6 +407,10 @@ input:focus{
     height:1px;
 }
 
+.contact-page-button{
+    display:none;
+}
+
 
 /*---------------------------------------------Responsive Screen sizes -----------------------------------------*/
 
@@ -430,11 +430,10 @@ input:focus{
 
     .nav-link {
         text-align: right;
+        margin:0;
+        padding:0;
     }
-    
-    .nav-item{
-        
-    }
+
     .nav-item i{
         display:none;
     }
@@ -445,6 +444,10 @@ input:focus{
     .text-field {
         margin: 0 auto;
     }
+    .nav-item:hover i {
+        display: none;
+    }
+
 
     /*-----------------------Home page Media queries--------------------------*/
     .home-container .splash-image {
@@ -455,10 +458,12 @@ input:focus{
         font-size: 20px;
         padding: 20px;
     }
+    .home-container{
+        min-height: calc(100vh - 150px);
+    }
 
     .home-container .main-message h1 {
         font-size: 30px;
-
     }
 
     /*-----------------------Prices page Media queries--------------------------*/
@@ -514,7 +519,6 @@ input:focus{
         width: 500px;
         margin-bottom: 50px;
         margin-top: 12px;
-
     }
 
     .home-container .main-message h1 {
@@ -543,13 +547,12 @@ input:focus{
         margin-bottom: 30px;
     }
     
- /*-----------------------Gallery page Media queries--------------------------*/
+    /*-----------------------Gallery page Media queries--------------------------*/
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
-
 
 
 /*-------------------------------------------------Mobile size screen---------------------------------------*/
@@ -609,7 +612,7 @@ input:focus{
 
     #main-prices .list-unstyled {
         margin-top: 10px;
-        margin-bottom: 98px;
+        margin-bottom: 50px;
     }
 
     .image-container {
@@ -622,16 +625,33 @@ input:focus{
     /*-----------------------Gallery page Media queries--------------------------*/
     
     .responsive {
-        width: 100%;
+        width: 32.33%;
+        height: 100px;
+        margin-top: 3px;
+        /*I change the display to inline-block to arrange the picture tiles in mobile as I was not able to center the align-items: 
+        using float value. In order to use display I had to undefine the float value from previous .responsive rule*/
+        float:unset;
+        display: inline-block;
     }
-
+    .gallery{
+        padding: 0;
+        margin: 1px;
+        background-color: #21252930;
+        border-radius: 30px;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .gallery img{
+        height:100px;
+        padding:3px;
+        margin-top: 20px;
+        border: 0 solid transparent;
+    }
 
     /*-----------------------Contact page Media queries--------------------------*/
     .form-container {
         padding: 20px;
         width: 90%;
     }
-
-
-
 }

@@ -10,7 +10,6 @@
 
 
 
-
 Table of content:
 -----------------
 
@@ -225,8 +224,6 @@ Technologies
 	 - Indent-Rainbow
 
 
-
-
 Testing
 -------
 
@@ -269,19 +266,23 @@ Credits
 
 **Code used**
 
-https://getbootstrap.com/docs/4.0/components/navbar/ for my navbar
+[https://getbootstrap.com/docs/4.0/components/navbar/]
+(https://getbootstrap.com/docs/4.0/components/navbar/) I altered this code for my navbar.
 
  I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
-https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html 
+[https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html](https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html)
 
 I used this code to help create the scrolling effect on the website.
-https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm
+[https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
 **Content**
-Image used for site icon https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/
+Image used for site icon [https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/](https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/)
 
-The background image for the website - https://all-free-download.com/free-vector/download/spring-background_310720.html
+The background image for the website - [https://all-free-download.com/free-vector/download/spring-background_310720.html](https://all-free-download.com/free-vector/download/spring-background_310720.html)
 
-Images for gallery were taken from  https://unsplash.com/
+Some images for gallery were taken from  [https://unsplash.com/](https://unsplash.com/) while the handsome brown and white collie is my Dog Derek. 
+
+I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
+[https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html](https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html)
 
 
 
@@ -291,4 +292,6 @@ Images for gallery were taken from  https://unsplash.com/
 **Acknowledgements**
 
 
-
+changed margin in gallery for mobile to properly center images
+removed contact button from footer on contact page
+changed bottom-margin on form container to 50px
