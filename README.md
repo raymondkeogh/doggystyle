@@ -284,6 +284,10 @@ Some images for gallery were taken from  [https://unsplash.com/](https://unsplas
 I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
 [https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html](https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html)
 
+I used lightbox to create gallery effect 
+[https://lokeshdhakar.com/projects/lightbox2/](https://lokeshdhakar.com/projects/lightbox2/)
+and the following tutorial by Clever Techie to help me create the gallery 
+[https://clevertechie.com/html-css/157/how-to-create-image-gallery-using-html-css-javascript](https://clevertechie.com/html-css/157/how-to-create-image-gallery-using-html-css-javascript)
 
 
 
