@@ -152,11 +152,30 @@ button:hover{
     top: 100%;
 }
 
+#contact-details  span .fa-phone{
+    position: absolute;
+    left: 170px;
+    bottom: 40px;
+    line-height: 0;
+    display: none;
+}
 
+#contact-details span:hover .fa-phone{
+    display: block;
+}
+
+#contact-details span .fa-envelope{
+    position: absolute;
+    left: 205px;
+    bottom: 13px;
+    line-height: 0;
+    display: none;
+}
+#contact-details span:hover .fa-envelope{
+    display:block;
+}
 
 /*----------------------------------------------Home Page --------------------------------------------*/
-
-
 
 .parallax {
     background-image: url(../../assets/images/background.jpg);
@@ -506,6 +525,15 @@ input:focus{
     .text-field {
         position: relative;
         margin-left: 10px 10px;
+    }
+
+    #contact-details span:hover i.fa-phone {
+    display: none;
+}
+
+
+    #contact-details span:hover .fa-envelope{
+        display:none;
     }
 
     /*-----------------------Home pages Media queries--------------------------*/
