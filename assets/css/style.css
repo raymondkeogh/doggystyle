@@ -205,7 +205,6 @@ button:hover{
     font-size: 25px;
     padding: 2rem;
     width: 40%;
-    margin:40px;
     box-sizing: border-box;
 }
 
@@ -529,7 +528,7 @@ input:focus{
 
     #contact-details span:hover i.fa-phone {
     display: none;
-}
+    }
 
 
     #contact-details span:hover .fa-envelope{
