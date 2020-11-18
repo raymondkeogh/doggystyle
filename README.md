@@ -295,7 +295,4 @@ and the following tutorial by Clever Techie to help me create the gallery
 
 **Acknowledgements**
 
-
-changed margin in gallery for mobile to properly center images
-removed contact button from footer on contact page
-changed bottom-margin on form container to 50px
+ 

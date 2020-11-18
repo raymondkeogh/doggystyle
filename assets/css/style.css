@@ -61,10 +61,10 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     color: rgb(47, 49, 51)
 }
 
- a, a:hover, a:focus, a:active {
-      text-decoration: none;
-      color: inherit;
- }
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 /*------------------------------------------------Footer----------------------------------------------- */
 
 .footer-row {
@@ -83,7 +83,6 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     margin-left: 10px;
     display: block;
     position: relative;
-
 }
 
 #social-icons {
@@ -92,7 +91,6 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     text-align: right;
     color: white;
     position: relative;
-
 }
 
 #social-icons i {
@@ -163,12 +161,12 @@ button:hover{
 .parallax {
     background-image: url(../../assets/images/background.jpg);
     position: relative;
+    background-color: rgb(104, 110, 115);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
-
 }
 
 .home-container {
@@ -323,7 +321,11 @@ button:hover{
     box-shadow: 0 0 32px #333;
     transform: scale(1.2);
 }
-
+/*I added this class to hide one of the photos on desktop size to ensure an even display of pictures on desktop v's mobile. 
+I picked my least favourite dog picture */
+.hideforsymmetry{
+    display:none;
+}
 /*----------------------------------------------- Contact page ---------------------------------------------*/
 
 
