@@ -15,18 +15,18 @@ Table of content:
 
 
 
- - Description
- - UX
-	 - User Stories 
+ - [Description](#description)
+ - [User Experience](#user-experience)
+	 - User Stories] 
 	 - Strategy
 	 - Scope
 	 - Structure
 	 - Skeleton
 	 - Surface
- - Technologies
- - Testing
- - Deployment
- - Credits
+ - [Technologies](#technologies)
+ - [Testing](#testing)
+ - [Deployment](#deployment)
+ - [Credits](#credits)
 
 
 
@@ -36,7 +36,7 @@ Description
 DoggyStyle is a website for a dog grooming company. This site showcases the clients work and offers a platform for clients to view prices and book appointments. The live site can be viewed here.
 This site was designed as a project to be submitted for grading in the first milestone project in Full Stack Software Development with the Code Institute. 
 
-UX - User Experience
+User Experience
 --------------------
 
 
@@ -130,7 +130,7 @@ Features:
  - Footer - There will be a footer containing contact detail, social links and another call to action. 
 All the of the pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
  - Home pages - Sales message containing text with a button below to initiate contact. 
- - Contact pages – a contact form requesting name, address, phone number and a comment section. 
+ - Contact pages – a contact form requesting name, email address, phone number and a comment section. 
  - Gallery - A gallery containing a selection photographs
  - Prices page - A text window on the prices pages containing the text of the business prices. 
 
