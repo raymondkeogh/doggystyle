@@ -6,7 +6,7 @@
 
 **DoggyStyle website**
 ==================
-
+![image](assets/images/mockups/multimockup.png)
 
 Table of content:
 -----------------
@@ -291,6 +291,8 @@ Fix: Moved the footer into a div and gave the div class ".container-fluid"
 The footer is jumping up when reducing the screen size. 
 Fix: I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
+Bug: After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.
+Fix: I had somehow deleted the script link for lightbox. 
 
 Deployment
 ----------
@@ -304,6 +306,7 @@ The following steps were taken to deploy the website.
 6. The site link will be displayed above this section where is says  'Your site is published at - .....'
 7. Click the link to open the website in a new tab and the website is deployed!
 
+More information on github pages can be found [here](https://pages.github.com/).
 
 In order to run this project there a couple of methods you can use. The first is for use with a cloud based IDE called Gitpod and the second is for use in a local IDE of your choice e.g. VSCode.  
 
