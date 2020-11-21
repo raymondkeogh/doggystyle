@@ -61,10 +61,14 @@ https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-
     color: rgb(47, 49, 51)
 }
 
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
     text-decoration: none;
     color: inherit;
 }
+
 /*------------------------------------------------Footer----------------------------------------------- */
 
 .footer-row {
@@ -74,7 +78,6 @@ a, a:hover, a:focus, a:active {
     min-height: 70px;
     box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
 }
-
 
 #contact-details {
     font-family: "Roboto", sans-serif;
@@ -97,7 +100,7 @@ a, a:hover, a:focus, a:active {
     margin-right: 10px;
 }
 
-#social-icons i:hover{
+#social-icons i:hover {
     color: #f5c2d4;
 }
 
@@ -105,7 +108,6 @@ a, a:hover, a:focus, a:active {
 he button with a responsive shadow/no shadow effect to
 mimic the button being depressed. Below is the bootstrap CSS for their button
 with my alterations to achieve the desired effect */
-
 
 .call-button {
     display: inline-block;
@@ -144,7 +146,7 @@ button:focus {
     outline: 0;
 }
 
-button:hover{
+button:hover {
     background-color: #f5c2d4;
 }
 
@@ -152,7 +154,7 @@ button:hover{
     top: 100%;
 }
 
-#contact-details  span .fa-phone{
+#contact-details span .fa-phone {
     position: absolute;
     left: 170px;
     bottom: 40px;
@@ -160,19 +162,21 @@ button:hover{
     display: none;
 }
 
-#contact-details span:hover .fa-phone{
+#contact-details span:hover .fa-phone {
     display: block;
+    text-decoration: none;
 }
 
-#contact-details span .fa-envelope{
+#contact-details span .fa-envelope {
     position: absolute;
     left: 205px;
     bottom: 13px;
     line-height: 0;
     display: none;
 }
-#contact-details span:hover .fa-envelope{
-    display:block;
+
+#contact-details span:hover .fa-envelope {
+    display: block;
 }
 
 /*----------------------------------------------Home Page --------------------------------------------*/
@@ -208,25 +212,26 @@ button:hover{
     box-sizing: border-box;
 }
 
-.main-message h1{
+.main-message h1 {
     color: #eeb251;
 }
 
-.main-message hr{
+.main-message hr {
     border: 1px solid #eeb251;
     width: 40px;
 }
 
-.main-message i{
-    color:#eeb251;
+.main-message i {
+    color: #eeb251;
 }
+
 .home-container .splash-image {
     padding: 2px;
     width: 550px;
 }
 
-.splash-image img{
-    width:100%;
+.splash-image img {
+    width: 100%;
 }
 
 .text-field h1 {
@@ -305,27 +310,26 @@ button:hover{
     color: darkgray;
 }
 
-
 /*--------------------------------------------------- Gallery ---------------------------------------------*/
 
-.gallery-container{
-    flex-direction:column;
+.gallery-container {
+    flex-direction: column;
 }
 
-.gallery{
+.gallery {
     position: relative;
-    padding:40px;
+    padding: 40px;
 }
 
 .gallery img {
-    width:100%;
-    height:300px;
+    width: 100%;
+    height: 300px;
     margin-top: 10px;
     object-fit: cover;
     border-radius: 30px;
     box-shadow: 0 0 16px #333;
     z-index: 999;
-    border:2px solid transparent;
+    border: 2px solid transparent;
 }
 
 .responsive {
@@ -334,18 +338,18 @@ button:hover{
     width: 24.99999%;
 }
 
-
 .gallery img:hover {
     box-shadow: 0 0 32px #333;
     transform: scale(1.2);
 }
+
 /*I added this class to hide one of the photos on desktop size to ensure an even display of pictures on desktop v's mobile. 
 I picked my least favourite dog picture */
-.hideforsymmetry{
-    display:none;
+.hideforsymmetry {
+    display: none;
 }
-/*----------------------------------------------- Contact page ---------------------------------------------*/
 
+/*----------------------------------------------- Contact page ---------------------------------------------*/
 
 /*I used w3schools 'how to' section to help make the form. https://www.w3schools.com/howto/howto_css_contact_form.asp. */
 .form-container {
@@ -363,15 +367,15 @@ I picked my least favourite dog picture */
     box-shadow: 5px -2px 10px rgba(50, 50, 50, 0.75);
 }
 
-.form-container label{
+.form-container label {
     margin-left: 10px;
 }
 
-input:focus{
-    outline:none;
+input:focus {
+    outline: none;
 }
 
-.input-box{
+.input-box {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -380,7 +384,7 @@ input:focus{
     margin-top: 1px;
     margin-bottom: 16px;
     resize: vertical;
-    outline:none;
+    outline: none;
 }
 
 .submit-button {
@@ -417,20 +421,37 @@ input:focus{
     color: white;
 }
 
-.submit-button:active{
+.submit-button:active {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
 }
 
-.submit-button:focus{
+.submit-button:focus {
     outline: 0;
 }
 
-.empty-space{
-    height:1px;
+.empty-space {
+    height: 1px;
 }
 
-.contact-page-button{
-    display:none;
+.contact-page-button {
+    display: none;
+}
+
+iframe{
+    width:100%;
+    overflow:hidden;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline:none;
+}
+
+.map h1, p{
+    text-align: center;
 }
 
 
@@ -449,26 +470,28 @@ input:focus{
     .navbar {
         min-height: 80px;
     }
+
     .nav-link {
         text-align: right;
-        margin:20px;
-        padding:0;
+        margin: 20px;
+        padding: 0;
     }
 
-    .nav-item i{
-        display:none;
-    }
-
-    .current a i{
+    .nav-item i {
         display: none;
     }
+
+    .current a i {
+        display: none;
+    }
+
     .text-field {
         margin: 0 auto;
     }
+
     .nav-item:hover i {
         display: none;
     }
-
 
     /*-----------------------Home page Media queries--------------------------*/
     .home-container .splash-image {
@@ -479,7 +502,8 @@ input:focus{
         font-size: 20px;
         padding: 20px;
     }
-    .home-container{
+
+    .home-container {
         min-height: calc(100vh - 150px);
     }
 
@@ -502,8 +526,9 @@ input:focus{
         margin-top: 10px;
         margin-bottom: 30px;
     }
+
     /*-----------------------Gallery page Media queries--------------------------*/
-    
+
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
@@ -513,10 +538,9 @@ input:focus{
 /*---------------------------------------------Tablet size screen--------------------------------------------*/
 @media only screen and (max-width: 768px) {
 
-
     /*-----------------------Footer Media queries--------------------------*/
-    
-    
+
+
     .footer-row button {
         display: none;
     }
@@ -527,20 +551,20 @@ input:focus{
     }
 
     #contact-details span:hover i.fa-phone {
-    display: none;
+        display: none;
     }
 
-
-    #contact-details span:hover .fa-envelope{
-        display:none;
+    #contact-details span:hover .fa-envelope {
+        display: none;
     }
 
     /*-----------------------Home pages Media queries--------------------------*/
 
-    .home-container{
+    .home-container {
         flex-direction: column;
     }
-    .home-container .splash-image{
+
+    .home-container .splash-image {
         margin-top: 20px;
         margin-bottom: 20px
     }
@@ -576,14 +600,13 @@ input:focus{
         margin-top: 10px;
         margin-bottom: 30px;
     }
-    
+
     /*-----------------------Gallery page Media queries--------------------------*/
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
-
 
 /*-------------------------------------------------Mobile size screen---------------------------------------*/
 @media only screen and (max-width: 580px) {
@@ -620,7 +643,7 @@ input:focus{
     .home-container .splash-image {
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 90vw; 
+        width: 90vw;
     }
 
     .home-container .main-message {
@@ -648,24 +671,28 @@ input:focus{
     .image-container {
         width: 180px;
     }
-    .image-container p{
+
+    .image-container p {
         font-size: 20px;
     }
+
     #prices-banner {
         column-count: 1;
     }
+
     /*-----------------------Gallery page Media queries--------------------------*/
-    
-    .responsive{
+
+    .responsive {
         width: 32.33%;
         height: 100px;
         margin-top: 3px;
         /*I change the display to inline-block to arrange the picture tiles in mobile as I was not able to center the align-items: 
         using float value. In order to use display I had to undefine the float value from previous .responsive rule*/
-        float:unset;
+        float: unset;
         display: inline-block;
     }
-    .gallery{
+
+    .gallery {
         padding: 0;
         margin: 1px;
         background-color: #21252930;
@@ -673,10 +700,10 @@ input:focus{
         margin-top: 20px;
         padding-bottom: 40px;
     }
-    
-    .gallery img{
-        height:100px;
-        padding:3px;
+
+    .gallery img {
+        height: 100px;
+        padding: 3px;
         margin-top: 20px;
         border: 0 solid transparent;
     }
