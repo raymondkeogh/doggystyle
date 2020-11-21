@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /*--------------------------------------Header/Navigation----*/
 
 #logo img {
@@ -115,22 +120,17 @@ with my alterations to achieve the desired effect */
     line-height: 1.5;
     color: #212529;
     background-color: #f8f9fa;
-    border-color: #f8f9fa;
     text-align: center;
     border: none;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     min-width: 180px;
     margin: 0;
     position: relative;
     top: 60%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, .5);
     padding: .375rem .75rem;
@@ -222,6 +222,7 @@ button:hover {
 .main-message hr {
     border: 1px solid #eeb251;
     width: 40px;
+    margin: auto;
 }
 
 .main-message p{
@@ -401,22 +402,17 @@ input:focus {
     line-height: 1.5;
     color: #212529;
     background-color: #f8f9fa;
-    border-color: #f8f9fa;
     text-align: center;
     border: none;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     min-width: 180px;
     margin: 20px 0;
     position: relative;
     top: 60%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, .5);
     padding: .375rem .75rem;
@@ -456,6 +452,7 @@ iframe{
     margin-bottom: 16px;
     resize: vertical;
     outline:none;
+    border: 0px;
 }
 
 .map h1, p{
@@ -555,7 +552,7 @@ iframe{
 
     .text-field {
         position: relative;
-        margin-left: 10px 10px;
+        margin-left: 10px;
     }
 
     #contact-details span:hover i.fa-phone {
@@ -661,10 +658,6 @@ iframe{
     /*-----------------------Prices page Media queries----------------*/
     #main-prices .row {
         margin-top: 8%;
-    }
-
-    #main-prices ol {
-        padding-inline-start: 1px;
     }
 
     #main-prices .row {

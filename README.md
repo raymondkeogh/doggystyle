@@ -260,6 +260,9 @@ In order to fully test the website I first set out the criteria that must be met
 
 All testing is documented in the MS1-Testing Mac Numbers [spreadsheet](assets/testing/MS1-testing.numbers), [Excel](assets/testing/MS1-testing.xlsx) and in [pdf](assets/testing/MS1-testing.pdf) format
 
+W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/)
+W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
 
 Bugs
 -------
@@ -288,18 +291,41 @@ Fix: Moved the footer into a div and gave the div class ".container-fluid"
 The footer is jumping up when reducing the screen size. 
 Fix: I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
+
 Deployment
 ----------
 
-In order to deploy this project I used github pages. To do this follow the steps below,
-
-1. Open the github repository for the website at https://github.com/raymondkeogh/doggystyle 
-2. Click on the setting cog in the centre right of the page. 
+The following steps were taken to deploy the website. 
+1. Create a GitHub account at [https://www.github.com](https://www.github.com). locate the DoggyStyle repository for the website. The link is here. [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle). 
+2. Click on the setting cog in the centre right near the top of the page. 
 3. Scroll down to the section that says GitHub Pages. 
 4. Ensure 'branch: master' is selected.
 5. Click 'Save' 
 6. The site link will be displayed above this section where is says  'Your site is published at - .....'
-7. Click the link to open the website in a new tab. 
+7. Click the link to open the website in a new tab and the website is deployed!
+
+
+In order to run this project there a couple of methods you can use. The first is for use with a cloud based IDE called Gitpod and the second is for use in a local IDE of your choice e.g. VSCode.  
+
+Run in Gitpod:
+
+1. Create a GitHub account at [https://www.github.com](https://www.github.com). 
+2. Install the gitpod browser extension for Chrome browser.
+3. Restart the Chrome browser.
+4. Log into GitPod using your GitHub account. 
+5. Next open GitHub and locate the DoggyStyle repository for the website at [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle)
+6. Click on the green GitPod button in the top right hands side of the screen. 
+7. This will open a new GitPod workspace with the DoggyStyle respository files in it. 
+
+Run in Local IDE:
+
+1. GitHub and locate the DoggyStyle repository for the website. The link is here. [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle). 
+2. Click on the the button near the top of the page that says "Code"
+3. In the box that pops up under the HTTPS section copy the URL. 
+4. In your local IDE open the command terminal. 
+5. Change the working directory to the location where you will be working on the project. 
+6. Type in 'git clone' and the url you got from the HTTPS popup from the code button. 
+7. Press enter to create you local clone. 
 
 Credits
 -------
