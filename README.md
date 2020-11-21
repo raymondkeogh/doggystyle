@@ -1,6 +1,5 @@
 **
 
-
 ![Image](assets/images/dslogo.png)
 
 **
@@ -9,25 +8,22 @@
 ==================
 
 
-
 Table of content:
 -----------------
 
 
-
  - [Description](#description)
  - [User Experience](#user-experience)
-	 - User Stories] 
-	 - Strategy
-	 - Scope
-	 - Structure
-	 - Skeleton
-	 - Surface
+     - User Stories] 
+     - Strategy
+     - Scope
+     - Structure
+     - Skeleton
+     - Surface
  - [Technologies](#technologies)
  - [Testing](#testing)
  - [Deployment](#deployment)
  - [Credits](#credits)
-
 
 
 Description
@@ -39,15 +35,11 @@ This site was designed as a project to be submitted for grading in the first mil
 User Experience
 --------------------
 
-
 ----------
-
 
 **USER STORIES**
 
-
 ----------
-
 
 External User Goal:  (In order of priority):
 
@@ -76,7 +68,6 @@ Site Owner Goal:
  4. As the site owner, I would like to display my prices and services.
  5. As the site owner, I want to showcase the work that I do.
 
-
 The mockup for this site was done on Adobe Xd. 
 [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
@@ -87,7 +78,6 @@ The mockup for this site was done on Adobe Xd.
 
 [assets/images/mockups/mockup.pdf](assets/images/mockups/mockup.pdf)
 ----------
-
 
 
 **STRATEGY**
@@ -111,15 +101,11 @@ The mockup for this site was done on Adobe Xd.
    location where they can direct potential clients to view their work,
    services and prices.
 
-
 ----------
-
 
 **SCOPE**
 
-
 ----------
-
 
 Features: 
 
@@ -137,36 +123,68 @@ All the of the pages on the site will have the same header and footer elements, 
 Constraints:
 Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic. We will not be able to add a google maps window to the contact pages as this requires the use of technologies (Javascript) outside the scope of this project. 
 
-
 ----------
-
 
 **STRUCTURE**
 
-
 ----------
-
 
 The site must be structured in a way in order to effectively achieve the main goals of the client. Working off the list of priorities as well as user stories it was decided that the main focuses of the site will be,
 
- 1. Call to action – sales message with booking button.
- 2. Prices and services available.
- 3. Evidence of work – gallery of past work.
+
+
+1.	Call to action – sales message with booking button.  
+
+-As the site owner, I would like to offer a portal for clients to
+ book appointments.
+-As the site owner, I would like to advertise my contact details and
+  	 location.
+- As an external user, I want to find contact details for a dog
+    groomer.
+- As an external user, I want to make a booking for my dog to be
+    groomed.
 
 With this in mind we will focus on drawing the eye of the user to the main sales message on the home page, creating an effortless flow towards the initiation of contact. Contact details will also be available on the lower left corner and a contact button in the centre of the footer of every page. 
-The prices sections will be clearly labelled on the main page in the navigation menu and once click will open a clear list of services and associated prices.
-The gallery will be equally as visible on the main navigation menu opening up a selection of photographs for the user to scroll through. 
+
+
+2.	Prices and services available.
+- As the site owner, I would like to display my prices and services.
+- As an external user, I want to check the prices for the grooming
+    services.
+- As an external user, I want to see what services are offered.
+
+The prices sections will be clearly labelled on the main page in the navigation menu and once clicked will open a clear list of services and associated prices.
+
+
+ 3. Evidence of work – gallery of past work.
+	-As an external user, I want to see examples of work done by the dog
+    	groomer.
+	-As the site owner, I want to showcase the work that I do.
+
+The gallery will be equally as visible on the main navigation menu opening up a selection of photographs for the user to scroll through. There will also be a small section on the main page that has select pictures in it. On clicking these images you will be brought to the gallery page. 
+
+The contact page will contain a google maps iframe showing the location of the business 
+
+-As an external user, I want to see where the dog groomers is
+    located.
+
+The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes. 
+-As an external user, I want to be able to view the site on my mobile
+    phone or tablet.
+
+
+The overall result will be a cohesive, visually appealing and intuitive website reinforcing the clients brand image. 
+
+-As the site owner, I want to increase the profile of my business and
+    have a website I can direct potential customers.
+ 
 Here is a link to a mockup of the website created with Adobe Xd – DoggyStyle Mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
-
 ----------
-
 
 **SURFACE**
 
-
 ----------
-
 
 Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
 Colours: 
@@ -190,7 +208,7 @@ Effects:
    dimensional button.
  - I will also have a hover effect over the menu items in the navigation
    bar using Font Awesome icons offering the use more feedback on what
-   they are about to click.
+   they are about to click. This effect will be repeated in the footer element for the contact number and email address indicating that they can be interacted with.
  - The active page will also display the Font Awesome icon to indicate
    to the user which part of the site they are currently on.
 
@@ -200,6 +218,10 @@ Imagery:
    the background. This will be framed by a soft grey on the bottom and
    a white on top and will be repeated on each page. The image will be
    simple as to avoid any distraction from the main message on the page
+
+Deviations from design:
+
+The overall structure has remained the same however I have added a google iFrame element to the contact page showing the address and location of the business. 
 
 Technologies
 ----------------
@@ -217,15 +239,26 @@ Technologies
  - Git – Version control used to track changes, commit and push code to
    Github.
  - Gitpod extensions:
-	 - Auto Close Tag
-	 - Bracket Pair Colorizer
-	 - Code Spellchecker
-	 - Prettier - Code Formatter
-	 - Indent-Rainbow
-
+     - Auto Close Tag
+     - Bracket Pair Colorizer
+     - Code Spellchecker
+     - Prettier - Code Formatter
+     - Indent-Rainbow
 
 Testing
 -------
+
+In order to fully test the website I first set out the criteria that must be met in order for a successful launch. 
+1. All links must on the website must connect to the correct location. 
+2. All images and elements on website must load correctly and quickly. 
+3. All fallback fonts must work visually should the first choice fonts be unavailable. 
+4. All elements on the website must be responsive, resizing for different screen sizes and maintaining their integrity with no overlapping. 
+5. All photos in gallery must be clickable, expand to full size and be closable. This must be achievable in both desktop and mobile screen layouts. They must also respond to hover by expanding by 1.2x their original size. The photos should also have an arrow for scrolling through the gallery in fullscreen.
+6. All external links direct to the correct website.
+7. The website loads correctly and functions on Chrome, Internet Explorer, Safari and Firefox browsers.
+8. The website performs as required as outlined in User Stories for External users and the site owner.
+
+All testing is documented in the MS1-Testing Mac Numbers [spreadsheet](assets/testing/MS1-testing.numbers), [Excel](assets/testing/MS1-testing.xlsx) and in [pdf](assets/testing/MS1-testing.pdf) format
 
 
 Bugs
@@ -253,12 +286,10 @@ The header and footer have a gap on the right hand side.
 Fix: Moved the footer into a div and gave the div class ".container-fluid"
 
 The footer is jumping up when reducing the screen size. 
-Fix: I had erroneosly put a media query in 'table screen size' section. Footer fine once code removed.
-
+Fix: I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
 Deployment
 ----------
-
 
 
 Credits
@@ -292,7 +323,9 @@ and the following tutorial by Clever Techie to help me create the gallery
 
 
 
-
 **Acknowledgements**
 
+
+
  
+
