@@ -19,7 +19,8 @@
 
 <body class="parallax">
     <header>
-        <!--------------------------------- Navbar - Bootstrap ------------------->
+        <!--Navbar Bootstrap-->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand ml-auto" href="index.html" aria-label="navbar"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,8 +33,10 @@
             </div>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <!-- I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
-                https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html  -->
+                    
+<!--I found this bit of code on stackoverflow which helped me understand how-->
+<!--to display the active page link. https://stackoverflow.com/questions/   -->
+<!--17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html -->
                     <li class="nav-item current">
                         <a class="nav-link " href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
                     </li>
@@ -50,28 +53,34 @@
             </div>
         </nav>
     </header>
-    <!-- -----------------------------Home page -------------------------------->
-  <!--
-https://stackoverflow.com/questions/52324561/bootstrap-4-how-to-change-the-order-of-a-columns-when-the-screen-size-changes
-I used the code in this link to help me order the elements differently depending on the page size
 
----->
+    
+    <!-- Home page-->
+
+
+<!--
+https://stackoverflow.com/questions/52324561/bootstrap-4-how-to-change-the-order-of-a-columns-when-the-screen-size-changes
+I used the code in this link to help me order the elements differently depending on the page size -->
+
     <div class="home-container">
         <div class="main-message order-2 order-md-1">
             <h1>Grubby Dog?</h1>
-            <p>We’ll get them clean in a jiffy!<br><hr> Leave your fur baby with us for
-                the ultimate doggy day spa experience.<br> <hr> Guaranteed to leave with a
-                wagging tail. <br>
+                <p>We’ll get them clean in a jiffy!</p><br><hr><p>Leave your fur baby  with us for the ultimate doggy day spa experience.
+                </p><br><hr> <p>Guaranteed to leave with a
+                wagging tail.</p> <br>
                 <i class="fas fa-shower"></i><i class="fas fa-cut"></i>
-            </p>
-            <a href="contact.html"><span><button type="button" class="call-button">Make Appointment</button></span></a>
+            <form action="contact.html" method="get">
+                <button type="button" class="call-button">Make Appointment</button>
+            </form>  
         </div>
         <div class="splash-image order-1 order-md-2">
             <a href="gallery.html"><img src="assets/images/dogwash.png" alt="images of dogs being washed"></a>
         </div>
     </div>
 
-    <!-- ----------------------------Footer -------------------------------->
+
+    <!--Footer-->
+
 <footer>
         <div class="container-fluid footer-row">
             <div class="row">
@@ -79,9 +88,10 @@ I used the code in this link to help me order the elements differently depending
                     <span><a href="tel:0875553555">Call us: 0875553555<i class="fas fa-phone"></i></a></span><br>
                     <span><a href="mailto:info@doggystyle.ie">Email: info@doggystyle.ie<i class="fas fa-envelope"></i></a></span>
                 </div>
-                <div class="col-sm" id="call-button-container">
-                    <a href="contact.html" aria-label="Contact Doggystyle">
-                    <button type="button"  class="call-button footer-element">Contact DoggyStyle</button></a>
+                <div class="col-sm call-button-container">
+                    <form action="contact.html" method="get">
+                        <button type="button" class="call-button footer-element" aria-label="Contact Doggystyle">Contact DoggyStyle</button>
+                    </form> 
                 </div>
                 <div class="col-sm footer-element" id="social-icons">
                     <a href="contact.html#map"> <i class="fas fa-map-marked-alt"></i></a>

@@ -291,6 +291,15 @@ Fix: I had erroneously put a media query in 'table screen size' section. Footer 
 Deployment
 ----------
 
+In order to deploy this project I used github pages. To do this follow the steps below,
+
+1. Open the github repository for the website at https://github.com/raymondkeogh/doggystyle 
+2. Click on the setting cog in the centre right of the page. 
+3. Scroll down to the section that says GitHub Pages. 
+4. Ensure 'branch: master' is selected.
+5. Click 'Save' 
+6. The site link will be displayed above this section where is says  'Your site is published at - .....'
+7. Click the link to open the website in a new tab. 
 
 Credits
 -------
@@ -325,7 +334,11 @@ and the following tutorial by Clever Techie to help me create the gallery
 
 **Acknowledgements**
 
+I would like to thank:
 
+- My mentor Maranatha Ilesanmi for brilliant guidance on this project and being really generous with his time. 
+- Fellow student Daisy Mc Girr for guiding me with her amazing testing skills despite having 4 kids, a job and her own projects to work on. 
+- The gang on Slack for their awesome tips and support. 
 
  
 
