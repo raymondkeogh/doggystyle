@@ -3,10 +3,13 @@
 [1]:  assets/images/dslogo.png
 [2]:  https://raymondkeogh.github.io/doggystyle/ "Redirect to homepage"
 
-**DoggyStyle website**
-==================
+
 ![image](assets/images/mockups/multimockup.png)
 
+
+
+**DoggyStyle website**
+==================
 Table of content:
 -----------------
 
