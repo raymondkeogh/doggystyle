@@ -132,20 +132,19 @@ Working with HTML and CSS I will be able to meet the needs of the client as well
 
 ----------
 
-The site must be structured in a way in order to effectively achieve the main goals of the client. Working off the list of priorities as well as user stories it was decided that the main focuses of the site will be,
-
+The site must be structured in a way in order to effectively achieve the clients main goal. Taking all the user stories into account it was decided that the main focuses of the site will be,
 
 
 1.	Call to action – sales message with booking button.  
 
--As the site owner, I would like to offer a portal for clients to
- book appointments.
--As the site owner, I would like to advertise my contact details and
-  	 location.
+- As the site owner, I would like to offer a portal for clients to
+book appointments.
+- As the site owner, I would like to advertise my contact details and
+location.
 - As an external user, I want to find contact details for a dog
-    groomer.
+groomer.
 - As an external user, I want to make a booking for my dog to be
-    groomed.
+groomed.
 
 With this in mind we will focus on drawing the eye of the user to the main sales message on the home page, creating an effortless flow towards the initiation of contact. Contact details will also be available on the lower left corner and a contact button in the centre of the footer of every page. 
 
@@ -153,34 +152,34 @@ With this in mind we will focus on drawing the eye of the user to the main sales
 2.	Prices and services available.
 - As the site owner, I would like to display my prices and services.
 - As an external user, I want to check the prices for the grooming
-    services.
+services.
 - As an external user, I want to see what services are offered.
 
 The prices sections will be clearly labelled on the main page in the navigation menu and once clicked will open a clear list of services and associated prices.
 
 
  3. Evidence of work – gallery of past work.
-	-As an external user, I want to see examples of work done by the dog
-    	groomer.
-	-As the site owner, I want to showcase the work that I do.
+- As an external user, I want to see examples of work done by the dog
+groomer.
+- As the site owner, I want to showcase the work that I do.
 
 The gallery will be equally as visible on the main navigation menu opening up a selection of photographs for the user to scroll through. There will also be a small section on the main page that has select pictures in it. On clicking these images you will be brought to the gallery page. 
 
 The contact page will contain a google maps iframe showing the location of the business 
 
--As an external user, I want to see where the dog groomers is
-    located.
+- As an external user, I want to see where the dog groomers is
+located.
 
 The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes.
 
--As an external user, I want to be able to view the site on my mobile
-    phone or tablet.
+- As an external user, I want to be able to view the site on my mobile
+phone or tablet.
 
 
 The overall result will be a cohesive, visually appealing and intuitive website reinforcing the clients brand image. 
 
--As the site owner, I want to increase the profile of my business and
-    have a website I can direct potential customers.
+- As the site owner, I want to increase the profile of my business and
+have a website I can direct potential customers.
  
 Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
@@ -262,7 +261,7 @@ Technologies
 Testing
 -------
 
-In order to fully test the website I first set out the criteria that must be met in order for a successful launch. 
+In order to comprehensively test the website, criteria for a successful launch must be established. 
 1. All links on the website must connect to the correct location. 
 2. All images and elements on website must load correctly. 
 3. All fallback fonts must work visually should the first choice fonts be unavailable. 
@@ -294,10 +293,10 @@ Fix: Changed position to absolute and positioned left and top to 0.
 Bug: Contact button in footer covers the Phone number and email section when screen goes below 578px.<br>
 Fix: set contact details to display:none as the footer was too cluttered. 
 
-Bug: bootsraps buttons but had issues with specificity and applying styles
+Bug: I initially used bootsraps buttons but had issues with specificity and applying styles
 to the class I created for button. <br>
-Fix: I did consider giving the body an id tag but then ended up
-copying the bootstrap button parameters and styling my own button and added my own 3d click effect using box-shadow and display properties.
+Fix: I considered giving the body an id tag but decided
+copying the bootstrap button parameters and styling my own button in order create the 3d click effect using box-shadow and display properties.
 
 Bug: On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom.<br>
 Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
@@ -339,7 +338,7 @@ Run in Gitpod:
 1. Create a GitHub account at [https://www.github.com](https://www.github.com). 
 2. Install the gitpod browser extension for Chrome browser.
 3. Restart the Chrome browser.
-4. Log into GitPod using your GitHub account. 
+4. Log into [GitPod](https://www.gitpod.io/) using your GitHub account. 
 5. Next open GitHub and locate the DoggyStyle repository for the website at [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle)
 6. Click on the green GitPod button in the top right hands side of the screen. 
 7. This will open a new GitPod workspace with the DoggyStyle respository files in it. 
