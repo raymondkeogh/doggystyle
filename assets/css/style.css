@@ -306,6 +306,7 @@ button:hover {
 .prices-banner li {
     list-style-type: none;
     font-size: 20px;
+    
 }
 
 .prices-banner .list-item {
@@ -315,6 +316,7 @@ button:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-left: 30px;
 }
 
 /*Dog bone with "Prices" text */
@@ -573,7 +575,7 @@ iframe{
     }
 
     /*----------------Prices page Media queries--------------------------*/
-    #prices-banner {
+    .prices-banner {
         -webkit-column-count: 2;
            -moz-column-count: 2;
                 column-count: 2;
@@ -581,11 +583,11 @@ iframe{
         margin-right: auto;
     }
 
-    #main-prices .row {
+    .main-prices .row {
         margin-top: 0;
     }
 
-    #main-prices .list-unstyled {
+    .main-prices .list-unstyled {
         margin-top: 10px;
         margin-bottom: 30px;
     }
@@ -604,7 +606,7 @@ iframe{
     /*-----------------------Footer Media queries--------------------------*/
 
 
-    .footer-row button {
+    .footer-row form{
         display: none;
     }
 
@@ -646,11 +648,11 @@ iframe{
     }
 
     /*----------------Prices page Media queries--------------------------*/
-    #main-prices .row {
+    .main-prices .row {
         margin-top: 8%;
     }
 
-    #prices-banner {
+    .prices-banner {
         -webkit-column-count: 2;
            -moz-column-count: 2;
                 column-count: 2;
@@ -660,11 +662,11 @@ iframe{
         margin-right: auto;
     }
 
-    #main-prices .row {
+    .main-prices .row {
         margin-top: 0;
     }
 
-    #main-prices .list-unstyled {
+    .main-prices .list-unstyled {
         margin-top: 10px;
         margin-bottom: 30px;
     }
@@ -681,7 +683,7 @@ iframe{
 
     /*-----------------------Footer Media queries--------------------------*/
     /*I hid the footer row button on smaller screens as it gets a little too cramped*/
-    .footer-row button {
+    .footer-row form {
         display: none;
     }
 
@@ -719,15 +721,15 @@ iframe{
     }
 
     /*-----------------------Prices page Media queries----------------*/
-    #main-prices .row {
+    .main-prices .row {
         margin-top: 8%;
     }
 
-    #main-prices .row {
+    .main-prices .row {
         margin-top: 0;
     }
 
-    #main-prices .list-unstyled {
+    .main-prices .list-unstyled {
         margin-top: 10px;
         margin-bottom: 50px;
     }
@@ -740,10 +742,14 @@ iframe{
         font-size: 20px;
     }
 
-    #prices-banner {
+    .prices-banner {
         -webkit-column-count: 1;
            -moz-column-count: 1;
                 column-count: 1;
+    }
+    
+    .prices-banner .list-item{
+        margin-left: 0;
     }
 
     /*-------------------Gallery page Media queries--------------------------*/
