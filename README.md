@@ -14,7 +14,7 @@ Table of content:
 
  - [Description](#description)
  - [User Experience](#user-experience)
-     - User Stories] 
+     - User Stories
      - Strategy
      - Scope
      - Structure
@@ -29,8 +29,10 @@ Table of content:
 Description
 -----------
 
-DoggyStyle is a website for a dog grooming company. This site showcases the clients work and offers a platform for clients to view prices and book appointments. The live site can be viewed here.
+DoggyStyle is a website for a dog grooming company. This site showcases the clients work and offers a platform for customers to view prices and book appointments. The live site can be viewed [here](https://github.com/raymondkeogh/doggystyle).
 This site was designed as a project to be submitted for grading in the first milestone project in Full Stack Software Development with the Code Institute. 
+
+
 
 User Experience
 --------------------
@@ -75,8 +77,7 @@ The mockup for this site was done on Adobe Xd.
 
 ![Image](assets/images/mockups/ipad-home.png)
 ![Image](assets/images/mockups/mobile-home.png)
-
-[assets/images/mockups/mockup.pdf](assets/images/mockups/mockup.pdf)
+The mockups can also be viewo on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
 ----------
 
 
@@ -85,8 +86,8 @@ The mockup for this site was done on Adobe Xd.
 --------
 
  - Focus: The main focus of this project is to provide a portal for the
-   client to increase their bookings and make it easier for their
-   customers to get in touch.
+   client to increase their bookings and make it easier for
+   customers to make contact.
  - Definition: We’ll be creating a website that has a very simple layout
    and, with as little effort as possible allows the users navigate and
    make contact with the business. As this may be the users first
@@ -121,7 +122,7 @@ All the of the pages on the site will have the same header and footer elements, 
  - Prices page - A text window on the prices pages containing the text of the business prices. 
 
 Constraints:
-Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic. We will not be able to add a google maps window to the contact pages as this requires the use of technologies (Javascript) outside the scope of this project. 
+Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
 
 ----------
 
@@ -168,7 +169,8 @@ The contact page will contain a google maps iframe showing the location of the b
 -As an external user, I want to see where the dog groomers is
     located.
 
-The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes. 
+The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes.
+
 -As an external user, I want to be able to view the site on my mobile
     phone or tablet.
 
@@ -178,7 +180,7 @@ The overall result will be a cohesive, visually appealing and intuitive website 
 -As the site owner, I want to increase the profile of my business and
     have a website I can direct potential customers.
  
-Here is a link to a mockup of the website created with Adobe Xd – DoggyStyle Mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
 ----------
 
@@ -187,6 +189,7 @@ Here is a link to a mockup of the website created with Adobe Xd – DoggyStyle M
 ----------
 
 Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
+
 Colours: 
 
  - To achieve a fresh clean image we will be using a palette of greens
@@ -238,6 +241,7 @@ Technologies
  - GitHub – Used for hosting the files used for the website.
  - Git – Version control used to track changes, commit and push code to
    Github.
+ - Pixlr - used for editing images for the website and creating png files.   
  - W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/)
  - W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
  - Gitpod extensions:
@@ -257,49 +261,54 @@ Testing
 -------
 
 In order to fully test the website I first set out the criteria that must be met in order for a successful launch. 
-1. All links must on the website must connect to the correct location. 
-2. All images and elements on website must load correctly and quickly. 
+1. All links on the website must connect to the correct location. 
+2. All images and elements on website must load correctly. 
 3. All fallback fonts must work visually should the first choice fonts be unavailable. 
 4. All elements on the website must be responsive, resizing for different screen sizes and maintaining their integrity with no overlapping. 
 5. All photos in gallery must be clickable, expand to full size and be closable. This must be achievable in both desktop and mobile screen layouts. They must also respond to hover by expanding by 1.2x their original size. The photos should also have an arrow for scrolling through the gallery in fullscreen.
 6. All external links direct to the correct website.
 7. The website loads correctly and functions on Chrome, Internet Explorer, Safari and Firefox browsers.
-8. The website performs as required as outlined in User Stories for External users and the site owner.
+8. The website performs as required as outlined in User Stories for external users and the site owner.
 
 All testing is documented in the MS1-Testing Mac Numbers [spreadsheet](assets/testing/MS1-testing.numbers), [Excel](assets/testing/MS1-testing.xlsx) and in [pdf](assets/testing/MS1-testing.pdf) format
 
-W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/)
+W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/).
+
 W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
 
 Bugs
 -------
-Site logo shift from left to right hand side of screen when width of screen drops below 992px.
+
+Bug: Site logo shift from left to right hand side of screen when width of screen drops below 992px.
 Fix: Changed position to absolute and positioned left and top to 0.
 
-contact button in footer covers the Phone number and email section when screen goes below 578px.
+Bug: Contact button in footer covers the Phone number and email section when screen goes below 578px.
 Fix: set contact details to display:none as the footer was too cluttered. 
 
-Initially I used bootsraps buttons but had issues with specificity and applying styles
+Bug: bootsraps buttons but had issues with specificity and applying styles
 to the class I created for button. 
 Fix: I did consider giving the body an id tag but then ended up
 copying the bootstrap button parameters and styling my own button and added my own 3d click effect using box-shadow and display properties.
 
-on creating a parallax effect for the background when scrolling rather than keeping the background
-fixed there is a white band being pulled up when scrolling to bottom 
+Bug: On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom 
 Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
 
-The phone number input is allowing characters even though ‘tel’ validation is set in the input.
-Fix: None as of yet.
+Bug: The phone number input is allowing characters even though ‘tel’ validation is set in the input.
+Fix: None as of yet. The fix for this bug is outside the remit of this project. 
 
-The header and footer have a gap on the right hand side. 
+Bug: The header and footer have a gap on the right hand side. 
 Fix: Moved the footer into a div and gave the div class ".container-fluid"
 
-The footer is jumping up when reducing the screen size. 
+Bug: The footer is jumping up when reducing the screen size. 
 Fix: I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
 Bug: After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.
 Fix: I had somehow deleted the script link for lightbox. 
+
+Bug: After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.
+Fix: I had incorrectly placed a button inside a form when it should have been an input field. 
+
 
 Deployment
 ----------
@@ -327,6 +336,7 @@ Run in Gitpod:
 6. Click on the green GitPod button in the top right hands side of the screen. 
 7. This will open a new GitPod workspace with the DoggyStyle respository files in it. 
 
+
 Run in Local IDE:
 
 1. GitHub and locate the DoggyStyle repository for the website. The link is here. [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle). 
@@ -336,14 +346,16 @@ Run in Local IDE:
 5. Change the working directory to the location where you will be working on the project. 
 6. Type in 'git clone' and the url you got from the HTTPS popup from the code button. 
 7. Press enter to create you local clone. 
+8. Happy Coding!
 
 Credits
 -------
 
 **Code used**
 
-[https://getbootstrap.com/docs/4.0/components/navbar/]
-(https://getbootstrap.com/docs/4.0/components/navbar/) I altered this code for my navbar.
+
+I altered this bootsrap code for my navbar. [https://getbootstrap.com/docs/4.0/components/navbar/]
+(https://getbootstrap.com/docs/4.0/components/navbar/) 
 
  I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
 [https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html](https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html)
@@ -351,19 +363,20 @@ Credits
 I used this code to help create the scrolling effect on the website.
 [https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
 **Content**
+
 Image used for site icon [https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/](https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/)
 
 The background image for the website - [https://all-free-download.com/free-vector/download/spring-background_310720.html](https://all-free-download.com/free-vector/download/spring-background_310720.html)
 
 Some images for gallery were taken from  [https://unsplash.com/](https://unsplash.com/) while the handsome brown and white collie is my Dog Derek. 
 
-I found this bit of code on stackoverflow which helped me understand how to display the active page link. 
-[https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html](https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html)
 
 I used lightbox to create gallery effect 
 [https://lokeshdhakar.com/projects/lightbox2/](https://lokeshdhakar.com/projects/lightbox2/)
 and the following tutorial by Clever Techie to help me create the gallery 
 [https://clevertechie.com/html-css/157/how-to-create-image-gallery-using-html-css-javascript](https://clevertechie.com/html-css/157/how-to-create-image-gallery-using-html-css-javascript)
+
+I used the price list from [Glamourdogs.ie](https://www.glamourdogs.ie/grooming-price.html) to create the text content for my prices page. 
 
 
 
