@@ -79,7 +79,7 @@ The mockup for this site was done on Adobe Xd.
 ![Image](assets/images/mockups/mobile-home.png)
 
 
-The mockups can also be viewo on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
+The mockups can also be viewed on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
 ----------
 
 
@@ -288,33 +288,33 @@ W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://ji
 Bugs
 -------
 
-Bug: Site logo shift from left to right hand side of screen when width of screen drops below 992px.
+Bug: Site logo shift from left to right hand side of screen when width of screen drops below 992px.<br>
 Fix: Changed position to absolute and positioned left and top to 0.
 
-Bug: Contact button in footer covers the Phone number and email section when screen goes below 578px.
+Bug: Contact button in footer covers the Phone number and email section when screen goes below 578px.<br>
 Fix: set contact details to display:none as the footer was too cluttered. 
 
 Bug: bootsraps buttons but had issues with specificity and applying styles
-to the class I created for button. 
+to the class I created for button. <br>
 Fix: I did consider giving the body an id tag but then ended up
 copying the bootstrap button parameters and styling my own button and added my own 3d click effect using box-shadow and display properties.
 
-Bug: On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom 
+Bug: On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom.<br>
 Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
 
-Bug: The phone number input is allowing characters even though ‘tel’ validation is set in the input.
+Bug: The phone number input is allowing characters even though ‘tel’ validation is set in the input.<br>
 Fix: None as of yet. The fix for this bug is outside the remit of this project. 
 
-Bug: The header and footer have a gap on the right hand side. 
+Bug: The header and footer have a gap on the right hand side. <br>
 Fix: Moved the footer into a div and gave the div class ".container-fluid"
 
-Bug: The footer is jumping up when reducing the screen size. 
+Bug: The footer is jumping up when reducing the screen size. <br>
 Fix: I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
-Bug: After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.
+Bug: After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.<br>
 Fix: I had somehow deleted the script link for lightbox. 
 
-Bug: After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.
+Bug: After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.<br>
 Fix: I had incorrectly placed a button inside a form when it should have been an input field. 
 
 
