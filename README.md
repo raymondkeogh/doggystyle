@@ -238,12 +238,20 @@ Technologies
  - GitHub – Used for hosting the files used for the website.
  - Git – Version control used to track changes, commit and push code to
    Github.
+ - W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/)
+ - W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
  - Gitpod extensions:
      - Auto Close Tag
      - Bracket Pair Colorizer
      - Code Spellchecker
      - Prettier - Code Formatter
      - Indent-Rainbow
+ - I used Techsini website to create a multi mockup of the live website display at the head of my Readme file. http://techsini.com/multi-mockup/index.php
+ - Brackets - Local IDE.
+ - Autoprefixer Parses CSS and adds vendor prefixes.[https://autoprefixer.github.io/](https://autoprefixer.github.io/)
+ - Google mobile-friendly Test - https://search.google.com/test/mobile-friendly?id=PM7sy6dG9tEXLsvHooNW6Q
+ - Website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds.shttps://www.webpagetest.org/result/201121_DiAZ_f0035ae75885410bc1ba7907017673b9/
+
 
 Testing
 -------
@@ -275,8 +283,7 @@ Fix: set contact details to display:none as the footer was too cluttered.
 Initially I used bootsraps buttons but had issues with specificity and applying styles
 to the class I created for button. 
 Fix: I did consider giving the body an id tag but then ended up
-copying the bootstrap button parameters and styling my own button and added my own 3d click 
-effect using box-shadow and display properties.
+copying the bootstrap button parameters and styling my own button and added my own 3d click effect using box-shadow and display properties.
 
 on creating a parallax effect for the background when scrolling rather than keeping the background
 fixed there is a white band being pulled up when scrolling to bottom 
