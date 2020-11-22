@@ -800,6 +800,7 @@ iframe{
     .image-container {
         width: 180px;
         margin-bottom: -40px;
+        z-index: 99;
     }
 
     .image-container p {
