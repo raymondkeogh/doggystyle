@@ -229,6 +229,7 @@ Imagery:
 Deviations from design:
 
 The overall structure has remained the same however I have added a google iFrame element to the contact page showing the address and location of the business. 
+On the prices page I added a second box containing services available where there was previously just a list of prices per dog. 
 
 Technologies
 ----------------
