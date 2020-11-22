@@ -172,6 +172,10 @@ button:hover {
     background-color: #f5c2d4;
 }
 
+.call-button:hover {
+    background-color: #f5c2d4;
+}
+
 .text-field .call-button {
     top: 100%;
 }
