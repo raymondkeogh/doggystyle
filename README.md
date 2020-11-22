@@ -272,8 +272,12 @@ In order to fully test the website I first set out the criteria that must be met
 7. The website loads correctly and functions on Chrome, Internet Explorer, Safari and Firefox browsers.
 8. The website performs as required as outlined in User Stories for external users and the site owner.
 
+[![homepage][3]][4]
 
-![image](assets/testing/testing-screenshot.png)
+[3]:  assets/testing/testing-screenshot.png
+[4]:  assets/testing/MS1-testing.numbers "Redirect to testing spreadsheet"
+
+
 All testing is documented in the MS1-Testing Mac Numbers [spreadsheet](assets/testing/MS1-testing.numbers), [Excel](assets/testing/MS1-testing.xlsx) and in [pdf](assets/testing/MS1-testing.pdf) format
 
 W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/).
