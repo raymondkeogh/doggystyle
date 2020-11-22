@@ -1,8 +1,8 @@
-**
+
 
 ![Image](assets/images/dslogo.png)
 
-**
+
 
 **DoggyStyle website**
 ==================
@@ -22,6 +22,7 @@ Table of content:
      - Surface
  - [Technologies](#technologies)
  - [Testing](#testing)
+ - [Bugs](#bugs)
  - [Deployment](#deployment)
  - [Credits](#credits)
 
