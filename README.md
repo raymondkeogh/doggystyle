@@ -39,194 +39,194 @@ User Experience
 
 ----------
 
-        **USER STORIES**
+**USER STORIES**
 
-        ----------
+----------
 
-        External User Goal:  (In order of priority):
+External User Goal:  (In order of priority):
 
-        1. As an external user, I want to find contact details for a dog
-            groomer.
-        2. As an external user, I want to make a booking for my dog to be
-            groomed.
-        3. As an external user, I want to see examples of work done by the dog
-            groomer.
-        4. As an external user, I want to check the prices for the grooming
-            services.
-        5. As an external user, I want to see what services are offered.
-        6. As an external user, I want to see where the dog groomers is
-            located.
-        7. As an external user, I want to be able to view the site on my mobile
-            phone or tablet.
+ 1. As an external user, I want to find contact details for a dog
+    groomer.
+ 2. As an external user, I want to make a booking for my dog to be
+    groomed.
+ 3. As an external user, I want to see examples of work done by the dog
+    groomer.
+ 4. As an external user, I want to check the prices for the grooming
+    services.
+ 5. As an external user, I want to see what services are offered.
+ 6. As an external user, I want to see where the dog groomers is
+    located.
+ 7. As an external user, I want to be able to view the site on my mobile
+    phone or tablet.
 
-        Site Owner Goal:
+Site Owner Goal:
 
-        1. As the site owner, I would like to offer a portal for clients to
-            book appointments.
-        2. As the site owner, I would like to advertise my contact details and
-            location.
-        3. As the site owner, I want to increase the profile of my business and
-            have a website I can direct potential customers.
-        4. As the site owner, I would like to display my prices and services.
-        5. As the site owner, I want to showcase the work that I do.
+ 1. As the site owner, I would like to offer a portal for clients to
+    book appointments.
+ 2. As the site owner, I would like to advertise my contact details and
+    location.
+ 3. As the site owner, I want to increase the profile of my business and
+    have a website I can direct potential customers.
+ 4. As the site owner, I would like to display my prices and services.
+ 5. As the site owner, I want to showcase the work that I do.
 
-        The mockup for this site was done on Adobe Xd. 
-        [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+The mockup for this site was done on Adobe Xd. 
+[https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
-        ![Image](assets/images/mockups/home.png)
+![Image](assets/images/mockups/home.png)
 
-        ![Image](assets/images/mockups/ipad-home.png)
-        ![Image](assets/images/mockups/mobile-home.png)
-
-
-        The mockups can also be viewo on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
-        ----------
+![Image](assets/images/mockups/ipad-home.png)
+![Image](assets/images/mockups/mobile-home.png)
 
 
-        **STRATEGY**
-
-        --------
-
-        - Focus: The main focus of this project is to provide a portal for the
-        client to increase their bookings and make it easier for
-        customers to make contact.
-        - Definition: We’ll be creating a website that has a very simple layout
-        and, with as little effort as possible allows the users navigate and
-        make contact with the business. As this may be the users first
-        interaction with the business we want to present a clean, fresh and
-        seamless experience. It is important to make a good first impression
-        assuring the user that they are in the hands of a caring,
-        professional business that will be looking after their dog.
-        - Value: Creating an clean and simple portal with multiple avenues to
-        initiate contact with the business should make it easier to increase
-        interactions with new customers whilst increasing the profile of the
-        business. This site will also offer the business a legitimate online
-        location where they can direct potential clients to view their work,
-        services and prices.
-
-        ----------
-
-        **SCOPE**
-
-        ----------
-
-        Features: 
-
-        - Navigation menu – a simple navigation menu offering the user the
-        ability to access the areas mentioned in the users, namely, Prices,
-        Gallery and Contact.
-
-        - Footer - There will be a footer containing contact detail, social links and another call to action. 
-        All the of the pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
-        - Home pages - Sales message containing text with a button below to initiate contact. 
-        - Contact pages – a contact form requesting name, email address, phone number and a comment section. 
-        - Gallery - A gallery containing a selection photographs
-        - Prices page - A text window on the prices pages containing the text of the business prices. 
-
-        Constraints:
-        Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
-
-        ----------
-
-        **STRUCTURE**
-
-        ----------
-
-        The site must be structured in a way in order to effectively achieve the main goals of the client. Working off the list of priorities as well as user stories it was decided that the main focuses of the site will be,
+The mockups can also be viewo on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
+----------
 
 
+**STRATEGY**
 
-        1.	Call to action – sales message with booking button.  
+--------
 
-        -As the site owner, I would like to offer a portal for clients to
-        book appointments.
-        -As the site owner, I would like to advertise my contact details and
-            location.
-        - As an external user, I want to find contact details for a dog
-            groomer.
-        - As an external user, I want to make a booking for my dog to be
-            groomed.
+ - Focus: The main focus of this project is to provide a portal for the
+   client to increase their bookings and make it easier for
+   customers to make contact.
+ - Definition: We’ll be creating a website that has a very simple layout
+   and, with as little effort as possible allows the users navigate and
+   make contact with the business. As this may be the users first
+   interaction with the business we want to present a clean, fresh and
+   seamless experience. It is important to make a good first impression
+   assuring the user that they are in the hands of a caring,
+   professional business that will be looking after their dog.
+ - Value: Creating an clean and simple portal with multiple avenues to
+   initiate contact with the business should make it easier to increase
+   interactions with new customers whilst increasing the profile of the
+   business. This site will also offer the business a legitimate online
+   location where they can direct potential clients to view their work,
+   services and prices.
 
-        With this in mind we will focus on drawing the eye of the user to the main sales message on the home page, creating an effortless flow towards the initiation of contact. Contact details will also be available on the lower left corner and a contact button in the centre of the footer of every page. 
+----------
+
+**SCOPE**
+
+----------
+
+Features: 
+
+ - Navigation menu – a simple navigation menu offering the user the
+   ability to access the areas mentioned in the users, namely, Prices,
+   Gallery and Contact.
+
+ - Footer - There will be a footer containing contact detail, social links and another call to action. 
+All the of the pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
+ - Home pages - Sales message containing text with a button below to initiate contact. 
+ - Contact pages – a contact form requesting name, email address, phone number and a comment section. 
+ - Gallery - A gallery containing a selection photographs
+ - Prices page - A text window on the prices pages containing the text of the business prices. 
+
+Constraints:
+Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
+
+----------
+
+**STRUCTURE**
+
+----------
+
+The site must be structured in a way in order to effectively achieve the main goals of the client. Working off the list of priorities as well as user stories it was decided that the main focuses of the site will be,
 
 
-        2.	Prices and services available.
-        - As the site owner, I would like to display my prices and services.
-        - As an external user, I want to check the prices for the grooming
-            services.
-        - As an external user, I want to see what services are offered.
 
-        The prices sections will be clearly labelled on the main page in the navigation menu and once clicked will open a clear list of services and associated prices.
+1.	Call to action – sales message with booking button.  
 
+-As the site owner, I would like to offer a portal for clients to
+ book appointments.
+-As the site owner, I would like to advertise my contact details and
+  	 location.
+- As an external user, I want to find contact details for a dog
+    groomer.
+- As an external user, I want to make a booking for my dog to be
+    groomed.
 
-        3. Evidence of work – gallery of past work.
-            -As an external user, I want to see examples of work done by the dog
-                groomer.
-            -As the site owner, I want to showcase the work that I do.
-
-        The gallery will be equally as visible on the main navigation menu opening up a selection of photographs for the user to scroll through. There will also be a small section on the main page that has select pictures in it. On clicking these images you will be brought to the gallery page. 
-
-        The contact page will contain a google maps iframe showing the location of the business 
-
-        -As an external user, I want to see where the dog groomers is
-            located.
-
-        The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes.
-
-        -As an external user, I want to be able to view the site on my mobile
-            phone or tablet.
+With this in mind we will focus on drawing the eye of the user to the main sales message on the home page, creating an effortless flow towards the initiation of contact. Contact details will also be available on the lower left corner and a contact button in the centre of the footer of every page. 
 
 
-        The overall result will be a cohesive, visually appealing and intuitive website reinforcing the clients brand image. 
+2.	Prices and services available.
+- As the site owner, I would like to display my prices and services.
+- As an external user, I want to check the prices for the grooming
+    services.
+- As an external user, I want to see what services are offered.
 
-        -As the site owner, I want to increase the profile of my business and
-            have a website I can direct potential customers.
-        
-        Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+The prices sections will be clearly labelled on the main page in the navigation menu and once clicked will open a clear list of services and associated prices.
 
-        ----------
 
-        **SURFACE**
+ 3. Evidence of work – gallery of past work.
+	-As an external user, I want to see examples of work done by the dog
+    	groomer.
+	-As the site owner, I want to showcase the work that I do.
 
-        ----------
+The gallery will be equally as visible on the main navigation menu opening up a selection of photographs for the user to scroll through. There will also be a small section on the main page that has select pictures in it. On clicking these images you will be brought to the gallery page. 
 
-        Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
+The contact page will contain a google maps iframe showing the location of the business 
 
-        Colours: 
+-As an external user, I want to see where the dog groomers is
+    located.
 
-        - To achieve a fresh clean image we will be using a palette of greens
-        blues, white and grey.
+The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes.
 
-        Typography: 
+-As an external user, I want to be able to view the site on my mobile
+    phone or tablet.
 
-        - Holtwood One SC font is used on the main logo and will be repeated in
-        the menu items in the navigation bar and Sans Serif as the backup
-        font.
-        - Roboto will be used for content in the main body of the page with
-        Sans Serif as the backup. I chose Roboto for its clean line and as it
-        pairs nicely with Holtwood One SC.
 
-        Effects:
+The overall result will be a cohesive, visually appealing and intuitive website reinforcing the clients brand image. 
 
-        - To offer feedback on the buttons I will be incorporating a shadow
-        effect which disappears when clicked to give the impression of a 3
-        dimensional button.
-        - I will also have a hover effect over the menu items in the navigation
-        bar using Font Awesome icons offering the use more feedback on what
-        they are about to click. This effect will be repeated in the footer element for the contact number and email address indicating that they can be interacted with.
-        - The active page will also display the Font Awesome icon to indicate
-        to the user which part of the site they are currently on.
+-As the site owner, I want to increase the profile of my business and
+    have a website I can direct potential customers.
+ 
+Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
-        Imagery: 
+----------
 
-        - We will use an image of a field, the sky, clouds and some flowers as
-        the background. This will be framed by a soft grey on the bottom and
-        a white on top and will be repeated on each page. The image will be
-        simple as to avoid any distraction from the main message on the page
+**SURFACE**
 
-        Deviations from design:
+----------
 
-        The overall structure has remained the same however I have added a google iFrame element to the contact page showing the address and location of the business. 
+Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
+
+Colours: 
+
+ - To achieve a fresh clean image we will be using a palette of greens
+   blues, white and grey.
+
+Typography: 
+
+ - Holtwood One SC font is used on the main logo and will be repeated in
+   the menu items in the navigation bar and Sans Serif as the backup
+   font.
+ - Roboto will be used for content in the main body of the page with
+   Sans Serif as the backup. I chose Roboto for its clean line and as it
+   pairs nicely with Holtwood One SC.
+
+Effects:
+
+ - To offer feedback on the buttons I will be incorporating a shadow
+   effect which disappears when clicked to give the impression of a 3
+   dimensional button.
+ - I will also have a hover effect over the menu items in the navigation
+   bar using Font Awesome icons offering the use more feedback on what
+   they are about to click. This effect will be repeated in the footer element for the contact number and email address indicating that they can be interacted with.
+ - The active page will also display the Font Awesome icon to indicate
+   to the user which part of the site they are currently on.
+
+Imagery: 
+
+ - We will use an image of a field, the sky, clouds and some flowers as
+   the background. This will be framed by a soft grey on the bottom and
+   a white on top and will be repeated on each page. The image will be
+   simple as to avoid any distraction from the main message on the page
+
+Deviations from design:
+
+The overall structure has remained the same however I have added a google iFrame element to the contact page showing the address and location of the business. 
 
 Technologies
 ----------------
