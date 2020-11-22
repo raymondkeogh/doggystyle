@@ -363,6 +363,64 @@ button:hover {
     color: darkgray;
 }
 
+.services-banner {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 30px;
+    color:black;
+    background-color:rgb(255 255 255 / 87%);
+    border-radius: 60px;
+    padding: 10px;
+    font-size:20px;
+    
+}
+
+.services-banner p{
+    margin-right: 41px
+}
+.service-table{
+    column-count:4;
+}
+
+td:nth-child(1) p{
+    color:#696969;
+    text-align: left;
+}
+.services-banner .dogsize{
+    padding-bottom:20px;
+    color:green;
+    display:none;
+    
+}
+
+.services-banner h1{
+    font-family: "Holtwood One SC", sans-serif;
+    font-size: 35px;
+    color:#696969;
+    text-align: center;
+}
+
+
+.services-banner hr{
+    border:3px solid #ffc0cb;
+    width:80px;
+    margin:auto;
+    border-radius:3px;
+    margin-top: 13px;
+    
+}
+
+.services-banner i{
+    color:saddlebrown;
+    padding:10px
+}
+
+.price-row{
+    margin-right:0;
+}
 /*-------------------------- Gallery ----------------------------*/
 
 .gallery-container {
@@ -568,6 +626,7 @@ iframe{
     .home-container .main-message {
         font-size: 20px;
         padding: 20px;
+        margin:16px;
     }
 
     .home-container {
@@ -740,6 +799,7 @@ iframe{
 
     .image-container {
         width: 180px;
+        margin-bottom: -40px;
     }
 
     .image-container p {
@@ -754,6 +814,29 @@ iframe{
     
     .prices-banner .list-item{
         margin-left: 0;
+    }
+    .prices-banner li{
+        list-style-type: none;
+        font-size: 18px;
+    }
+
+    .services-banner {
+        text-align: left;
+        margin-bottom: 50px;
+        margin-left: 29px;
+        margin-right: auto;
+        margin-top: 30px;
+        color: black;
+        background-color: rgb(255 255 255 / 87%);
+        border-radius: 60px;
+        padding: 10px;
+        font-size: 13px;
+    }
+    .services-banner p{
+        margin-right:2px;
+    }
+    .services-banner h1{
+        font-size: 30px;
     }
 
     /*-------------------Gallery page Media queries--------------------------*/
