@@ -292,10 +292,7 @@ button:hover {
 }
 
 /*-----------------------------Prices page----------------------------- */
-.prices-banner {
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
+.prices-banner{
     text-align: left;
     margin-bottom: 50px;
     margin-left: auto;
@@ -307,6 +304,12 @@ button:hover {
     padding: 30px;
 }
 
+.prices-column {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+   
+}
 .prices-banner li {
     list-style-type: none;
     font-size: 20px;
@@ -363,6 +366,25 @@ button:hover {
     color: darkgray;
 }
 
+.prices-banner h1{
+    color:#f5c2d4;
+    margin:20px;
+    font-size: 30px; 
+    font-family:"Holtwood One SC", sans-serif;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.main-prices hr{
+    border:3px solid white;
+    width:80px;
+    margin:auto;
+    margin-bottom:20px;
+    border-radius:3px;
+    margin-top: 13px;
+    
+}
+
 .services-banner {
     text-align: left;
     margin-bottom: 50px;
@@ -392,13 +414,13 @@ td:nth-child(1) p{
 .services-banner .dogsize{
     padding-bottom:20px;
     color:green;
-    display:none;
-    
+    display:none;   
 }
 
 .services-banner h1{
     font-family: "Holtwood One SC", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+    margin-top:20px;
     color:#696969;
     text-align: center;
 }
@@ -421,6 +443,9 @@ td:nth-child(1) p{
 .price-row{
     margin-right:0;
 }
+
+
+
 /*-------------------------- Gallery ----------------------------*/
 
 .gallery-container {
@@ -636,9 +661,12 @@ iframe{
     .home-container .main-message h1 {
         font-size: 30px;
     }
+    .main-message i {
+        margin-bottom:30px;
+}
 
     /*----------------Prices page Media queries--------------------------*/
-    .prices-banner {
+   .prices-column {
         -webkit-column-count: 2;
            -moz-column-count: 2;
                 column-count: 2;
@@ -715,7 +743,7 @@ iframe{
         margin-top: 8%;
     }
 
-    .prices-banner {
+    .prices-column {
         -webkit-column-count: 2;
            -moz-column-count: 2;
                 column-count: 2;
@@ -723,6 +751,10 @@ iframe{
         margin-top: 50px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .services-banner{
+        font-size: 18px;
     }
 
     .main-prices .row {
@@ -807,7 +839,7 @@ iframe{
         font-size: 20px;
     }
 
-    .prices-banner {
+    .prices-column {
         -webkit-column-count: 1;
            -moz-column-count: 1;
                 column-count: 1;
@@ -819,6 +851,9 @@ iframe{
     .prices-banner li{
         list-style-type: none;
         font-size: 18px;
+    }
+    .prices-banner h1{
+        font-size: 26px;
     }
 
     .services-banner {
@@ -837,7 +872,7 @@ iframe{
         margin-right:2px;
     }
     .services-banner h1{
-        font-size: 30px;
+        font-size: 26px;
     }
 
     /*-------------------Gallery page Media queries--------------------------*/
