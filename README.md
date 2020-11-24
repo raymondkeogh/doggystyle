@@ -115,12 +115,12 @@ The mockups can also be viewed on pdf by clicking on the following [link](assets
 
 Features: 
 
- - Navigation menu – a simple navigation menu offering the user the
-   ability to access the areas mentioned in the users, namely, Prices,
+ - Navigation menu – a simple navigation menu offering users the
+   ability to access areas mentioned in the user stories, namely, Prices,
    Gallery and Contact.
 
- - Footer - There will be a footer containing contact detail, social links and another call to action. 
-All the of the pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
+ - Footer - There will be a footer containing contact detail, social links and second call to action. 
+All pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
  - Home pages - Sales message containing text with a button below to initiate contact. 
  - Contact pages – a contact form requesting name, email address, phone number and a comment section. 
  - Gallery - A gallery containing a selection photographs
@@ -138,7 +138,7 @@ Working with HTML and CSS I will be able to meet the needs of the client as well
 The site must be structured in a way in order to effectively achieve the clients main goal. Taking all the user stories into account it was decided that the main focuses of the site will be,
 
 
-1.	Call to action – sales message with booking button.  
+1.	Call to action – sales message with 'book appointment' button.  
 
 - As the site owner, I would like to offer a portal for clients to
 book appointments.
@@ -282,6 +282,7 @@ In order to comprehensively test the website, criteria for a successful launch m
 
 
 All testing is documented in the MS1-Testing Mac Numbers [spreadsheet](assets/testing/MS1-testing.numbers), [Excel](assets/testing/MS1-testing.xlsx) and in [pdf](assets/testing/MS1-testing.pdf) format
+
 
 W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/).
 
