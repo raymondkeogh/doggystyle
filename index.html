@@ -26,7 +26,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="logo">
+            <div class="logo">
                 <a href="index.html">
                     <img src="assets/images/dslogo.png" alt="Doggy Style logo image">
                 </a>
@@ -34,9 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     
-<!--I got this code on stackoverflow which helped me understand how-->
-<!--to display the active page link. https://stackoverflow.com/questions/   -->
-<!--17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html -->
+                    <!--I got this code on stackoverflow which helped me understand how to display the active page link. https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html -->
                     <li class="nav-item current">
                         <a class="nav-link " href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
                     </li>
@@ -56,9 +54,9 @@
 
     <!-- Home page-->
 
-<!--
-https://stackoverflow.com/questions/52324561/bootstrap-4-how-to-change-the-order-of-a-columns-when-the-screen-size-changes
-I used the code in this link to help me order the elements differently depending on the page size -->
+    <!--
+    https://stackoverflow.com/questions/52324561/bootstrap-4-how-to-change-the-order-of-a-columns-when-the-screen-size-changes
+    I used the code in this link to help me order the elements differently depending on the page size -->
 
     <div class="home-container">
         <div class="main-message order-2 order-md-1">
@@ -81,16 +79,18 @@ I used the code in this link to help me order the elements differently depending
 <footer>
         <div class="container-fluid footer-row">
             <div class="row">
-                <div class="col-sm footer-element" id="contact-details">
-                    <span><a href="tel:0875553555" aria-label="Phone number - click to call">Call us: 0875553555<i class="fas fa-phone"></i></a></span><br>
-                    <span><a href="mailto:info@doggystyle.ie" target="_blank" aria-label="Email">Email: info@doggystyle.ie<i class="fas fa-envelope"></i></a></span>
+                <div class="col-sm footer-element contact-details">
+                    <span><a href="tel:0875553555" aria-label="Phone number - click to call">Call us: 0875553555
+                    <i class="fas fa-phone"></i></a></span><br>
+                    <span><a href="mailto:info@doggystyle.ie" target="_blank" aria-label="Email">Email: info@doggystyle.ie
+                    <i class="fas fa-envelope"></i></a></span>
                 </div>
                 <div class="col-sm call-button-container">
                     <form action="contact.html" method="get">
                         <input type="submit" class="call-button" value="Contact DoggyStyle" aria-label="Contact Doggystyle"/>
                     </form> 
                 </div>
-                <div class="col-sm footer-element" id="social-icons">
+                <div class="col-sm footer-element social-icons">
                     <a href="contact.html#map" aria-label="our location"> <i class="fas fa-map-marked-alt"></i></a>
                     <a href="https://twitter.com/" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
                     <a href="https://www.instagram.com/" aria-label="instagram" target="_blank" rel="noopener"><i class="fab fa-instagram-square"></i></a>
