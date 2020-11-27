@@ -345,58 +345,58 @@ button:hover {
     margin-top: 13px;
 }
 
+
 .services-banner {
-    text-align: left;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     color:black;
-    background-color: rgb(255 255 255 / 0.87);
+    background-color:rgb(255 255 255 / 87%);
     border-radius: 60px;
     padding: 10px;
-    font-size: 20px; 
+    font-size:20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px; 
+    
 }
 
-.services-banner p{
-    margin-right: 41px
-}
-
-td:nth-child(1) p{
-    color:#696969;
-    text-align: left;
-}
-
-.services-banner .dogsize{
-    padding-bottom: 20px;
-    display: none;   
+.services-column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
 }
 
 .services-banner h1{
     font-family: "Holtwood One SC", sans-serif;
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 35px;
     color:#696969;
     text-align: center;
 }
 
 .services-banner hr{
-    border: 3px solid #ffc0cb;
-    width: 80px;
-    margin: auto;
-    border-radius: 3px;
-    margin-top: 13px;
+    border:3px solid #ffc0cb;
+    width:80px;
+    margin:auto;
+    border-radius:3px;
+    margin-top:20px;
+    margin-bottom: 30px;
 }
 
-.services-banner i{
-    color:saddlebrown;
-    padding: 10px
+.services-row i{
+    color:saddlebrown;   
 }
 
-.price-row{
-    margin-right: 0;
+.services-row .col-5 p{
+    text-align: left;  
 }
 
+.services-row .col-5 i{
+    margin-right: 10px; 
+}
 /*-------------------------- Gallery ----------------------------*/
 
 .gallery-container {
