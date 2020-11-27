@@ -869,6 +869,14 @@ iframe{
         font-size: 26px;
     }
 
+    .services-row .col, .services-row .col-5{
+        padding-right: 10px;
+    }
+
+    .services-column h1{
+        margin-top: 16px;
+    }
+
     /*-------------------Gallery page Media queries--------------------------*/
 
     .responsive {
