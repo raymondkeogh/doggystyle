@@ -327,23 +327,24 @@ button:hover {
     order:3;
 }
 
+/*Create a visual link between flex items in prices banner https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page*/
 .list-item:after{
-  content: "";
-  margin: 0px 4px;
-  background: -webkit-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
-  background: -moz-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
-  background: radial-gradient(circle at 50% 50%, darkgrey 12%, transparent 15%);
-  background-size: 1em 1em;
-  background-position: 0 0.5em;
-  background-repeat: repeat-x;
-  -webkit-flex-grow: 1;
-  -moz-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  -webkit-order: 2;
-  -moz-order: 2;
-  -ms-order: 2;
-  order: 2;
+    content: "";
+    margin: 0px 4px;
+    background: -webkit-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
+    background: -moz-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
+    background: radial-gradient(circle at 50% 50%, darkgrey 12%, transparent 15%);
+    background-size: 1em 1em;
+    background-position: 0 0.5em;
+    background-repeat: repeat-x;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-order: 2;
+    -moz-order: 2;
+    -ms-order: 2;
+    order: 2;
 
 }
 .prices-banner span:nth-child(2) {
@@ -428,8 +429,11 @@ span > span {
     margin-right: 10px; 
 }
 
-
-
+.dog-size{
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+}
 
 /*-------------------------- Gallery ----------------------------*/
 
