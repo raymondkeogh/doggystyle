@@ -183,7 +183,7 @@ The overall result will be a cohesive, visually appealing and intuitive website 
 
 - As the site owner, I want to increase the profile of my business and
 have a website I can direct potential customers.
- 
+
 Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
 ----------
@@ -266,7 +266,8 @@ Technologies
 Testing
 -------
 
-In order to comprehensively test the website, criteria for a successful launch was be established. 
+**Acceptance Criteria:**
+
 1. All links on the website must connect to the correct location. 
 2. All images and elements on website must load correctly. 
 3. All fallback fonts must work visually should the first choice fonts be unavailable. 
@@ -315,7 +316,7 @@ The devices used during testing were:
 - iPad 10.2
 - Dell Optiplex 7480.
 
-On further testing it was realised that I had been limited by the resolution of my computer screens and so created a custom screen size of 1900x1080 in DevTools to assess the website on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
+Until this point in the testing process I had been limited by the resolution of my computer screens and so created a custom screen size of 1900x1080 in DevTools to assess the website on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
 
 **W3 HTML Validation** was done via [https://validator.w3.org/](https://validator.w3.org/).
 
@@ -337,7 +338,7 @@ Bugs
 **Fix:**  Changed position to absolute and positioned left and top to 0.
 
 **Bug:** Contact button in footer covers the Phone number and email section when screen goes below 578px.<br>
-**Fix:** set contact details to display:none as the footer was too cluttered. 
+**Fix:** I set contact details to display:none as the footer was too cluttered. 
 
 **Bug:** I initially used bootsraps buttons but had issues with specificity and applying styles
 to the class I created for button. <br>
@@ -348,7 +349,7 @@ copying the bootstrap button parameters and styling my own button in order creat
 **Fix:** Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
 
 **Bug:** The phone number input is allowing characters even though ‘tel’ validation is set in the input.<br>
-**Fix:** None as of yet. The fix for this bug is outside the remit of this project. 
+**Fix:** Added pattern attribute inline on the telephone element to validate phone numbers.
 
 **Bug:** The header and footer have a gap on the right hand side. <br>
 **Fix:** Moved the footer into a div and gave the div class ".container-fluid"
@@ -406,7 +407,6 @@ Credits
 
 **Code used**
 
-
 I altered this bootsrap code for my navbar. [https://getbootstrap.com/docs/4.0/components/navbar/]
 (https://getbootstrap.com/docs/4.0/components/navbar/) 
 
@@ -415,6 +415,7 @@ I altered this bootsrap code for my navbar. [https://getbootstrap.com/docs/4.0/c
 
 I used this code to help create the scrolling effect on the website.
 [https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
+
 **Content**
 
 Image used for site icon [https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/](https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/)
