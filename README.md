@@ -288,6 +288,12 @@ W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3
 
 W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
+Lighthouse performance test - Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the sight after the ammending the site based on the lighthouse performance recommendations. 
+
+- [Homepages report](assets/testing/homepage-lighthouse-report.pdf)
+- [Prices Page report](assets/testing/pricespage-lighthouse-report.pdf)
+- [Gallery page report](assets/testing/gallerypage-lighthouse-report.pdf)
+- [Contact page report](assets/testing/contactpage-lighthouse-report.pdf)
 
 Bugs
 -------
