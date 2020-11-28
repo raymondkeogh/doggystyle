@@ -46,7 +46,7 @@ User Experience
 
 ----------
 
-External User Goal:  (In order of priority):
+**External User Goal:  (In order of priority):**
 
  1. As an external user, I want to find contact details for a dog
     groomer.
@@ -62,7 +62,7 @@ External User Goal:  (In order of priority):
  7. As an external user, I want to be able to view the site on my mobile
     phone or tablet.
 
-Site Owner Goal:
+**Site Owner Goal:**
 
  1. As the site owner, I would like to offer a portal for clients to
     book appointments.
@@ -113,7 +113,7 @@ The mockups can also be viewed on pdf by clicking on the following [link](assets
 
 ----------
 
-Features: 
+**Features:** 
 
  - Navigation menu – a simple navigation menu offering users the
    ability to access areas mentioned in the user stories, namely, Prices,
@@ -126,7 +126,7 @@ All pages on the site will have the same header and footer elements, background 
  - Gallery - A gallery containing a selection photographs
  - Prices page - A text window on the prices pages containing the text of the business prices. 
 
-Constraints:
+**Constraints:**
 Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
 
 ----------
@@ -138,7 +138,7 @@ Working with HTML and CSS I will be able to meet the needs of the client as well
 The site must be structured in a way in order to effectively achieve the clients main goal. Taking all the user stories into account it was decided that the main focuses of the site will be,
 
 
-1.	Call to action – sales message with 'book appointment' button.  
+1.	**Call to action** – sales message with 'book appointment' button.  
 
 - As the site owner, I would like to offer a portal for clients to
 book appointments.
@@ -152,7 +152,7 @@ groomed.
 With this in mind we will focus on drawing the eye of the user to the main sales message on the home page, creating an effortless flow towards the initiation of contact. Contact details will also be available on the lower left corner and a contact button in the centre of the footer of every page. 
 
 
-2.	Prices and services available.
+2.	**Prices and services available.**
 - As the site owner, I would like to display my prices and services.
 - As an external user, I want to check the prices for the grooming
 services.
@@ -161,7 +161,7 @@ services.
 The prices sections will be clearly labelled on the main page in the navigation menu and once clicked will open a clear list of services and associated prices.
 
 
- 3. Evidence of work – gallery of past work.
+ 3. **Evidence of work** – gallery of past work.
 - As an external user, I want to see examples of work done by the dog
 groomer.
 - As the site owner, I want to showcase the work that I do.
@@ -194,12 +194,12 @@ Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47
 
 Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
 
-Colours: 
+**Colours:** 
 
  - To achieve a fresh clean image we will be using a palette of greens
    blues, white and grey.
 
-Typography: 
+**Typography:** 
 
  - Holtwood One SC font is used on the main logo and will be repeated in
    the menu items in the navigation bar and Sans Serif as the backup
@@ -208,7 +208,7 @@ Typography:
    Sans Serif as the backup. I chose Roboto for its clean line and as it
    pairs nicely with Holtwood One SC.
 
-Effects:
+**Effects:**
 
  - To offer feedback on the buttons I will be incorporating a shadow
    effect which disappears when clicked to give the impression of a 3
@@ -219,14 +219,14 @@ Effects:
  - The active page will also display the Font Awesome icon to indicate
    to the user which part of the site they are currently on.
 
-Imagery: 
+**Imagery:** 
 
  - We will use an image of a field, the sky, clouds and some flowers as
    the background. This will be framed by a soft grey on the bottom and
    a white on top and will be repeated on each page. The image will be
    simple as to avoid any distraction from the main message on the page
 
-Deviations from design:
+**Deviations from design:**
 
 The overall structure has remained the same however I have added a google iFrame element to the contact page showing the address and location of the business. 
 On the prices page I added a second box containing services available where there was previously just a list of prices per dog. 
@@ -234,38 +234,39 @@ On the prices page I added a second box containing services available where ther
 Technologies
 ----------------
 
- - HTML5 – I used HTML to create the websites main structures
- - CSS3. – I will use CSS to style the components created with HTML and
+ - [**HTML5**](https://en.wikipedia.org/wiki/HTML5) – I used HTML to create the websites main structures
+ - [**CSS3**](https://en.wikipedia.org/wiki/CSS) – I will use CSS to style the components created with HTML and
    create the desired effects described in the ‘Surface’ section.
- - Bootstrap – I decided to use Bootstrap in order to create structures
+ - [**Bootstrap**](https://getbootstrap.com/) – I decided to use Bootstrap in order to create structures
    on the site and ensure responsiveness.
- - FontAwesome  - The icons from this library are used for the
+ - [**FontAwesome**](https://fontawesome.com/)  - The icons from this library are used for the
    navigation icons
- - Google Fonts – Roboto and Holtwood One SC are imported from here.
- - GitPod – IDE used for working on my code
- - GitHub – Used for hosting the files used for the website.
- - Git – Version control used to track changes, commit and push code to
+ - [**Google Fonts**](https://fonts.google.com/) – Roboto and Holtwood One SC are imported from here.
+ - [**GitPod**](https://gitpod.io/) – IDE used for working on my code
+ - [**GitHub**](https://github.com/) – Used for hosting the files used for the website.
+ - [**Git**](https://git-scm.com/) – Version control used to track changes, commit and push code to
    Github.
- - Pixlr - used for editing images for the website and creating png files.   
- - W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/)
- - W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
- - Gitpod extensions:
+ - [**Lighthouse**](https://developers.google.com/web/tools/lighthouse) - Website performance testing utility found in Chrome DevTools. 
+ - [**DevTools**](https://developers.google.com/web/tools/chrome-devtools) - I used Chrome DevTools to throughout the development of the site to modify elements on the screen live, testing screen responsivness, debugging code and access to the [Lighthouse](https://developers.google.com/web/tools/lighthouse) utility. 
+ - [**Pixlr**](https://pixlr.com/e/) - used for editing images for the website and creating png files.   
+ - [**W3 HTML Validation**](https://validator.w3.org/) - Online HTML valitation tool. 
+ - [**W3 CSS Validation**](https://jigsaw.w3.org/css-validator/) - Online CSS validation tool.
+ - **Gitpod extensions:**
      - Auto Close Tag
      - Bracket Pair Colorizer
      - Code Spellchecker
      - Prettier - Code Formatter
      - Indent-Rainbow
- - I used Techsini website to create a multi mockup of the live website display at the head of my Readme file. http://techsini.com/multi-mockup/index.php
- - Brackets - Local IDE.
- - Autoprefixer Parses CSS and adds vendor prefixes.[https://autoprefixer.github.io/](https://autoprefixer.github.io/)
- - Google mobile-friendly Test - https://search.google.com/test/mobile-friendly?id=PM7sy6dG9tEXLsvHooNW6Q
- - Website speed test from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds.shttps://www.webpagetest.org/result/201121_DiAZ_f0035ae75885410bc1ba7907017673b9/
-
+ - [**Techsini**](http://techsini.com/multi-mockup/index.php) - I used this website to create a multi mockup of the live website display at the head of my Readme file. 
+ - [**Brackets**](http://brackets.io/) - Local IDE.
+ - [**Autoprefixer**](https://autoprefixer.github.io/) - Parses CSS and adds vendor prefixes.
+ - [**Google mobile-friendly Test**](https://search.google.com/test/mobile-friendly?id=PM7sy6dG9tEXLsvHooNW6Q) - Tests for mobile compatibility. 
+ - [**Weppagetest.org**](https://www.webpagetest.org/result/201121_DiAZ_f0035ae75885410bc1ba7907017673b9/) I used this website to run speed tests from multiple locations around the globe using real browsers (IE and Chrome) and at real consumer connection speeds.
 
 Testing
 -------
 
-In order to comprehensively test the website, criteria for a successful launch must be established. 
+In order to comprehensively test the website, criteria for a successful launch was be established. 
 1. All links on the website must connect to the correct location. 
 2. All images and elements on website must load correctly. 
 3. All fallback fonts must work visually should the first choice fonts be unavailable. 
@@ -280,52 +281,86 @@ In order to comprehensively test the website, criteria for a successful launch m
 [3]:  assets/testing/testing-screenshot.png
 [4]:  assets/testing/MS1-testing.numbers "Redirect to testing spreadsheet"
 
-
 All testing is documented in the MS1-Testing Mac Numbers [spreadsheet](assets/testing/MS1-testing.numbers), [Excel](assets/testing/MS1-testing.xlsx) and in [pdf](assets/testing/MS1-testing.pdf) format
 
 
-W3 HTML Validation was done via [https://validator.w3.org/](https://validator.w3.org/).
 
-W3 CSS Validation was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+**Browser Compatibility Overview**
 
-Lighthouse performance test - Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the sight after the ammending the site based on the lighthouse performance recommendations. 
+| Screen Size/Browser  | Chrome  | Internet Explorer  | Safari  |  Firefox | Opera |
+|---|---|---|---|---|---|
+|  Mobile |✅   | ✅  | ✅| ✅ | Not tested |
+|  Desktop | ✅  | ✅  | ✅  | ✅  | Not tested |
+|  Tablet | ✅  | ✅  | ✅  |  ✅ | Not tested|
+
+**OS Compatibility** 
+
+The OS used during testing were: 
+- Mac OS 11.0.1 
+- Windows 10
+- Android (OxygenOS Version 9.0.6)
+- iOS 14.2
+
+Further testing yet to be carried out on Linux and Unix.
+
+**Devices** 
+
+The devices used during testing were: 
+- Macbook Air 13inch 2017
+- Acer Chromebook cb3-431
+- Oneplus 3T 
+- iPhone X 
+- iPhone SE 
+- HP Elitebook G5 
+- iPad 10.2
+- Dell Optiplex 7480.
+
+On further testing it was realised that I had been limited by the resolution of my computer screens and so created a custom screen size of 1900x1080 in DevTools to assess the website on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
+
+**W3 HTML Validation** was done via [https://validator.w3.org/](https://validator.w3.org/).
+
+**W3 CSS Validation** was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+**Lighthouse performance test** - Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the sight after the ammending the site based on the lighthouse performance recommendations. 
 
 - [Homepages report](assets/testing/homepage-lighthouse-report.pdf)
 - [Prices Page report](assets/testing/pricespage-lighthouse-report.pdf)
 - [Gallery page report](assets/testing/gallerypage-lighthouse-report.pdf)
 - [Contact page report](assets/testing/contactpage-lighthouse-report.pdf)
 
+
+
 Bugs
 -------
 
-Bug: Site logo shift from left to right hand side of screen when width of screen drops below 992px.<br>
-Fix: Changed position to absolute and positioned left and top to 0.
+**Bug:** Site logo shift from left to right hand side of screen when width of screen drops below 992px.<br>
+**Fix:**  Changed position to absolute and positioned left and top to 0.
 
-Bug: Contact button in footer covers the Phone number and email section when screen goes below 578px.<br>
-Fix: set contact details to display:none as the footer was too cluttered. 
+**Bug:** Contact button in footer covers the Phone number and email section when screen goes below 578px.<br>
+**Fix:** set contact details to display:none as the footer was too cluttered. 
 
-Bug: I initially used bootsraps buttons but had issues with specificity and applying styles
+**Bug:** I initially used bootsraps buttons but had issues with specificity and applying styles
 to the class I created for button. <br>
-Fix: I considered giving the body an id tag but decided
+**Fix:** I considered giving the body an id tag but decided
 copying the bootstrap button parameters and styling my own button in order create the 3d click effect using box-shadow and display properties.
 
-Bug: On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom.<br>
-Fix: Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
+**Bug:** On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom.<br>
+**Fix:** Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
 
-Bug: The phone number input is allowing characters even though ‘tel’ validation is set in the input.<br>
-Fix: None as of yet. The fix for this bug is outside the remit of this project. 
+**Bug:** The phone number input is allowing characters even though ‘tel’ validation is set in the input.<br>
+**Fix:** None as of yet. The fix for this bug is outside the remit of this project. 
 
-Bug: The header and footer have a gap on the right hand side. <br>
-Fix: Moved the footer into a div and gave the div class ".container-fluid"
+**Bug:** The header and footer have a gap on the right hand side. <br>
+**Fix:** Moved the footer into a div and gave the div class ".container-fluid"
 
-Bug: The footer is jumping up when reducing the screen size. <br>
-Fix: I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
+**Bug:** The footer is jumping up when reducing the screen size. <br>
+**Fix:** I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
-Bug: After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.<br>
-Fix: I had somehow deleted the script link for lightbox. 
+**Bug:** After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.<br>
+**Fix:** I had somehow deleted the script link for lightbox. 
 
-Bug: After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.<br>
-Fix: I had incorrectly placed a button inside a form when it should have been an input field. 
+**Bug:** After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.<br>
+**Fix:** I had incorrectly placed a button inside a form when it should have been an input field. 
 
 
 Deployment
@@ -344,7 +379,7 @@ More information on github pages can be found [here](https://pages.github.com/).
 
 In order to run this project there a couple of methods you can use. The first is for use with a cloud based IDE called Gitpod and the second is for use in a local IDE of your choice e.g. VSCode.  
 
-Run in Gitpod:
+**Run in Gitpod:**
 
 1. Create a GitHub account at [https://www.github.com](https://www.github.com). 
 2. Install the gitpod browser extension for Chrome browser.
@@ -355,10 +390,10 @@ Run in Gitpod:
 7. This will open a new GitPod workspace with the DoggyStyle respository files in it. 
 
 
-Run in Local IDE:
+**Run in Local IDE:**
 
 1. GitHub and locate the DoggyStyle repository for the website. The link is here. [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle). 
-2. Click on the the button near the top of the page that says "Code"
+2. Click on the the button near the top of the page that says "Code". Note. If you are following these steps the mobile site you will need to enable 'Desktop mode' on your mobile browser in order to see the "Code" button. 
 3. In the box that pops up under the HTTPS section copy the URL. 
 4. In your local IDE open the command terminal. 
 5. Change the working directory to the location where you will be working on the project. 
