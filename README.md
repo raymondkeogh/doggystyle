@@ -390,7 +390,8 @@ and the following tutorial by Clever Techie to help me create the gallery
 
 I used the price list from [Glamourdogs.ie](https://www.glamourdogs.ie/grooming-price.html) to create the text content for my prices page. 
 
-
+Create a visual link between flex items in prices banner 
+[https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page](https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page)
 
 
 **Acknowledgements**

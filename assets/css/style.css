@@ -319,13 +319,43 @@ button:hover {
     margin-left: 30px;
 }
 
+.list-item span:nth-child(1){
+    order:1;
+}
+
+.list-item span:nth-child(2){
+    order:3;
+}
+
+.list-item:after{
+  content: "";
+  margin: 0px 4px;
+  background: -webkit-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
+  background: -moz-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
+  background: radial-gradient(circle at 50% 50%, darkgrey 12%, transparent 15%);
+  background-size: 1em 1em;
+  background-position: 0 0.5em;
+  background-repeat: repeat-x;
+  -webkit-flex-grow: 1;
+  -moz-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-order: 2;
+  -moz-order: 2;
+  -ms-order: 2;
+  order: 2;
+
+}
 .prices-banner span:nth-child(2) {
     color: pink;
 }
 
 .prices-banner i {
-    color: darkgray;
+    color: darkgray;;
 }
+span > span {
+        color:darkgray;
+    }
 
 .prices-banner h1{
     color:#f5c2d4;
@@ -397,6 +427,9 @@ button:hover {
 .services-row .col-5 i{
     margin-right: 10px; 
 }
+
+
+
 
 /*-------------------------- Gallery ----------------------------*/
 
