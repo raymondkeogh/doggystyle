@@ -78,8 +78,10 @@ The mockup for this site was done on Adobe Xd.
 
 ![Image](assets/images/mockups/home.png)
 
-![Image](assets/images/mockups/ipad-home.png)
+<img src="assets/images/mockups/ipad-home.png" width="500">
+
 ![Image](assets/images/mockups/mobile-home.png)
+
 
 
 The mockups can also be viewed on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
@@ -90,17 +92,19 @@ The mockups can also be viewed on pdf by clicking on the following [link](assets
 
 --------
 
- - Focus: The main focus of this project is to provide a portal for the
-   client to increase their bookings and make it easier for
-   customers to make contact.
- - Definition: We’ll be creating a website that has a very simple layout
+ - Focus:<br> The main focus of this project is to provide a portal for the
+    client to increase their bookings and make it easier for
+    customers to make contact.
+
+ - Definition:<br> We’ll be creating a website that has a very simple layout
    and, with as little effort as possible allows the users navigate and
    make contact with the business. As this may be the users first
    interaction with the business we want to present a clean, fresh and
    seamless experience. It is important to make a good first impression
    assuring the user that they are in the hands of a caring,
    professional business that will be looking after their dog.
- - Value: Creating an clean and simple portal with multiple avenues to
+
+ - Value:<br> Creating an clean and simple portal with multiple avenues to
    initiate contact with the business should make it easier to increase
    interactions with new customers whilst increasing the profile of the
    business. This site will also offer the business a legitimate online
@@ -126,7 +130,7 @@ All pages on the site will have the same header and footer elements, background 
  - Gallery - A gallery containing a selection photographs
  - Prices page - A text window on the prices pages containing the text of the business prices. 
 
-**Constraints:**
+**Constraints:**<br>
 Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
 
 ----------
@@ -316,7 +320,7 @@ The devices used during testing were:
 - iPad 10.2
 - Dell Optiplex 7480.
 
-Until this point in the testing process I had been limited by the resolution of my computer screens and so created a custom screen size of 1900x1080 in DevTools to assess the website on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
+Until this point in the testing process I had been limited by the resolution of my computer screens available to me and so created a custom screen size of 1900x1080 in DevTools which mimics larger resolutions to assess the website on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
 
 **W3 HTML Validation** was done via [https://validator.w3.org/](https://validator.w3.org/).
 
