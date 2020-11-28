@@ -286,6 +286,7 @@ button:hover {
 }
 
 /*-----------------------------Prices page----------------------------- */
+
 .prices-banner{
     text-align: left;
     margin-bottom: 50px;
@@ -371,7 +372,7 @@ span > span {
     border: 3px solid white;
     width: 80px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     border-radius: 3px;
     margin-top: 13px;
 }
@@ -403,9 +404,11 @@ span > span {
 
 .services-banner h1{
     font-family: "Holtwood One SC", sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     color:#696969;
     text-align: center;
+    margin-top:23px;
+    
 }
 
 .services-banner hr{
@@ -415,6 +418,7 @@ span > span {
     border-radius:3px;
     margin-top:20px;
     margin-bottom: 30px;
+   
 }
 
 .services-row i{
@@ -620,6 +624,7 @@ iframe{
 .form-container h2{
     text-align: center;
     margin-bottom:20px;
+    font-size: 25px;
     font-family: "Holtwood One SC", sans-serif;
     color:#615555;
 }
@@ -627,6 +632,15 @@ iframe{
 /*-----------------------------RESPONSIVE SCREEN SIZES ----------------------*/
 
 /*********************************************************/
+
+/*-------------------------Very Large Screen sizes--------------------*/
+
+@media only screen and (min-width : 1700px) {
+    .price-page-container{
+    display:flex;
+    flex-direction: row-reverse;
+    }   
+}
 
 /*-------------------------Small Desktop------------------------*/
 @media only screen and (max-width: 991px) {

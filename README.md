@@ -233,8 +233,8 @@ Given the nature of this business, image is quite important so the aesthetic of 
 
 **Deviations from design:**
 
-The overall structure has remained the same however I have added a google iFrame element to the contact page showing the address and location of the business. 
-On the prices page I added a second box containing services available where there was previously just a list of prices per dog. 
+The overall structure has remained intact however a google iFrame element was added to the contact page showing the address and location of the business. 
+On the prices page a second box containing services available was added where there was previously a single list of prices per dog per wash. 
 
 Technologies
 ----------------
