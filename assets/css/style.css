@@ -397,6 +397,7 @@ button:hover {
 .services-row .col-5 i{
     margin-right: 10px; 
 }
+
 /*-------------------------- Gallery ----------------------------*/
 
 .gallery-container {
@@ -843,10 +844,10 @@ iframe{
     }
     .prices-banner li{
         list-style-type: none;
-        font-size: 18px;
+        font-size: 15px;
     }
     .prices-banner h1{
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .services-banner {
@@ -866,16 +867,17 @@ iframe{
         margin-right:2px;
     }
     .services-banner h1{
-        font-size: 26px;
+        font-size: 24px;
+        margin-top: 16px;
     }
 
     .services-row .col, .services-row .col-5{
         padding-right: 10px;
     }
 
-    .services-column h1{
-        margin-top: 16px;
-    }
+    .services-row .col-5 i{
+        margin-right: 5px; 
+    }   
 
     /*-------------------Gallery page Media queries--------------------------*/
 
