@@ -324,7 +324,7 @@ The devices used during testing were:
 - iPad 10.2
 - Dell Optiplex 7480.
 
-Until this point in the testing process I had been limited by the resolution of my computer screens available to me and so created a custom screen size of 1900x1080 in DevTools which mimics larger resolutions to assess the website on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
+Until this point in the testing process I had been limited by the resolution of computer screens available to me and so created a custom screen size of 1900x1080 in DevTools which mimics larger resolutions to assess the website performance on even larger screens. This revealed I had a lot of work to do on big screen compatibility which can be seen in commits starting on 25/11/20 detailing the changes made to create a more visually appealing site for higher pixel users.
 
 **W3 HTML Validation** was done via [https://validator.w3.org/](https://validator.w3.org/).
 
@@ -337,6 +337,9 @@ Until this point in the testing process I had been limited by the resolution of 
 - [Gallery page report](assets/testing/gallerypage-lighthouse-report.pdf)
 - [Contact page report](assets/testing/contactpage-lighthouse-report.pdf)
 
+**Regression Testing**
+
+Any new features and bug fixes were submitted to regression testing of all functional and non functional aspects of the project to ensure that previously developed and tested software still performed after changes. 
 
 
 Bugs
