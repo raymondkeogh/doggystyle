@@ -10,7 +10,7 @@
 
 **DoggyStyle website**
 ==================
-Table of content:
+Table of contents:
 -----------------
 
 
