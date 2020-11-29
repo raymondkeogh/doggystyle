@@ -405,7 +405,7 @@ In order to run this project there a couple of methods you can use. The first is
 **Run in Local IDE:**
 
 1. GitHub and locate the DoggyStyle repository for the website. The link is here. [https://github.com/raymondkeogh/doggystyle](https://github.com/raymondkeogh/doggystyle). 
-2. Click on the the button near the top of the page that says "Code". Note. If you are following these steps the mobile site you will need to enable 'Desktop mode' on your mobile browser in order to see the "Code" button. 
+2. Click on the the button near the top of the page that says "Code". Note. If you are following these steps on the mobile site you will need to enable 'Desktop mode' on your mobile browser in order to see the "Code" button. 
 3. In the box that pops up under the HTTPS section copy the URL. 
 4. In your local IDE open the command terminal. 
 5. Change the working directory to the location where you will be working on the project. 
@@ -427,6 +427,8 @@ I altered this bootsrap code for my navbar. [https://getbootstrap.com/docs/4.0/c
 I used this code to help create the scrolling effect on the website.
 [https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm](https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm)
 
+I used the explanation here to help with flex-grow of dotted lines between spans [https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page](https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page)
+
 **Content**
 
 Image used for site icon [https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/](https://www.clipartmax.com/middle/m2K9A0A0i8m2m2d3_bathroom-bath-clipart-free-download-clip-art-on-bathing-clip-art/)
@@ -443,7 +445,7 @@ and the following tutorial by Clever Techie to help me create the gallery
 
 I used the price list from [Glamourdogs.ie](https://www.glamourdogs.ie/grooming-price.html) to create the text content for my prices page. 
 
-Create a visual link between flex items in prices banner 
+I used this code to help create a visual link between flex items in prices banner 
 [https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page](https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page)
 
 
