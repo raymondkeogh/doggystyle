@@ -77,8 +77,8 @@ and the final mockup of the site can be viewed in pdf form [here](assets/images/
 
 <img src="assets/images/mockups/home-desktop.png">
 
-<img src="assets/images/mockups/ipad-home1.png" width="500">
-<br>
+<img src="assets/images/mockups/ipad-home1.png" width="500">  
+
 <img src="assets/images/mockups/home-mob.png" width="250">
 
 ----------
@@ -87,24 +87,27 @@ and the final mockup of the site can be viewed in pdf form [here](assets/images/
 
 --------
 
- - **Focus:**<br> The main focus of this project is to provide a portal for the
+ - **Focus:**  
+    The main focus of this project is to provide a portal for the
     client to increase their bookings and make it easier for
     customers to make contact.
 
- - **Definition:**<br> We’ll be creating a website that has a very simple layout
-   and, with as little effort as possible allows the users navigate and
-   make contact with the business. As this may be the users first
-   interaction with the business we want to present a clean, fresh and
-   seamless experience. It is important to make a good first impression
-   assuring the user that they are in the hands of a caring,
-   professional business that will be looking after their dog.
+ - **Definition:**  
+    We’ll be creating a website that has a very simple layout
+    and, with as little effort as possible allows the users navigate and
+    make contact with the business. As this may be the users first
+    interaction with the business we want to present a clean, fresh and
+    seamless experience. It is important to make a good first impression
+    assuring the user that they are in the hands of a caring,
+    professional business that will be looking after their dog.
 
- - **Value:**<br> Creating a clean and simple portal with multiple avenues to
-   initiate contact with the business should make it easier to increase
-   interactions with new customers whilst increasing the profile of the
-   business. This site will also offer a legitimate online
-   location where they can direct potential clients to view their work,
-   services and prices.
+ - **Value:**   
+    Creating a clean and simple portal with multiple avenues to
+    initiate contact with the business should make it easier to increase
+    interactions with new customers whilst increasing the profile of the
+    business. This site will also offer a legitimate online
+    location where they can direct potential clients to view their work,
+    services and prices.
 
 ----------
 
@@ -125,8 +128,8 @@ All pages on the site will have the same header and footer elements, background 
  - **Gallery** - A gallery containing a selection of photographs.
  - **Prices page** - A text window on the prices pages containing the text of the business prices. 
 
-**Constraints:**<br>
-Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
+**Constraints:**  
+    Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
 
 ----------
 
@@ -320,7 +323,9 @@ Until this point in the testing process I had been limited by the resolution of 
 
 **W3 CSS Validation** was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-**Lighthouse performance test** - Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the site after the ammending the site based on the lighthouse performance recommendations. 
+**Lighthouse performance test** 
+
+Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the site after the ammending the site based on the lighthouse performance recommendations. 
 
 - [Homepages report](assets/testing/homepage-lighthouse-report.pdf)
 - [Prices Page report](assets/testing/pricespage-lighthouse-report.pdf)
@@ -335,33 +340,33 @@ Any new features and bug fixes were submitted to regression testing of all funct
 Bugs
 -------
 
-**Bug:** Site logo shift from left to right hand side of screen when width of screen drops below 992px.<br>
+**Bug:** Site logo shift from left to right hand side of screen when width of screen drops below 992px.  
 **Fix:**  Changed position to absolute and positioned left and top to 0.
 
-**Bug:** Contact button in footer covers the Phone number and email section when screen goes below 578px.<br>
+**Bug:** Contact button in footer covers the Phone number and email section when screen goes below 578px.  
 **Fix:** I set contact details to display:none as the footer was too cluttered. 
 
 **Bug:** I initially used bootsraps buttons but had issues with specificity and applying styles
-to the class I created for button. <br>
+to the class I created for button.  
 **Fix:** I considered giving the body an id tag but decided
 copying the bootstrap button parameters and styling my own button in order create the 3d click effect using box-shadow and display properties.
 
-**Bug:** On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom.<br>
+**Bug:** On creating a parallax effect for the background when scrolling rather than keeping the background fixed there is a white band being pulled up when scrolling to bottom.  
 **Fix:** Changed position on the ‘sales-pitch’ element from ‘absolute’ to ‘relative’.
 
-**Bug:** The phone number input is allowing characters even though ‘tel’ validation is set in the input.<br>
+**Bug:** The phone number input is allowing characters even though ‘tel’ validation is set in the input.  
 **Fix:** Added pattern attribute inline on the telephone element to validate phone numbers.
 
-**Bug:** The header and footer have a gap on the right hand side. <br>
+**Bug:** The header and footer have a gap on the right hand side.  
 **Fix:** Moved the footer into a div and gave the div class ".container-fluid"
 
-**Bug:** The footer is jumping up when reducing the screen size. <br>
+**Bug:** The footer is jumping up when reducing the screen size.  
 **Fix:** I had erroneously put a media query in 'table screen size' section. Footer fine once code removed.
 
-**Bug:** After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.<br>
+**Bug:** After W3 Validation for CSS and HTML the gallery navigation and close buttons are missing.  
 **Fix:** I had somehow deleted the script link for lightbox. 
 
-**Bug:** After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.<br>
+**Bug:** After W3 Validation for CSS and HTML I changed a button inside a anchor tag to a form to pass the validation. The buttons did not click through to link.  
 **Fix:** I had incorrectly placed a button inside a form when it should have been an input field. 
 
 
