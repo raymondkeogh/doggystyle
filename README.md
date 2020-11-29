@@ -8,7 +8,7 @@
 
 
 
-**DoggyStyle website**
+**DoggyStyle Website**
 ==================
 Table of contents:
 -----------------
