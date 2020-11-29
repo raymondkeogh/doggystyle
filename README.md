@@ -110,7 +110,7 @@ The mockups can also be viewed on pdf by clicking on the following [link](assets
  - **Value:**<br> Creating a clean and simple portal with multiple avenues to
    initiate contact with the business should make it easier to increase
    interactions with new customers whilst increasing the profile of the
-   business. This site will also offer the business a legitimate online
+   business. This site will also offer a legitimate online
    location where they can direct potential clients to view their work,
    services and prices.
 
