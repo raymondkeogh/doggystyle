@@ -74,20 +74,14 @@ User Experience
  4. As the site owner, I would like to display my prices and services.
  5. As the site owner, I want to showcase the work that I do.
 
-The mockup for this site was done on Adobe Xd and can be viewed [here](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+The original mockup for this site was done on Adobe Xd and can be viewed [here](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+and the final mockup of the site can be viewed in pdf form [here](assets/images/mockups/doggystyle-mockup.pdf)
 
-<img src="assets/images/mockups/home.png">
+<img src="assets/images/mockups/home-desktop.png">
 
-<img src="assets/images/mockups/ipad-home.png" width="500">
+<img src="assets/images/mockups/ipad-home1.png" width="500">
 <br>
-<img src="assets/images/mockups/mobile-home.png" width="250">
-
-
-
-
-The mockups can also be viewed on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
-
-
+<img src="assets/images/mockups/home-mob.png" width="250">
 
 ----------
 
@@ -190,8 +184,6 @@ The overall result will be a cohesive, visually appealing and intuitive website 
 
 - As the site owner, I want to increase the profile of my business and
 have a website I can direct potential customers.
-
-Adobe Xd - DoggyStyle website [mockup](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
 ----------
 
