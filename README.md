@@ -192,7 +192,7 @@ have a website I can direct potential customers.
 
 ----------
 
-Given the nature of this business, image is quite important so the aesthetic of the site must reflect that. 
+Given the nature of this business, image is quite important and so the aesthetic of the site must reflect that. 
 
 **Colours:** 
 
