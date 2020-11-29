@@ -36,8 +36,6 @@ DoggyStyle is a website for a dog grooming company. This site showcases the clie
 This site was designed as a project to be submitted for grading in the first milestone project in Full Stack Software Development with the Code Institute. 
 
 
-
-
 User Experience
 --------------------
 
