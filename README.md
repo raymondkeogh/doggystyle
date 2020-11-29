@@ -58,7 +58,7 @@ User Experience
  4. As an external user, I want to check the prices for the grooming
     services.
  5. As an external user, I want to see what services are offered.
- 6. As an external user, I want to see where the dog groomers is
+ 6. As an external user, I want to see where the dog groomers are
     located.
  7. As an external user, I want to be able to view the site on my mobile
     phone or tablet.
@@ -86,18 +86,20 @@ The mockup for this site was done on Adobe Xd and can be viewed [here](https://x
 
 
 The mockups can also be viewed on pdf by clicking on the following [link](assets/images/mockups/mockup.pdf)
-----------
+
+
+
 
 
 **STRATEGY**
 
 --------
 
- - Focus:<br> The main focus of this project is to provide a portal for the
+ - **Focus:**<br> The main focus of this project is to provide a portal for the
     client to increase their bookings and make it easier for
     customers to make contact.
 
- - Definition:<br> We’ll be creating a website that has a very simple layout
+ - **Definition:**<br> We’ll be creating a website that has a very simple layout
    and, with as little effort as possible allows the users navigate and
    make contact with the business. As this may be the users first
    interaction with the business we want to present a clean, fresh and
@@ -105,7 +107,7 @@ The mockups can also be viewed on pdf by clicking on the following [link](assets
    assuring the user that they are in the hands of a caring,
    professional business that will be looking after their dog.
 
- - Value:<br> Creating an clean and simple portal with multiple avenues to
+ - **Value:**<br> Creating a clean and simple portal with multiple avenues to
    initiate contact with the business should make it easier to increase
    interactions with new customers whilst increasing the profile of the
    business. This site will also offer the business a legitimate online
@@ -120,16 +122,16 @@ The mockups can also be viewed on pdf by clicking on the following [link](assets
 
 **Features:** 
 
- - Navigation menu – a simple navigation menu offering users the
+ - **Navigation menu** – a simple navigation menu offering users the
    ability to access areas mentioned in the user stories, namely, Prices,
    Gallery and Contact.
 
- - Footer - There will be a footer containing contact detail, social links and second call to action. 
+ - **Footer** - There will be a footer containing contact detail, social links and second call to action. 
 All pages on the site will have the same header and footer elements, background and imagery. Once the home page is created, this template will be duplicated adding in the unique sections for each page. These will be:
- - Home pages - Sales message containing text with a button below to initiate contact. 
- - Contact pages – a contact form requesting name, email address, phone number and a comment section. 
- - Gallery - A gallery containing a selection photographs
- - Prices page - A text window on the prices pages containing the text of the business prices. 
+ - **Home page** - Sales message containing text with a button below to initiate contact. 
+ - **Contact page** – a contact form requesting name, email address, phone number and a comment section. 
+ - **Gallery** - A gallery containing a selection of photographs.
+ - **Prices page** - A text window on the prices pages containing the text of the business prices. 
 
 **Constraints:**<br>
 Working with HTML and CSS I will be able to meet the needs of the client as well as tackling each of the scenarios in the user story effectively. However using these technologies alone will limit the site to CSS animations which will be effective but basic.
@@ -140,7 +142,7 @@ Working with HTML and CSS I will be able to meet the needs of the client as well
 
 ----------
 
-The site must be structured in a way in order to effectively achieve the clients main goal. Taking all the user stories into account it was decided that the main focuses of the site will be,
+The site must be structured in a way in order to effectively achieve the clients main goals. Taking all the user stories into account it was decided that the main focuses of the site will be,
 
 
 1.	**Call to action** – sales message with 'book appointment' button.  
@@ -175,7 +177,7 @@ The gallery will be equally as visible on the main navigation menu opening up a 
 
 The contact page will contain a google maps iframe showing the location of the business 
 
-- As an external user, I want to see where the dog groomers is
+- As an external user, I want to see where the dog groomers are
 located.
 
 The entire website will be optimised to be viewed on mobile devices and a variety of screen sizes.
@@ -201,7 +203,7 @@ Given the nature of this business, image is quite important so the aesthetic of 
 
 **Colours:** 
 
- - To achieve a fresh clean image we will be using a palette of greens
+ - To achieve a fresh clean image we will be using a palette of greens,
    blues, white and grey.
 
 **Typography:** 
@@ -219,7 +221,7 @@ Given the nature of this business, image is quite important so the aesthetic of 
    effect which disappears when clicked to give the impression of a 3
    dimensional button.
  - I will also have a hover effect over the menu items in the navigation
-   bar using Font Awesome icons offering the use more feedback on what
+   bar using Font Awesome icons offering the user more feedback on what
    they are about to click. This effect will be repeated in the footer element for the contact number and email address indicating that they can be interacted with.
  - The active page will also display the Font Awesome icon to indicate
    to the user which part of the site they are currently on.
@@ -252,7 +254,7 @@ Technologies
  - [**Git**](https://git-scm.com/) – Version control used to track changes, commit and push code to
    Github.
  - [**Lighthouse**](https://developers.google.com/web/tools/lighthouse) - Website performance testing utility found in Chrome DevTools. 
- - [**DevTools**](https://developers.google.com/web/tools/chrome-devtools) - I used Chrome DevTools to throughout the development of the site to modify elements on the screen live, testing screen responsivness, debugging code and access to the [Lighthouse](https://developers.google.com/web/tools/lighthouse) utility. 
+ - [**DevTools**](https://developers.google.com/web/tools/chrome-devtools) - I used Chrome DevTools throughout the development of the site to modify elements on the screen live, testing screen responsivness, debugging code and access to the [Lighthouse](https://developers.google.com/web/tools/lighthouse) utility. 
  - [**StackEdit**](https://stackedit.io/editor) Used to help in the creation of this Readme file.
  - [**Pixlr**](https://pixlr.com/e/) - used for editing images for the website and creating png files.   
  - [**W3 HTML Validation**](https://validator.w3.org/) - Online HTML valitation tool. 
