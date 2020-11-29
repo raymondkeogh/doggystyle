@@ -37,6 +37,7 @@ This site was designed as a project to be submitted for grading in the first mil
 
 
 
+
 User Experience
 --------------------
 
@@ -73,8 +74,7 @@ User Experience
  4. As the site owner, I would like to display my prices and services.
  5. As the site owner, I want to showcase the work that I do.
 
-The mockup for this site was done on Adobe Xd. 
-[https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+The mockup for this site was done on Adobe Xd and can be viewed [here](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
 <img src="assets/images/mockups/home.png">
 
@@ -189,7 +189,7 @@ The overall result will be a cohesive, visually appealing and intuitive website 
 - As the site owner, I want to increase the profile of my business and
 have a website I can direct potential customers.
 
-Adobe Xd - DoggyStyle website mockup [https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
+Adobe Xd - DoggyStyle website [mockup](https://xd.adobe.com/view/f6aca366-5b35-47df-9ab1-72c1e0584183-a3ff/)
 
 ----------
 
@@ -253,6 +253,7 @@ Technologies
    Github.
  - [**Lighthouse**](https://developers.google.com/web/tools/lighthouse) - Website performance testing utility found in Chrome DevTools. 
  - [**DevTools**](https://developers.google.com/web/tools/chrome-devtools) - I used Chrome DevTools to throughout the development of the site to modify elements on the screen live, testing screen responsivness, debugging code and access to the [Lighthouse](https://developers.google.com/web/tools/lighthouse) utility. 
+ - [**StackEdit**](https://stackedit.io/editor) Used to help in the creation of this Readme file.
  - [**Pixlr**](https://pixlr.com/e/) - used for editing images for the website and creating png files.   
  - [**W3 HTML Validation**](https://validator.w3.org/) - Online HTML valitation tool. 
  - [**W3 CSS Validation**](https://jigsaw.w3.org/css-validator/) - Online CSS validation tool.
@@ -327,7 +328,7 @@ Until this point in the testing process I had been limited by the resolution of 
 
 **W3 CSS Validation** was done via [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
-**Lighthouse performance test** - Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the sight after the ammending the site based on the lighthouse performance recommendations. 
+**Lighthouse performance test** - Inititially I tested one page to assess the changes that were needed to improve performance. This test can be viewed [here](assets/testing/lighthouse-initial-test.pdf). The following reports are the final tests run on the site after the ammending the site based on the lighthouse performance recommendations. 
 
 - [Homepages report](assets/testing/homepage-lighthouse-report.pdf)
 - [Prices Page report](assets/testing/pricespage-lighthouse-report.pdf)

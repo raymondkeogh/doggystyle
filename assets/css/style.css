@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -99,7 +99,7 @@ a:active {
 
 .contact-details {
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: #ffffff;
     margin-top: 10px;
     margin-left: 10px;
     display: block;
@@ -110,7 +110,7 @@ a:active {
     font-size: 25px;
     margin-top: 15px;
     text-align: right;
-    color: white;
+    color: #ffffff;
     position: relative;
 }
 
@@ -122,7 +122,7 @@ a:active {
     color: #f5c2d4;
 }
 
-/* Below is the bootstrap CSS for their button
+/* Below is the bootstrap CSS button
 with alterations to achieve 3d effect when clicked */
 
 .call-button {
@@ -201,7 +201,7 @@ button:hover {
     display: block;
 }
 
-.call-button-container form{
+.call-button-container form {
     display: inline;
 }
 /*------------------Home Page ---------------------------------*/
@@ -231,7 +231,7 @@ button:hover {
 }
 
 .main-message {
-    color: white;
+    color: #ffffff;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 60px;
@@ -256,6 +256,7 @@ button:hover {
 .main-message p{
     margin-bottom: 0;
 }
+
 .main-message i {
     color: #eeb251;
 }
@@ -287,13 +288,13 @@ button:hover {
 
 /*-----------------------------Prices page----------------------------- */
 
-.prices-banner{
+.prices-banner {
     text-align: left;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    color: white;
+    color: #ffffff;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 60px;
     padding: 30px;
@@ -320,21 +321,22 @@ button:hover {
     margin-left: 30px;
 }
 
-.list-item span:nth-child(1){
+.list-item span:nth-child(1) {
     order:1;
 }
 
-.list-item span:nth-child(2){
+.list-item span:nth-child(2) {
     order:3;
 }
 
-/*Create a visual link between flex items in prices banner https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page*/
-.list-item:after{
+/*Create a visual link between flex items in prices banner https://stackoverflow.com/questions/4898287/how-to-display-text-a-dotted-line-then-more-text-spanning-the-width-of-the-page
+*/
+.list-item:after {
     content: "";
     margin: 0px 4px;
-    background: -webkit-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
-    background: -moz-radial-gradient(50% 50%, circle, darkgrey 12%, transparent 15%);
-    background: radial-gradient(circle at 50% 50%, darkgrey 12%, transparent 15%);
+    background: -webkit-radial-gradient(50% 50%, circle, #A9A9A9 12%, transparent 15%);
+    background: -moz-radial-gradient(50% 50%, circle, #A9A9A9 12%, transparent 15%);
+    background: radial-gradient(circle at 50% 50%, #A9A9A9 12%, transparent 15%);
     background-size: 1em 1em;
     background-position: 0 0.5em;
     background-repeat: repeat-x;
@@ -346,20 +348,21 @@ button:hover {
     -moz-order: 2;
     -ms-order: 2;
     order: 2;
-
 }
+
 .prices-banner span:nth-child(2) {
-    color: pink;
+    color: #FFC0CB;
 }
 
 .prices-banner i {
-    color: darkgray;;
+    color: #A9A9A9;
 }
+
 span > span {
-        color:darkgray;
+        color:#A9A9A9;
     }
 
-.prices-banner h1{
+.prices-banner h1 {
     color:#f5c2d4;
     margin: 20px;
     font-size: 30px; 
@@ -368,22 +371,21 @@ span > span {
     margin-top: 12px;
 }
 
-.main-prices hr{
-    border: 3px solid white;
+.main-prices hr {
+    border: 3px solid #FFFFFF;
     width: 80px;
     margin: auto;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     border-radius: 3px;
     margin-top: 13px;
 }
-
 
 .services-banner {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
-    color:black;
+    color:#000000;
     background-color:rgb(255 255 255 / 87%);
     border-radius: 60px;
     padding: 10px;
@@ -391,18 +393,17 @@ span > span {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 800px; 
-    
+    max-width: 800px;  
 }
 
-.services-column{
+.services-column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex:1;
 }
 
-.services-banner h1{
+.services-banner h1 {
     font-family: "Holtwood One SC", sans-serif;
     font-size: 30px;
     color:#696969;
@@ -411,7 +412,7 @@ span > span {
     
 }
 
-.services-banner hr{
+.services-banner hr {
     border:3px solid #ffc0cb;
     width:80px;
     margin:auto;
@@ -421,19 +422,19 @@ span > span {
    
 }
 
-.services-row i{
-    color:saddlebrown;   
+.services-row i {
+    color:#8b4513;   
 }
 
-.services-row .col-5 p{
+.services-row .col-5 p {
     text-align: left;  
 }
 
-.services-row .col-5 i{
+.services-row .col-5 i { 
     margin-right: 10px; 
 }
 
-.dog-size{
+.dog-size {
     display:flex;
     align-items:flex-end;
     justify-content: center;
@@ -511,17 +512,16 @@ I picked my least favourite dog picture */
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    color: black;
     font-size: 35px;
     font-family: "Holtwood One SC", sans-serif;
-    color: dimgrey;
+    color: #696969;
 }
 /*------------------------- Contact page ------------------------------*/
 
 /*I used w3schools 'how to' section to help make the form. https://www.w3schools.com/howto/howto_css_contact_form.asp. */
 .form-container {
     border-radius: 60px;
-    background-color: white;
+    background-color: #ffffff;
     opacity: 0.9;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
@@ -567,7 +567,7 @@ input:focus {
     vertical-align: middle;
     cursor: pointer;
     -webkit-user-select: none;
-       -moz-user-select: none;
+        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
     min-width: 180px;
@@ -587,7 +587,7 @@ input:focus {
 
 .submit-button:hover {
     background-color: #f5c2d4;
-    color: white;
+    color: #ffffff;
 }
 
 .submit-button:active {
@@ -603,7 +603,7 @@ input:focus {
     display: none;
 }
 
-iframe{
+iframe {
     width: 100%;
     overflow: hidden;
     padding: 10px;
@@ -617,11 +617,11 @@ iframe{
     outline: none;
 }
 
-.map h2, p{
+.map h2, p {
     text-align: center;
 }
 
-.form-container h2{
+.form-container h2 {
     text-align: center;
     margin-bottom:20px;
     font-size: 25px;
@@ -634,9 +634,9 @@ iframe{
 /*********************************************************/
 
 /*-------------------------Very Large Screen sizes--------------------*/
-
 @media only screen and (min-width : 1700px) {
-    .price-page-container{
+    
+    .price-page-container {
     display:flex;
     flex-direction: row-reverse;
     }   
@@ -681,7 +681,7 @@ iframe{
         width: 500px
     }
 
-    .home-container{
+    .home-container {
         min-height: calc(100vh - 150px);
     }
     .home-container .main-message {
@@ -724,27 +724,22 @@ iframe{
 
     /*---------------Contact page Media queries--------------------------*/
 
-    .contact-page{
+    .contact-page {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-    
     }
-    .form-container{
+    .form-container {
         width:90vw;
     }
-
-
 }
 
 /*------------------------Tablet size screen-------------------------*/
 @media only screen and (max-width: 768px) {
 
     /*-----------------------Footer Media queries--------------------------*/
-
-
-    .footer-row form{
+    .footer-row form {
         display: none;
     }
 
@@ -763,9 +758,9 @@ iframe{
 
     /*---------------Home pages Media queries--------------------------*/
 
-   .form-container{
+    .form-container {
         width: 90vw;
-   }
+    }
 
     .home-container .splash-image {
         margin-top: 20px;
@@ -801,7 +796,7 @@ iframe{
         margin-right: auto;
     }
 
-    .services-banner{
+    .services-banner {
         font-size: 18px;
     }
 
@@ -819,17 +814,13 @@ iframe{
         width: 49.99999%;
         margin: 6px 0;
     }
-
-    /*-------------------Contact Page Media Queries------------------------*/
-
-
 }
 
 /*-------------------------Mobile size screen---------------------------*/
 @media only screen and (max-width: 580px) {
 
     /*-----------------------Footer Media queries--------------------------*/
-    /*I hid the footer row button on smaller screens as it gets a little too cramped*/
+    /*I hid the footer row button on smaller screens as it gets a little too cluttered*/
     .footer-row form {
         display: none;
     }
@@ -856,7 +847,6 @@ iframe{
     }
 
     /*-----------------------Home page Media queries--------------------------*/
-
     .home-container .splash-image {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -897,14 +887,16 @@ iframe{
                 column-count: 1;
     }
     
-    .prices-banner .list-item{
+    .prices-banner .list-item {
         margin-left: 0;
     }
-    .prices-banner li{
+
+    .prices-banner li {
         list-style-type: none;
         font-size: 15px;
     }
-    .prices-banner h1{
+
+    .prices-banner h1 {
         font-size: 24px;
     }
 
@@ -914,31 +906,30 @@ iframe{
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
-        color: black;
+        color: #000000;
         background-color: rgb(255 255 255 / 87%);
         border-radius: 60px;
         padding: 10px;
         font-size: 13px;
     }
 
-    .services-banner p{
+    .services-banner p {
         margin-right:2px;
     }
-    .services-banner h1{
+    .services-banner h1 {
         font-size: 24px;
         margin-top: 16px;
     }
 
-    .services-row .col, .services-row .col-5{
+    .services-row .col, .services-row .col-5 {
         padding-right: 10px;
     }
 
-    .services-row .col-5 i{
+    .services-row .col-5 i {
         margin-right: 5px; 
     }   
 
     /*-------------------Gallery page Media queries--------------------------*/
-
     .responsive {
         width: 32.33%;
         height: 100px;
@@ -971,8 +962,8 @@ iframe{
         width: 90%;
     }
 
-.form-container h2{
-    font-size: 24px;
-    margin-top:10px;
-}
+    .form-container h2{
+        font-size: 24px;
+        margin-top:10px;
+    }
 }
