@@ -1,52 +1,77 @@
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Dog Grooming services">
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Dog Grooming services" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
     <title>DoggyStyle - Dog Grooming Services</title>
-</head>
+  </head>
 
-<body class="parallax">
+  <body class="parallax">
     <header>
-    
-        <!--Navbar Bootstrap-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand ml-auto" aria-label="navbar" href="index.html"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="assets/images/dslogo.png" alt="Doggy Style logo image">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    
-                    <!--I got this code on stackoverflow which helped me understand how to display the active page link. https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html -->
-                    <li class="nav-item current">
-                        <a class="nav-link " href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="prices.html"><i class="fas fa-paw"></i><span>Prices</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html"><i class="fas fa-camera"></i><span>Gallery</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><i class="fas fa-phone"></i><span>Contact</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <!--Navbar Bootstrap-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a
+          class="navbar-brand ml-auto"
+          aria-label="navbar"
+          href="index.html"
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images/dslogo.png" alt="Doggy Style logo image" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <!--I got this code on stackoverflow which helped me understand how to display the active page link. https://stackoverflow.com/questions/17318170/highlighting-the-current-page-in-a-list-of-links-using-css-html -->
+            <li class="nav-item current">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home"></i><span>Home</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prices.html"
+                ><i class="fas fa-paw"></i><span>Prices</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"
+                ><i class="fas fa-camera"></i><span>Gallery</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><i class="fas fa-phone"></i><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- Home page-->
@@ -55,50 +80,95 @@
     I used the code in this link to help me order the elements -->
 
     <div class="home-container index-page">
-        <div class="main-message order-2 order-md-1">
-            <h1>Grubby Dog?</h1>
-            <p>We’ll get them clean in a jiffy!</p><br><hr><p>Leave your fur baby  with us for the ultimate doggy day spa experience.
-            </p><br><hr> <p>Guaranteed to leave with a
-            wagging tail.</p> <br>
-            <i class="fas fa-shower"></i><i class="fas fa-cut"></i>
-            <form action="contact.html" method="get">
-            <input type="submit" class="call-button" value="Make Appointment">
-            </form>  
-        </div>
-        <div class="splash-image order-1 order-md-2">
-            <a href="gallery.html"><img src="assets/images/dogwash.png" alt="images of dogs being washed"></a>
-        </div>
+      <div class="help-message-container">
+        <a href="index.html"
+          ><img src="assets/images/404.png" alt="images of dogs being washed" />
+          <div class="help-message">
+            <h2>404 Error</h2>
+            <p>Looks like something went wrong!</p>
+            <p>
+              This page doesn't exist. <br />
+              Click below to get back to the DoggyStyle homepage
+            </p>
+            <button
+              type="submit"
+              onclick="window.location.href='index.html'"
+              class="home-button call-button"
+            >
+              <i class="fa fa-home"></i>
+            </button>
+          </div>
+        </a>
+      </div>
     </div>
 
     <!--Footer-->
     <footer>
-        <div class="container-fluid footer-row">
-            <div class="row">
-                <div class="col-sm footer-element contact-details">
-                    <span><a href="tel:0875553555" aria-label="Phone number - click to call">Call us: 0875553555
-                    <i class="fas fa-phone"></i></a></span><br>
-                    <span><a href="mailto:info@doggystyle.ie" target="_blank" aria-label="Email">Email: info@doggystyle.ie
-                    <i class="fas fa-envelope"></i></a></span>
-                </div>
-                <div class="col-sm call-button-container">
-                    <form action="contact.html" method="get">
-                        <input type="submit" class="call-button" value="Contact DoggyStyle" aria-label="Contact Doggystyle">
-                    </form> 
-                </div>
-                <div class="col-sm footer-element social-icons">
-                    <a href="contact.html#map" aria-label="our location"> 
-                    <i class="fas fa-map-marked-alt"></i></a>
-                    <a href="https://twitter.com/" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/" aria-label="instagram" target="_blank" rel="noopener"><i class="fab fa-instagram-square"></i></a>
-                    <a href="https://www.facebook.com/" aria-label="facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.youtube.com/" aria-label="youtube" target="_blank" rel="noopener"><i class="fab fa-youtube">
-                    </i></a>
-                </div>
-            </div>
+      <div class="container-fluid footer-row">
+        <div class="row">
+          <div class="col-sm footer-element contact-details">
+            <span
+              ><a
+                href="tel:0875553555"
+                aria-label="Phone number - click to call"
+                >Call us: 0875553555 <i class="fas fa-phone"></i></a></span
+            ><br />
+            <span
+              ><a
+                href="mailto:info@doggystyle.ie"
+                target="_blank"
+                aria-label="Email"
+                >Email: info@doggystyle.ie <i class="fas fa-envelope"></i></a
+            ></span>
+          </div>
+          <div class="col-sm call-button-container">
+            <form action="contact.html" method="get">
+              <input
+                type="submit"
+                class="call-button"
+                value="Contact DoggyStyle"
+                aria-label="Contact Doggystyle"
+              />
+            </form>
+          </div>
+          <div class="col-sm footer-element social-icons">
+            <a href="contact.html#map" aria-label="our location">
+              <i class="fas fa-map-marked-alt"></i
+            ></a>
+            <a
+              href="https://twitter.com/"
+              aria-label="Twitter"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              aria-label="instagram"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-instagram-square"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/"
+              aria-label="facebook"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/"
+              aria-label="youtube"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-youtube"> </i
+            ></a>
+          </div>
         </div>
+      </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</body></html>
+  </body>
+</html>
