@@ -628,6 +628,35 @@ iframe {
     color:#615555;
 }
 
+
+/* ----404 page-------  */
+
+.help-message-container{
+    position:relative;
+    width:300px;
+    height:405px;
+}
+
+.help-message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    text-align: center;
+}
+
+.help-message-container img{
+    width: 300px; 
+}
+
+.home-button{
+    top:15px;
+    height: 40px;
+    position:abosolute;
+}
+
+
 /*-----------------------------RESPONSIVE SCREEN SIZES ----------------------*/
 
 /*********************************************************/
