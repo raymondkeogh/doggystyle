@@ -118,7 +118,7 @@ a:active {
     margin-right: 10px;
 }
 
-.social-icons i:hover {
+.social-icons i:hover, .contact-details span a:hover { 
     color: #f5c2d4;
 }
 
